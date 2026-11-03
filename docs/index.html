@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Toddy Time Cup</title>
+<title>Hot Toddy Cup</title>
 <meta name="description" content="Standings, weekly scoreboards and schedule for the Toddy Time in-season tournament.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -156,7 +156,7 @@
 <body>
 <div class="wrap">
   <header class="mast">
-    <h1 id="title">Toddy Time Cup</h1>
+    <h1 id="title">Hot Toddy Cup</h1>
     <div class="meta" id="meta"></div>
   </header>
 
@@ -405,7 +405,7 @@
   /* ------------------------------------------------------------------ boot */
   function renderMeta() {
     var m = document.getElementById("meta"); m.textContent = "";
-    document.getElementById("title").textContent = data.title || "Toddy Time Cup";
+    document.getElementById("title").textContent = data.title || "Hot Toddy Cup";
     var live = data.periods.filter(function (p) { return p.status === "live"; })[0];
     var line1 = el("div");
     var last = data.periods[data.periods.length - 1];
