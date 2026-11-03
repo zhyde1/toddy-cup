@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toddy Time Cup</title>
+<meta name="description" content="Standings, weekly scoreboards and schedule for the Toddy Time in-season tournament.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #E9EEF2;
+    --card: #FFFFFF;
+    --ink: #0F1D33;
+    --muted: #5A6A7E;
+    --line: #CCD6DF;
+    --soft: #F3F6F9;
+    --teaquila: #17806A;
+    --ginseng: #B9801C;
+    --final: #0F1D33;
+    --live: #D23C3C;
+    --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0A1322; --card: #121F34; --ink: #E7EEF6; --muted: #8DA0B6; --line: #26364C; --soft: #0E1A2D;
+      --teaquila: #3DC3A1; --ginseng: #E5B24E; --final: #E7EEF6; --live: #FF6B6B;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 400 15px/1.45 "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 56px; }
+  h1, h2, h3 { margin: 0; font-weight: 800; letter-spacing: -0.01em; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
+
+  /* masthead */
+  .mast { padding: 28px 0 20px; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; }
+  .mast h1 { font-size: clamp(40px, 9vw, 72px); font-stretch: 70%; line-height: 0.95; font-weight: 900; }
+  .mast .meta { color: var(--muted); font-size: 14px; text-align: right; }
+  .mast .meta b { color: var(--ink); font-weight: 700; }
+  @media (max-width: 560px) { .mast .meta { text-align: left; } }
+
+  section { margin-top: 36px; }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; margin-bottom: 14px; }
+  .sec-head h2 { font-size: 26px; font-stretch: 78%; }
+  .sec-head p { margin: 0; color: var(--muted); font-size: 13.5px; }
+
+  /* standings */
+  .conf-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .conf-grid { grid-template-columns: 1fr 1fr; } }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .panel > header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-top: 6px solid var(--accent); }
+  .panel > header h3 { font-size: 20px; font-stretch: 80%; }
+  .panel > header span { color: var(--muted); font-size: 12.5px; }
+  .conf-teaquila { --accent: var(--teaquila); }
+  .conf-ginseng  { --accent: var(--ginseng); }
+  .conf-final    { --accent: var(--final); }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: right; font-weight: 600; font-size: 12.5px; color: var(--muted); padding: 6px 12px; border-bottom: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: right; vertical-align: middle; }
+  tr:last-child td { border-bottom: 0; }
+  tr.cutline td { border-bottom: 2px dashed var(--muted); }
+  .rank { width: 34px; font-weight: 800; font-size: 18px; font-stretch: 80%; color: var(--muted); }
+  .who { text-align: left; }
+  .who b { display: block; font-weight: 700; font-size: 16px; line-height: 1.2; }
+  .who small { color: var(--muted); font-size: 12.5px; }
+  .rec { font-weight: 700; white-space: nowrap; }
+  .tag { display: inline-block; margin-left: 8px; padding: 1px 7px; border-radius: 99px; font-size: 11.5px; font-weight: 700; vertical-align: 2px; }
+  .tag.in { background: var(--accent); color: #fff; }
+  .tag.out { background: var(--soft); color: var(--muted); border: 1px solid var(--line); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag.in { color: #06121F; } }
+  .foot { margin: 10px 2px 0; color: var(--muted); font-size: 12.5px; }
+
+  /* week picker */
+  .weeks { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .weeks button { background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 7px 14px; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; }
+  .weeks button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+  .dot.live { background: var(--live); }
+  .dot.final { background: var(--muted); }
+  button[aria-pressed="true"] .dot.final { background: var(--bg); }
+
+  .period-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 4px; }
+  .period-head h3 { font-size: 30px; font-stretch: 75%; }
+  .period-head .dates { color: var(--muted); }
+  .pill { font-size: 12.5px; font-weight: 700; padding: 2px 10px; border-radius: 99px; border: 1px solid var(--line); background: var(--card); }
+  .pill.live { color: var(--live); border-color: var(--live); }
+  .note { color: var(--muted); margin: 4px 0 14px; }
+
+  .cards { display: grid; gap: 16px; grid-template-columns: 1fr; margin-top: 14px; }
+  @media (min-width: 760px) { .cards { grid-template-columns: 1fr 1fr; } .cards.single { grid-template-columns: minmax(0, 520px); } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .card .tagline { display: flex; justify-content: space-between; padding: 8px 14px; font-size: 12.5px; color: var(--muted); border-top: 6px solid var(--accent); border-bottom: 1px solid var(--line); }
+  .face { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; padding: 14px 14px 10px; }
+  .side b { display: block; font-size: 17px; font-weight: 800; line-height: 1.15; }
+  .side small { display: block; color: var(--muted); font-size: 12px; line-height: 1.25; margin-top: 2px; overflow-wrap: anywhere; }
+  .side.b { text-align: right; }
+  .side.lead b::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-right: 6px; vertical-align: 1px; }
+  .side.b.lead b::before { display: none; }
+  .side.b.lead b::after { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-left: 6px; vertical-align: 1px; }
+  .score { text-align: center; font-size: 46px; font-weight: 900; font-stretch: 70%; line-height: 1; white-space: nowrap; }
+  .score i { font-style: normal; color: var(--muted); font-weight: 400; margin: 0 4px; }
+  .score small { display: block; font-size: 11.5px; font-weight: 500; font-stretch: 100%; color: var(--muted); margin-top: 4px; }
+  .vs { font-size: 18px; color: var(--muted); font-weight: 700; text-align: center; }
+
+  .cats { padding: 4px 14px 12px; }
+  .row { display: grid; grid-template-columns: 1fr 92px 1fr; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--line); }
+  .row .lab { text-align: center; color: var(--muted); font-size: 12.5px; }
+  .v { font-size: 17px; font-weight: 500; position: relative; padding-bottom: 5px; }
+  .v.b { text-align: right; }
+  .v small { color: var(--muted); font-size: 11.5px; font-weight: 400; margin-left: 5px; }
+  .v.win { font-weight: 800; }
+  .v.win::after { content: ""; position: absolute; left: 0; bottom: 0; width: 28px; height: 4px; border-radius: 2px; background: var(--accent); }
+  .v.b.win::after { left: auto; right: 0; }
+  .byes { padding: 10px 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; background: var(--soft); }
+  .empty { padding: 28px 18px; text-align: center; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius); }
+  .group-label { margin: 22px 0 0; font-size: 14px; font-weight: 700; color: var(--muted); }
+  .group-label:first-of-type { margin-top: 6px; }
+
+  /* schedule */
+  .sched td, .sched th { vertical-align: top; }
+  .sched th:not(:first-child) { text-align: left; }
+  .sched td:not(:first-child) { text-align: left; }
+  .sched tr { cursor: pointer; }
+  .sched tr.sel td { background: var(--soft); }
+  .sched .wk b { display: block; font-weight: 800; font-size: 16px; }
+  .sched .wk small { color: var(--muted); font-size: 12.5px; }
+  .sched .g { display: block; line-height: 1.5; }
+  .sched .g em { font-style: normal; color: var(--muted); }
+  .sched .g strong { font-weight: 800; }
+  .sched .bye { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .sched .g { white-space: nowrap; }
+  @media (max-width: 640px) {
+    .sched thead { display: none; }
+    .sched table, .sched tbody, .sched tr, .sched td { display: block; width: 100%; }
+    .sched tr { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+    .sched tr:last-child { border-bottom: 0; }
+    .sched td { padding: 2px 0; border: 0; }
+    .sched td.wk { padding-bottom: 6px; }
+    .sched .wk b, .sched .wk small { display: inline; }
+    .sched .wk small { margin-left: 8px; }
+    .sched td[data-label]::before { content: attr(data-label); display: block; margin-top: 6px; font-size: 12px; font-weight: 700; color: var(--muted); }
+    .sched tr.sel td { background: transparent; }
+    .sched tr.sel { background: var(--soft); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <h1 id="title">Toddy Time Cup</h1>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <p class="empty">Loading the latest numbers…</p>
+  </main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var CONF_CLASS = { Teaquila: "conf-teaquila", Ginseng: "conf-ginseng", Final: "conf-final" };
+  var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var data = null, selected = null;
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function add(parent) { for (var i = 1; i < arguments.length; i++) if (arguments[i]) parent.appendChild(arguments[i]); return parent; }
+
+  function parseDay(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function dateRange(a, b) {
+    var x = parseDay(a), y = parseDay(b);
+    var left = MONTHS[x.getMonth()] + " " + x.getDate();
+    var right = (x.getMonth() === y.getMonth() ? "" : MONTHS[y.getMonth()] + " ") + y.getDate();
+    return left + "–" + right;
+  }
+  function fmtVal(key, v) {
+    if (key === "FG%" || key === "FT%") return v.toFixed(3).replace(/^0/, "");
+    return String(Math.round(v));
+  }
+  function statusLabel(s) { return s === "live" ? "In progress" : s === "final" ? "Final" : "Upcoming"; }
+
+  /* ------------------------------------------------------------------ standings */
+  function renderStandings(root) {
+    var sec = el("section"); sec.id = "standings";
+    var head = el("div", "sec-head");
+    add(head, el("h2", null, "Conference standings"),
+              el("p", null, "Top 2 in each conference reach the semifinals. Ties break on head-to-head, then categories won."));
+    sec.appendChild(head);
+    var grid = el("div", "conf-grid");
+    data.conferences.forEach(function (c) {
+      var panel = el("div", "panel " + (CONF_CLASS[c.name] || ""));
+      var h = el("header");
+      add(h, el("h3", null, c.name), el("span", null, c.complete ? "Group stage complete" : "Group stage"));
+      panel.appendChild(h);
+      var t = el("table");
+      var thead = el("thead"), hr = el("tr");
+      ["Team", "W-L", "Cats won"].forEach(function (x, i) {
+        var th = el("th", null, x); if (i === 0) th.colSpan = 2; hr.appendChild(th);
+      });
+      thead.appendChild(hr); t.appendChild(thead);
+      var tb = el("tbody");
+      c.standings.forEach(function (r) {
+        var tr = el("tr", r.rank === 2 ? "cutline" : "");
+        tr.appendChild(el("td", "rank", String(r.rank)));
+        var who = el("td", "who");
+        var b = el("b", null, r.manager);
+        if (r.clinched) add(b, el("span", "tag in", "In"));
+        else if (r.eliminated) add(b, el("span", "tag out", "Out"));
+        add(who, b, el("small", null, r.team));
+        tr.appendChild(who);
+        tr.appendChild(el("td", "rec", r.w + "-" + r.l + (r.t ? "-" + r.t : "")));
+        tr.appendChild(el("td", "rec", String(r.cats)));
+        tb.appendChild(tr);
+      });
+      t.appendChild(tb); panel.appendChild(t); grid.appendChild(panel);
+    });
+    sec.appendChild(grid);
+    add(sec, el("p", "foot", "Standings count completed weeks only. The dashed line is the semifinal cutoff. “In” and “Out” appear once the result can no longer change."));
+    root.appendChild(sec);
+  }
+
+  /* ------------------------------------------------------------------ scoreboard */
+  function sideEl(who, cls, lead) {
+    var s = el("div", "side " + cls + (lead ? " lead" : ""));
+    add(s, el("b", null, who.manager), el("small", null, who.team));
+    return s;
+  }
+
+  function matchupCard(m, period) {
+    var card = el("article", "card " + (CONF_CLASS[m.conference] || ""));
+    var tl = el("div", "tagline");
+    add(tl, el("span", null, m.conference === "Final" ? "Championship" : m.conference), el("span", null, m.projected ? "Projected" : ""));
+    card.appendChild(tl);
+
+    var lead = m.stats ? (m.leader || m.winner) : null;
+    var face = el("div", "face");
+    face.appendChild(sideEl(m.a, "a", lead === "a"));
+    if (m.score) {
+      var sc = el("div", "score");
+      add(sc, el("span", null, String(m.score.a)), el("i", null, "–"), el("span", null, String(m.score.b)));
+      if (m.score.ties) sc.appendChild(el("small", null, m.score.ties + (m.score.ties === 1 ? " category tied" : " categories tied")));
+      face.appendChild(sc);
+    } else {
+      face.appendChild(el("div", "vs", "vs"));
+    }
+    face.appendChild(sideEl(m.b, "b", lead === "b"));
+    card.appendChild(face);
+
+    if (m.stats) {
+      var cats = el("div", "cats");
+      data.cats.forEach(function (c) {
+        var res = m.cat_results[c.key];
+        var row = el("div", "row");
+        [["a", m.stats.a], ["b", m.stats.b]].forEach(function (pair, i) {
+          var side = pair[0], st = pair[1];
+          var v = el("span", "v " + side + (res === side ? " win" : ""));
+          v.appendChild(document.createTextNode(fmtVal(c.key, st[c.key])));
+          if (c.key === "FG%") v.appendChild(el("small", null, st.FGM + "/" + st.FGA));
+          if (c.key === "FT%") v.appendChild(el("small", null, st.FTM + "/" + st.FTA));
+          if (res === side) v.setAttribute("aria-label", fmtVal(c.key, st[c.key]) + ", wins " + c.label);
+          if (i === 0) { row.appendChild(v); row.appendChild(el("span", "lab", c.label)); }
+          else row.appendChild(v);
+        });
+        cats.appendChild(row);
+      });
+      card.appendChild(cats);
+    }
+    return card;
+  }
+
+  function renderPeriod(box, p) {
+    box.textContent = "";
+    var head = el("div", "period-head");
+    var pill = el("span", "pill " + p.status, statusLabel(p.status));
+    add(head, el("h3", null, p.label), el("span", "dates", dateRange(p.start, p.end)), pill);
+    box.appendChild(head);
+    if (p.note) box.appendChild(el("p", "note", p.note));
+    if (!p.matchups.length) {
+      box.appendChild(el("p", "empty", p.note ? "Nothing to show yet." : "No matchups yet."));
+      return;
+    }
+    if (p.status === "upcoming" && p.kind === "group") {
+      box.appendChild(el("p", "note", "Starts " + MONTHS[parseDay(p.start).getMonth()] + " " + parseDay(p.start).getDate() + ". Scores appear once games are played."));
+    }
+    var cards = el("div", "cards" + (p.matchups.length === 1 ? " single" : ""));
+    p.matchups.forEach(function (m) { cards.appendChild(matchupCard(m, p)); });
+    box.appendChild(cards);
+    if (p.byes && p.byes.length) {
+      var byeLine = "Bye: " + p.byes.map(function (b) { return b.manager + " (" + b.conference + ")"; }).join(", ");
+      box.appendChild(el("p", "foot", byeLine));
+    }
+  }
+
+  function defaultPeriod() {
+    var live = data.periods.filter(function (p) { return p.status === "live"; })[0];
+    if (live) return live.period;
+    var finals = data.periods.filter(function (p) { return p.status === "final"; });
+    if (finals.length) return finals[finals.length - 1].period;
+    return data.periods[0].period;
+  }
+
+  function renderScoreboard(root) {
+    var sec = el("section"); sec.id = "scoreboard";
+    var head = el("div", "sec-head");
+    add(head, el("h2", null, "Scoreboard"), el("p", null, "Five or more of nine categories takes the matchup. Fewer turnovers wins."));
+    sec.appendChild(head);
+
+    var picker = el("div", "weeks"); picker.setAttribute("role", "group"); picker.setAttribute("aria-label", "Choose a week");
+    var box = el("div"); box.id = "period-box";
+    function sync() {
+      Array.prototype.forEach.call(picker.children, function (b) {
+        b.setAttribute("aria-pressed", String(+b.dataset.period === selected));
+      });
+      renderPeriod(box, data.periods.filter(function (p) { return p.period === selected; })[0]);
+    }
+    data.periods.forEach(function (p) {
+      var b = el("button"); b.type = "button"; b.dataset.period = p.period;
+      add(b, el("span", "dot " + (p.status === "upcoming" ? "" : p.status)),
+             document.createTextNode(p.kind === "group" ? "Wk " + p.period : p.label));
+      b.addEventListener("click", function () { selected = p.period; sync(); try { history.replaceState(null, "", "#week-" + p.period); } catch (e) {} });
+      picker.appendChild(b);
+    });
+    add(sec, picker, box);
+    root.appendChild(sec);
+    root._sync = sync;
+    sync();
+  }
+
+  /* ------------------------------------------------------------------ schedule */
+  function gameLine(m) {
+    var g = el("span", "g");
+    var a = m.a.manager, b = m.b.manager;
+    if (m.score && m.winner && m.winner !== "tie") {
+      var wa = m.winner === "a";
+      add(g, el(wa ? "strong" : "span", null, a), el("em", null, " " + (wa ? m.score.a : m.score.b) + "–" + (wa ? m.score.b : m.score.a) + " "),
+             el(wa ? "span" : "strong", null, b));
+    } else if (m.score) {
+      add(g, el("span", null, a + " vs " + b), el("em", null, "  " + m.score.a + "–" + m.score.b));
+    } else {
+      g.textContent = a + " vs " + b + (m.projected ? " (projected)" : "");
+    }
+    return g;
+  }
+
+  function renderSchedule(root) {
+    var sec = el("section"); sec.id = "schedule";
+    var head = el("div", "sec-head");
+    add(head, el("h2", null, "Schedule"), el("p", null, "Select a week to open its scoreboard."));
+    sec.appendChild(head);
+    var panel = el("div", "panel sched");
+    var t = el("table");
+    var thead = el("thead"), hr = el("tr");
+    ["Week", "Teaquila", "Ginseng"].forEach(function (x) { hr.appendChild(el("th", null, x)); });
+    thead.appendChild(hr); t.appendChild(thead);
+    var tb = el("tbody");
+    data.periods.forEach(function (p) {
+      var tr = el("tr", p.period === selected ? "sel" : ""); tr.dataset.period = p.period; tr.tabIndex = 0;
+      tr.setAttribute("role", "button");
+      tr.setAttribute("aria-label", "Open " + p.label + " scoreboard");
+      var wk = el("td", "wk"); add(wk, el("b", null, p.label), el("small", null, dateRange(p.start, p.end)));
+      tr.appendChild(wk);
+      if (p.kind === "group") {
+        ["Teaquila", "Ginseng"].forEach(function (cn) {
+          var td = el("td"); td.setAttribute("data-label", cn);
+          p.matchups.filter(function (m) { return m.conference === cn; }).forEach(function (m) { td.appendChild(gameLine(m)); });
+          var bye = p.byes.filter(function (b) { return b.conference === cn; })[0];
+          if (bye) td.appendChild(el("span", "bye", "Bye: " + bye.manager));
+          tr.appendChild(td);
+        });
+      } else {
+        var td = el("td"); td.colSpan = 2;
+        if (p.matchups.length) p.matchups.forEach(function (m) { td.appendChild(gameLine(m)); });
+        else td.appendChild(el("span", "bye", p.kind === "semifinal" ? "1st plays 2nd in each conference" : "Winners of the two semifinals"));
+        tr.appendChild(td);
+      }
+      function open() {
+        selected = p.period;
+        Array.prototype.forEach.call(tb.children, function (r) { r.className = (+r.dataset.period === selected) ? "sel" : ""; });
+        root._sync();
+        document.getElementById("scoreboard").scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      tr.addEventListener("click", open);
+      tr.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb); panel.appendChild(t); sec.appendChild(panel);
+    root.appendChild(sec);
+  }
+
+  /* ------------------------------------------------------------------ boot */
+  function renderMeta() {
+    var m = document.getElementById("meta"); m.textContent = "";
+    document.getElementById("title").textContent = data.title || "Toddy Time Cup";
+    var live = data.periods.filter(function (p) { return p.status === "live"; })[0];
+    var line1 = el("div");
+    var last = data.periods[data.periods.length - 1];
+    line1.appendChild(el("b", null, live ? live.label + " is live" : last.status === "final" ? "Cup complete" : "Between rounds"));
+    line1.appendChild(document.createTextNode(" · " + (data.season || "") + " in-season tournament"));
+    m.appendChild(line1);
+    var when = new Date(data.updated);
+    if (!isNaN(when)) {
+      var txt = "Stats last changed " + when.toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+      m.appendChild(el("div", null, txt));
+    }
+  }
+
+  function render() {
+    var app = document.getElementById("app"); app.textContent = "";
+    renderMeta();
+    var hash = (location.hash.match(/^#week-(\d+)$/) || [])[1];
+    selected = hash && data.periods.some(function (p) { return p.period === +hash; }) ? +hash : defaultPeriod();
+    renderStandings(app);
+    renderScoreboard(app);
+    renderSchedule(app);
+  }
+
+  var url = "data.json?ts=" + Date.now();
+  fetch(url, { cache: "no-store" }).then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function (d) { data = d; render(); }).catch(function () {
+    var app = document.getElementById("app"); app.textContent = "";
+    app.appendChild(el("p", "empty", "The numbers aren’t published yet. The first update runs a few minutes after setup. Reload then."));
+  });
+})();
+</script>
+</body>
+</html>
