@@ -1,0 +1,55 @@
+{
+  "league_id": 303633079,
+  "year": 2027,
+  "season_label": "2026-27",
+  "title": "Toddy Time Cup",
+  "timezone": "America/New_York",
+  "group_periods": [4, 5, 6, 7, 8],
+  "semifinal_period": 9,
+  "final_period": 10,
+  "advance_per_conference": 2,
+  "conferences": [
+    {
+      "name": "Teaquila",
+      "members": [
+        {"manager": "Zak",    "team_id": 4, "team_name": "Alpee anD uren"},
+        {"manager": "Drew",   "team_id": 2, "team_name": "14GlassCannons"},
+        {"manager": "Luke",   "team_id": 6, "team_name": "Cunin' Too Quickley"},
+        {"manager": "Will",   "team_id": 1, "team_name": "Ant's in my pants"},
+        {"manager": "Dakota", "team_id": 5, "team_name": "Kess my Balls"}
+      ]
+    },
+    {
+      "name": "Ginseng",
+      "members": [
+        {"manager": "Daniel", "team_id": 8,  "team_name": "The InCoopator"},
+        {"manager": "Omar",   "team_id": 9,  "team_name": "Nets and Yahoo"},
+        {"manager": "Evan",   "team_id": 3,  "team_name": "Porter? I hardly know her"},
+        {"manager": "Parsa",  "team_id": 10, "team_name": "Vagiannis"},
+        {"manager": "David",  "team_id": 7,  "team_name": "Big Vic Energy"}
+      ]
+    }
+  ],
+  "schedule": {
+    "4": {
+      "Teaquila": [["Zak", "Will"], ["Drew", "Dakota"]],
+      "Ginseng":  [["David", "Evan"], ["Omar", "Daniel"]]
+    },
+    "5": {
+      "Teaquila": [["Drew", "Will"], ["Zak", "Luke"]],
+      "Ginseng":  [["Evan", "Daniel"], ["David", "Parsa"]]
+    },
+    "6": {
+      "Teaquila": [["Will", "Dakota"], ["Drew", "Luke"]],
+      "Ginseng":  [["Omar", "Evan"], ["Daniel", "Parsa"]]
+    },
+    "7": {
+      "Teaquila": [["Will", "Luke"], ["Zak", "Dakota"]],
+      "Ginseng":  [["David", "Daniel"], ["Omar", "Parsa"]]
+    },
+    "8": {
+      "Teaquila": [["Drew", "Zak"], ["Luke", "Dakota"]],
+      "Ginseng":  [["Evan", "Parsa"], ["David", "Omar"]]
+    }
+  }
+}
