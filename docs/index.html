@@ -424,8 +424,8 @@
     renderMeta();
     var hash = (location.hash.match(/^#week-(\d+)$/) || [])[1];
     selected = hash && data.periods.some(function (p) { return p.period === +hash; }) ? +hash : defaultPeriod();
-    renderStandings(app);
     renderScoreboard(app);
+    renderStandings(app);
     renderSchedule(app);
   }
 
