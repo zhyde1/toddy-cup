@@ -1,0 +1,760 @@
+{
+ "title": "Toddy Time Cup",
+ "season": "2026-27",
+ "updated": "2026-11-03T17:35:45-05:00",
+ "current_period": null,
+ "cats": [
+  {
+   "key": "PTS",
+   "label": "Points",
+   "lower_better": false
+  },
+  {
+   "key": "AST",
+   "label": "Assists",
+   "lower_better": false
+  },
+  {
+   "key": "REB",
+   "label": "Rebounds",
+   "lower_better": false
+  },
+  {
+   "key": "3PM",
+   "label": "3-pointers",
+   "lower_better": false
+  },
+  {
+   "key": "STL",
+   "label": "Steals",
+   "lower_better": false
+  },
+  {
+   "key": "BLK",
+   "label": "Blocks",
+   "lower_better": false
+  },
+  {
+   "key": "FG%",
+   "label": "FG%",
+   "lower_better": false
+  },
+  {
+   "key": "FT%",
+   "label": "FT%",
+   "lower_better": false
+  },
+  {
+   "key": "TO",
+   "label": "Turnovers",
+   "lower_better": true
+  }
+ ],
+ "conferences": [
+  {
+   "name": "Teaquila",
+   "complete": false,
+   "standings": [
+    {
+     "manager": "Dakota",
+     "team_id": 5,
+     "conference": "Teaquila",
+     "team": "Kess my Balls",
+     "rank": 1,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Drew",
+     "team_id": 2,
+     "conference": "Teaquila",
+     "team": "14GlassCannons",
+     "rank": 2,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Luke",
+     "team_id": 6,
+     "conference": "Teaquila",
+     "team": "Cunin' Too Quickley",
+     "rank": 3,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Will",
+     "team_id": 1,
+     "conference": "Teaquila",
+     "team": "Ant's in my pants",
+     "rank": 4,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Zak",
+     "team_id": 4,
+     "conference": "Teaquila",
+     "team": "Alpee anD uren",
+     "rank": 5,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    }
+   ]
+  },
+  {
+   "name": "Ginseng",
+   "complete": false,
+   "standings": [
+    {
+     "manager": "Daniel",
+     "team_id": 8,
+     "conference": "Ginseng",
+     "team": "The InCoopator",
+     "rank": 1,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "David",
+     "team_id": 7,
+     "conference": "Ginseng",
+     "team": "Big Vic Energy",
+     "rank": 2,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Evan",
+     "team_id": 3,
+     "conference": "Ginseng",
+     "team": "Porter? I hardly know her",
+     "rank": 3,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Omar",
+     "team_id": 9,
+     "conference": "Ginseng",
+     "team": "Nets and Yahoo",
+     "rank": 4,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Parsa",
+     "team_id": 10,
+     "conference": "Ginseng",
+     "team": "Vagiannis",
+     "rank": 5,
+     "w": 0,
+     "l": 0,
+     "t": 0,
+     "cats": 0,
+     "clinched": false,
+     "eliminated": false
+    }
+   ]
+  }
+ ],
+ "periods": [
+  {
+   "period": 4,
+   "kind": "group",
+   "label": "Week 4",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-11-09",
+   "end": "2026-11-15",
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Zak",
+      "team_id": 4,
+      "conference": "Teaquila",
+      "team": "Alpee anD uren"
+     },
+     "b": {
+      "manager": "Will",
+      "team_id": 1,
+      "conference": "Teaquila",
+      "team": "Ant's in my pants"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Drew",
+      "team_id": 2,
+      "conference": "Teaquila",
+      "team": "14GlassCannons"
+     },
+     "b": {
+      "manager": "Dakota",
+      "team_id": 5,
+      "conference": "Teaquila",
+      "team": "Kess my Balls"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "David",
+      "team_id": 7,
+      "conference": "Ginseng",
+      "team": "Big Vic Energy"
+     },
+     "b": {
+      "manager": "Evan",
+      "team_id": 3,
+      "conference": "Ginseng",
+      "team": "Porter? I hardly know her"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Omar",
+      "team_id": 9,
+      "conference": "Ginseng",
+      "team": "Nets and Yahoo"
+     },
+     "b": {
+      "manager": "Daniel",
+      "team_id": 8,
+      "conference": "Ginseng",
+      "team": "The InCoopator"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    }
+   ],
+   "byes": [
+    {
+     "manager": "Luke",
+     "team_id": 6,
+     "conference": "Teaquila",
+     "team": "Cunin' Too Quickley"
+    },
+    {
+     "manager": "Parsa",
+     "team_id": 10,
+     "conference": "Ginseng",
+     "team": "Vagiannis"
+    }
+   ],
+   "note": null,
+   "raw": {}
+  },
+  {
+   "period": 5,
+   "kind": "group",
+   "label": "Week 5",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Drew",
+      "team_id": 2,
+      "conference": "Teaquila",
+      "team": "14GlassCannons"
+     },
+     "b": {
+      "manager": "Will",
+      "team_id": 1,
+      "conference": "Teaquila",
+      "team": "Ant's in my pants"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Zak",
+      "team_id": 4,
+      "conference": "Teaquila",
+      "team": "Alpee anD uren"
+     },
+     "b": {
+      "manager": "Luke",
+      "team_id": 6,
+      "conference": "Teaquila",
+      "team": "Cunin' Too Quickley"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Evan",
+      "team_id": 3,
+      "conference": "Ginseng",
+      "team": "Porter? I hardly know her"
+     },
+     "b": {
+      "manager": "Daniel",
+      "team_id": 8,
+      "conference": "Ginseng",
+      "team": "The InCoopator"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "David",
+      "team_id": 7,
+      "conference": "Ginseng",
+      "team": "Big Vic Energy"
+     },
+     "b": {
+      "manager": "Parsa",
+      "team_id": 10,
+      "conference": "Ginseng",
+      "team": "Vagiannis"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    }
+   ],
+   "byes": [
+    {
+     "manager": "Dakota",
+     "team_id": 5,
+     "conference": "Teaquila",
+     "team": "Kess my Balls"
+    },
+    {
+     "manager": "Omar",
+     "team_id": 9,
+     "conference": "Ginseng",
+     "team": "Nets and Yahoo"
+    }
+   ],
+   "note": null,
+   "raw": {}
+  },
+  {
+   "period": 6,
+   "kind": "group",
+   "label": "Week 6",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Will",
+      "team_id": 1,
+      "conference": "Teaquila",
+      "team": "Ant's in my pants"
+     },
+     "b": {
+      "manager": "Dakota",
+      "team_id": 5,
+      "conference": "Teaquila",
+      "team": "Kess my Balls"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Drew",
+      "team_id": 2,
+      "conference": "Teaquila",
+      "team": "14GlassCannons"
+     },
+     "b": {
+      "manager": "Luke",
+      "team_id": 6,
+      "conference": "Teaquila",
+      "team": "Cunin' Too Quickley"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Omar",
+      "team_id": 9,
+      "conference": "Ginseng",
+      "team": "Nets and Yahoo"
+     },
+     "b": {
+      "manager": "Evan",
+      "team_id": 3,
+      "conference": "Ginseng",
+      "team": "Porter? I hardly know her"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Daniel",
+      "team_id": 8,
+      "conference": "Ginseng",
+      "team": "The InCoopator"
+     },
+     "b": {
+      "manager": "Parsa",
+      "team_id": 10,
+      "conference": "Ginseng",
+      "team": "Vagiannis"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    }
+   ],
+   "byes": [
+    {
+     "manager": "Zak",
+     "team_id": 4,
+     "conference": "Teaquila",
+     "team": "Alpee anD uren"
+    },
+    {
+     "manager": "David",
+     "team_id": 7,
+     "conference": "Ginseng",
+     "team": "Big Vic Energy"
+    }
+   ],
+   "note": null,
+   "raw": {}
+  },
+  {
+   "period": 7,
+   "kind": "group",
+   "label": "Week 7",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-11-30",
+   "end": "2026-12-06",
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Will",
+      "team_id": 1,
+      "conference": "Teaquila",
+      "team": "Ant's in my pants"
+     },
+     "b": {
+      "manager": "Luke",
+      "team_id": 6,
+      "conference": "Teaquila",
+      "team": "Cunin' Too Quickley"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Zak",
+      "team_id": 4,
+      "conference": "Teaquila",
+      "team": "Alpee anD uren"
+     },
+     "b": {
+      "manager": "Dakota",
+      "team_id": 5,
+      "conference": "Teaquila",
+      "team": "Kess my Balls"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "David",
+      "team_id": 7,
+      "conference": "Ginseng",
+      "team": "Big Vic Energy"
+     },
+     "b": {
+      "manager": "Daniel",
+      "team_id": 8,
+      "conference": "Ginseng",
+      "team": "The InCoopator"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Omar",
+      "team_id": 9,
+      "conference": "Ginseng",
+      "team": "Nets and Yahoo"
+     },
+     "b": {
+      "manager": "Parsa",
+      "team_id": 10,
+      "conference": "Ginseng",
+      "team": "Vagiannis"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    }
+   ],
+   "byes": [
+    {
+     "manager": "Drew",
+     "team_id": 2,
+     "conference": "Teaquila",
+     "team": "14GlassCannons"
+    },
+    {
+     "manager": "Evan",
+     "team_id": 3,
+     "conference": "Ginseng",
+     "team": "Porter? I hardly know her"
+    }
+   ],
+   "note": null,
+   "raw": {}
+  },
+  {
+   "period": 8,
+   "kind": "group",
+   "label": "Week 8",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-12-07",
+   "end": "2026-12-13",
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Drew",
+      "team_id": 2,
+      "conference": "Teaquila",
+      "team": "14GlassCannons"
+     },
+     "b": {
+      "manager": "Zak",
+      "team_id": 4,
+      "conference": "Teaquila",
+      "team": "Alpee anD uren"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Teaquila",
+     "projected": false,
+     "a": {
+      "manager": "Luke",
+      "team_id": 6,
+      "conference": "Teaquila",
+      "team": "Cunin' Too Quickley"
+     },
+     "b": {
+      "manager": "Dakota",
+      "team_id": 5,
+      "conference": "Teaquila",
+      "team": "Kess my Balls"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "Evan",
+      "team_id": 3,
+      "conference": "Ginseng",
+      "team": "Porter? I hardly know her"
+     },
+     "b": {
+      "manager": "Parsa",
+      "team_id": 10,
+      "conference": "Ginseng",
+      "team": "Vagiannis"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": false,
+     "a": {
+      "manager": "David",
+      "team_id": 7,
+      "conference": "Ginseng",
+      "team": "Big Vic Energy"
+     },
+     "b": {
+      "manager": "Omar",
+      "team_id": 9,
+      "conference": "Ginseng",
+      "team": "Nets and Yahoo"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null
+    }
+   ],
+   "byes": [
+    {
+     "manager": "Will",
+     "team_id": 1,
+     "conference": "Teaquila",
+     "team": "Ant's in my pants"
+    },
+    {
+     "manager": "Daniel",
+     "team_id": 8,
+     "conference": "Ginseng",
+     "team": "The InCoopator"
+    }
+   ],
+   "note": null,
+   "raw": {}
+  },
+  {
+   "period": 9,
+   "kind": "semifinal",
+   "label": "Semifinals",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-12-14",
+   "end": "2026-12-20",
+   "matchups": [],
+   "byes": [],
+   "note": "1st plays 2nd in each conference. Matchups are set after Week 8.",
+   "raw": {}
+  },
+  {
+   "period": 10,
+   "kind": "final",
+   "label": "Final",
+   "status": "upcoming",
+   "frozen": false,
+   "start": "2026-12-21",
+   "end": "2026-12-27",
+   "matchups": [],
+   "byes": [],
+   "note": "The two semifinal winners play for the cup.",
+   "raw": {}
+  }
+ ]
+}
