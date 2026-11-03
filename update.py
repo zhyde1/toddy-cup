@@ -60,12 +60,10 @@ class EspnSource:
     def periods(self):
         if self._periods is not None:
             return self._periods
-        raw = {}
-        mp = getattr(self.league.settings, "matchup_periods", None) or {}
-        for k, v in mp.items():
-            raw[int(k)] = sorted(int(x) for x in v)
-        for k, v in self.league.matchup_ids.items():  # started periods, fallback
-            raw.setdefault(int(k), sorted(int(x) for x in v))
+        # ESPN only lists scoring periods (days) for matchup periods that have started, so the
+        # calendar for later weeks is projected forward in 7-day blocks (Mon-Sun).
+        known = {int(k): sorted(int(x) for x in v) for k, v in self.league.matchup_ids.items()}
+        raw = derive_period_days(known, max_period=max(self.cfg["final_period"], max(known, default=0)) + 1)
         # scoring period -> calendar date, anchored on NBA game timestamps (US Eastern)
         tz = ZoneInfo(self.cfg["timezone"])
         known = {}
@@ -102,10 +100,28 @@ class EspnSource:
         return {tid: dict(t) for tid, t in totals.items()}
 
 
+def derive_period_days(known, max_period, default_len=7):
+    """{matchup period: [scoring periods]}. `known` holds only periods ESPN has started; the
+    latest known one may be partly played, so it is assumed to run default_len days."""
+    out, prev_end = {}, 0
+    last_known = max(known) if known else 0
+    for p in range(1, max_period + 1):
+        if p in known and p < last_known:
+            days = list(known[p])
+        elif p in known:
+            days = list(range(min(known[p]), min(known[p]) + default_len))
+        else:
+            days = list(range(prev_end + 1, prev_end + 1 + default_len))
+        out[p] = days
+        prev_end = max(days)
+    return out
+
+
 def add_side(totals, side_data):
     """Add one team's starters for one day into totals[teamId]."""
     team_id = side_data["teamId"]
-    _ = totals[team_id]  # make sure a team with no stats yet still appears
+    for name in RAW_IDS.values():  # a team with no stats yet still gets zeros
+        totals[team_id][name] += 0.0
     for entry in side_data.get("rosterForCurrentScoringPeriod", {}).get("entries", []):
         if entry.get("lineupSlotId") in BENCH_SLOTS:
             continue
@@ -165,6 +181,7 @@ class MockSource:
 # --------------------------------------------------------------------------- scoring
 
 def nine_cat(t):
+    t = {k: t.get(k, 0) for k in RAW_IDS.values()}
     return {
         "PTS": t["PTS"], "AST": t["AST"], "REB": t["OREB"] + t["DREB"], "3PM": t["3PM"],
         "STL": t["STL"], "BLK": t["BLK"],
@@ -406,6 +423,10 @@ def main():
     prev = json.loads(out.read_text()) if out.exists() and not args.mock else None
 
     data = build(cfg, src, prev)
+    # short log so a failed or odd run is easy to diagnose in the GitHub Actions output
+    print(f"Current scoring period: {src.current_scoring_period()}")
+    for p in data["periods"]:
+        print(f"  {p['label']:<11} {p['start']} to {p['end']}  {p['status']}")
     if prev and strip_volatile(prev) == strip_volatile(data):
         data["updated"] = prev["updated"]  # nothing changed: keep timestamp so no useless commit
     out.parent.mkdir(parents=True, exist_ok=True)
