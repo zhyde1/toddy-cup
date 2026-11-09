@@ -1,8 +1,8 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-03T17:44:02-05:00",
- "current_period": null,
+ "updated": "2026-11-09T04:32:52-05:00",
+ "current_period": 4,
  "cats": [
   {
    "key": "PTS",
@@ -199,7 +199,7 @@
    "period": 4,
    "kind": "group",
    "label": "Week 4",
-   "status": "upcoming",
+   "status": "live",
    "frozen": false,
    "start": "2026-11-09",
    "end": "2026-11-15",
@@ -219,10 +219,56 @@
       "conference": "Teaquila",
       "team": "Ant's in my pants"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
-     "winner": null
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
+     "winner": null,
+     "leader": "tie"
     },
     {
      "conference": "Teaquila",
@@ -239,10 +285,56 @@
       "conference": "Teaquila",
       "team": "Kess my Balls"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
-     "winner": null
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
+     "winner": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -259,10 +351,56 @@
       "conference": "Ginseng",
       "team": "Porter? I hardly know her"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
-     "winner": null
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
+     "winner": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -279,10 +417,56 @@
       "conference": "Ginseng",
       "team": "The InCoopator"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
-     "winner": null
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
+     "winner": null,
+     "leader": "tie"
     }
    ],
    "byes": [
@@ -300,7 +484,148 @@
     }
    ],
    "note": null,
-   "raw": {}
+   "raw": {
+    "1": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "2": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "3": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "9": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "10": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "4": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "7": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "5": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "6": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "8": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    }
+   }
   },
   {
    "period": 5,
