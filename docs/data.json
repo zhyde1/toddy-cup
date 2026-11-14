@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-14T05:09:20-05:00",
+ "updated": "2026-11-14T12:58:51-05:00",
  "current_period": 4,
  "cats": [
   {
@@ -268,6 +268,7 @@
       "ties": 0
      },
      "winner": null,
+     "tiebreak": null,
      "leader": "b"
     },
     {
@@ -334,6 +335,7 @@
       "ties": 0
      },
      "winner": null,
+     "tiebreak": null,
      "leader": "b"
     },
     {
@@ -400,6 +402,7 @@
       "ties": 0
      },
      "winner": null,
+     "tiebreak": null,
      "leader": "b"
     },
     {
@@ -466,6 +469,7 @@
       "ties": 0
      },
      "winner": null,
+     "tiebreak": null,
      "leader": "b"
     }
    ],
@@ -654,7 +658,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Teaquila",
@@ -674,7 +679,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -694,7 +700,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -714,7 +721,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     }
    ],
    "byes": [
@@ -761,7 +769,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Teaquila",
@@ -781,7 +790,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -801,7 +811,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -821,7 +832,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     }
    ],
    "byes": [
@@ -868,7 +880,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Teaquila",
@@ -888,7 +901,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -908,7 +922,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -928,7 +943,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     }
    ],
    "byes": [
@@ -975,7 +991,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Teaquila",
@@ -995,7 +1012,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -1015,7 +1033,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     },
     {
      "conference": "Ginseng",
@@ -1035,7 +1054,8 @@
      "stats": null,
      "cat_results": null,
      "score": null,
-     "winner": null
+     "winner": null,
+     "tiebreak": null
     }
    ],
    "byes": [
