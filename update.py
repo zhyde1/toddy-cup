@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Builds docs/data.json for the Toddy Time Cup page.
+Builds docs/data.json for the Hot Toddy Cup page.
 
 Real run (needs ESPN_S2 and SWID env vars):   python update.py
 Test run with fake stats (no ESPN needed):    python update.py --mock 6 --out /tmp/data.json
   (--mock N pretends matchup period N is in progress, with a few days played)
 
 How a week is scored: every team's STARTERS (bench/IR excluded) are summed day by day from ESPN's
-raw per-day stat lines. 9 categories; most categories wins; 5+ wins the matchup.
+raw per-day stat lines. 9 categories; most categories wins (5+ when none tie). Equal category counts are broken by the higher
+AST/TO ratio (two decimals).
 """
 import argparse
 import itertools
@@ -43,6 +44,21 @@ BENCH_SLOTS = {12, 13}  # BE, IR
 
 # --------------------------------------------------------------------------- data sources
 
+def game_state(start_ms_list, now_ms, lead_min=15, tail_min=210):
+    """Decide whether to poll right now, using NBA tip-off times (milliseconds since epoch).
+    A window opens lead_min before a tip-off and closes tail_min after it (games run about 2.5 hours,
+    plus time for ESPN to post final lines). Returns (active, seconds_until_next_window or None)."""
+    active, wait = False, None
+    for s in start_ms_list:
+        opens, closes = s - lead_min * 60000, s + tail_min * 60000
+        if opens <= now_ms <= closes:
+            active = True
+        elif opens > now_ms:
+            d = (opens - now_ms) / 1000.0
+            wait = d if wait is None else min(wait, d)
+    return active, wait
+
+
 class EspnSource:
     def __init__(self, cfg):
         from espn_api.basketball import League
@@ -56,6 +72,15 @@ class EspnSource:
 
     def current_scoring_period(self):
         return int(self.league.current_week)
+
+    def game_starts(self):
+        """Every NBA tip-off time (ms) in ESPN's schedule, or [] if ESPN gave none."""
+        out = set()
+        for games_by_sp in self.league.pro_schedule.values():
+            for games in games_by_sp.values():
+                for g in games:
+                    out.add(int(g["date"]))
+        return sorted(out)
 
     def periods(self):
         if self._periods is not None:
@@ -191,8 +216,31 @@ def nine_cat(t):
     }
 
 
+def ast_to_ratio(t):
+    """Assist-to-turnover ratio to two decimals. 'inf' = assists with zero turnovers (the best
+    possible). None = no assists or turnovers yet, so there is nothing to compare."""
+    ast, to = t.get("AST", 0), t.get("TO", 0)
+    if to:
+        return round(ast / to, 2)
+    return float("inf") if ast else None
+
+
+def tiebreak_info(ta, tb):
+    """AST/TO tiebreaker between two teams, or None if neither has any assists or turnovers yet."""
+    ra, rb = ast_to_ratio(ta), ast_to_ratio(tb)
+    if ra is None and rb is None:
+        return None
+    ca, cb = (ra if ra is not None else 0.0), (rb if rb is not None else 0.0)
+    leader = "a" if ca > cb else "b" if cb > ca else "tie"
+    show = lambda r: "inf" if r == float("inf") else r  # JSON cannot hold infinity
+    return {"a": show(ca), "b": show(cb), "leader": leader}
+
+
 def score_matchup(ta, tb):
-    """Returns (per-category result {'a'|'b'|'tie'}, a_cats, b_cats, tied_cats, winner)."""
+    """Returns (per-category result {'a'|'b'|'tie'}, a_cats, b_cats, tied_cats, winner, tiebreak).
+    The team with more categories wins (5 or more when nothing is tied). If both teams have the same
+    number of categories (for example 4-4 with one tied), the higher AST/TO ratio wins; `tiebreak`
+    holds both ratios then, otherwise None. winner is 'tie' only if the ratios are equal too."""
     a9, b9 = nine_cat(ta), nine_cat(tb)
     res, a_n, b_n, tie_n = {}, 0, 0, 0
     for key, _label, lower in CATS:
@@ -203,8 +251,15 @@ def score_matchup(ta, tb):
             res[key] = "a"; a_n += 1
         else:
             res[key] = "b"; b_n += 1
-    winner = "a" if a_n >= 5 else "b" if b_n >= 5 else "tie"
-    return res, a_n, b_n, tie_n, winner
+    tiebreak = None
+    if a_n > b_n:
+        winner = "a"
+    elif b_n > a_n:
+        winner = "b"
+    else:
+        tiebreak = tiebreak_info(ta, tb)
+        winner = tiebreak["leader"] if tiebreak else "tie"
+    return res, a_n, b_n, tie_n, winner, tiebreak
 
 
 # --------------------------------------------------------------------------- standings
@@ -287,10 +342,10 @@ def build(cfg, src, prev):
     def play(p, status, conf_name, pair, raw, projected=False):
         a, b = ident(pair[0]), ident(pair[1])
         mu = {"conference": conf_name, "projected": projected, "a": a, "b": b,
-              "stats": None, "cat_results": None, "score": None, "winner": None}
+              "stats": None, "cat_results": None, "score": None, "winner": None, "tiebreak": None}
         ta, tb = raw.get(a["team_id"]), raw.get(b["team_id"])
         if status != "upcoming" and ta is not None and tb is not None:
-            res, an, bn, tn, win = score_matchup(ta, tb)
+            res, an, bn, tn, win, tb_info = score_matchup(ta, tb)
             keep = ("FGM", "FGA", "FTM", "FTA")
             mu["stats"] = {"a": {**nine_cat(ta), **{k: ta[k] for k in keep}},
                            "b": {**nine_cat(tb), **{k: tb[k] for k in keep}}}
@@ -298,6 +353,7 @@ def build(cfg, src, prev):
             mu["score"] = {"a": an, "b": bn, "ties": tn}
             mu["winner"] = win if status == "final" else None
             mu["leader"] = win  # who is ahead right now (same as winner once final)
+            mu["tiebreak"] = tb_info  # AST/TO ratios, only when both teams have the same category count
         return mu
 
     periods_out, completed = [], defaultdict(list)  # completed[conf] = finished group games
@@ -388,7 +444,7 @@ def build(cfg, src, prev):
         fin_raw = get_totals(fp, fin["status"])
         fin["matchups"].append(play(fp, fin["status"], "Final", tuple(semi_winners), fin_raw))
     else:
-        fin["note"] = ("A semifinal ended in a tie and needs a ruling." if group_done and semi["status"] == "final"
+        fin["note"] = ("A semifinal is still tied after the AST/TO tiebreaker and needs a ruling." if group_done and semi["status"] == "final"
                        else "The two semifinal winners play for the cup.")
     fin["raw"] = {str(k): v for k, v in fin_raw.items()}
     periods_out.append(fin)
@@ -427,6 +483,17 @@ def main():
     print(f"Current scoring period: {src.current_scoring_period()}")
     for p in data["periods"]:
         print(f"  {p['label']:<11} {p['start']} to {p['end']}  {p['status']}")
+    # Tell poll.sh whether games are on (or soon) so it only polls when numbers can change.
+    state_file = ROOT / ".poll_state"
+    state_file.unlink(missing_ok=True)
+    if hasattr(src, "game_starts"):
+        starts = src.game_starts()
+        if starts:
+            import time
+            active, wait = game_state(starts, int(time.time() * 1000))
+            state_file.write_text(f"{1 if active else 0} {int(wait) if wait is not None else -1}\n")
+            print(f"Games on now: {active}; next window opens in "
+                  f"{'%d min' % (wait // 60) if wait is not None else 'n/a'}")
     if prev and strip_volatile(prev) == strip_volatile(data):
         data["updated"] = prev["updated"]  # nothing changed: keep timestamp so no useless commit
     out.parent.mkdir(parents=True, exist_ok=True)
