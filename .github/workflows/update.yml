@@ -2,8 +2,8 @@ name: Update cup standings
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:          # lets you run it by hand from the Actions tab
+    - cron: "17 * * * *"   # hourly safety net; GitHub often skips these, so a run keeps itself going during games
+  workflow_dispatch:        # lets you start it by hand from the Actions tab
 
 concurrency:
   group: cup-update
@@ -12,10 +12,10 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     permissions:
       contents: write
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
+      actions: write
     steps:
       - uses: actions/checkout@v4
 
@@ -27,44 +27,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Pull stats from ESPN and rebuild standings
+      - name: Refresh from ESPN (every 5 minutes during game hours)
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
-        run: python update.py
-
-      - name: Save data if it changed
-        id: commit
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "cup-bot"
           git config user.email "cup-bot@users.noreply.github.com"
-          git add docs/data.json
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "Update cup data"
-            git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-  deploy:
-    needs: update
-    if: needs.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          bash poll.sh
