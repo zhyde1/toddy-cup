@@ -120,6 +120,10 @@
   .v.win { font-weight: 800; }
   .v.win::after { content: ""; position: absolute; left: 0; bottom: 0; width: 28px; height: 4px; border-radius: 2px; background: var(--accent); }
   .v.b.win::after { left: auto; right: 0; }
+  .tb { margin: 0 14px 6px; padding: 10px 12px 8px; background: var(--soft); border: 1px solid var(--line); border-radius: 8px; }
+  .tb-title { margin: 0 0 2px; color: var(--muted); font-size: 12.5px; text-align: center; }
+  .tb .row { border-top: 0; }
+  .tb-result { margin: 0; text-align: center; font-weight: 700; font-size: 13.5px; }
   .byes { padding: 10px 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; background: var(--soft); }
   .empty { padding: 28px 18px; text-align: center; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius); }
   .group-label { margin: 22px 0 0; font-size: 14px; font-weight: 700; color: var(--muted); }
@@ -241,6 +245,24 @@
     return s;
   }
 
+  function fmtRatio(v) { return v === "inf" ? "\u221E" : Number(v).toFixed(2); }
+
+  // Shown only when both teams have the same number of categories (for example 4-4 with one tied).
+  function tiebreakBlock(m) {
+    var tb = m.tiebreak, box = el("div", "tb");
+    box.appendChild(el("p", "tb-title", "Tied " + m.score.a + "\u2013" + m.score.b + " in categories. Tiebreaker: assist-to-turnover ratio."));
+    var row = el("div", "row");
+    var va = el("span", "v a" + (tb.leader === "a" ? " win" : ""), fmtRatio(tb.a));
+    var vb = el("span", "v b" + (tb.leader === "b" ? " win" : ""), fmtRatio(tb.b));
+    add(row, va, el("span", "lab", "AST/TO"), vb);
+    box.appendChild(row);
+    var verdict;
+    if (tb.leader === "tie") verdict = "Still tied. The ratios are equal.";
+    else verdict = m[tb.leader].manager + (m.winner ? " wins the tiebreaker" : " leads the tiebreaker");
+    box.appendChild(el("p", "tb-result", verdict));
+    return box;
+  }
+
   function matchupCard(m, period) {
     var card = el("article", "card " + (CONF_CLASS[m.conference] || ""));
     var tl = el("div", "tagline");
@@ -260,6 +282,7 @@
     }
     face.appendChild(sideEl(m.b, "b", lead === "b"));
     card.appendChild(face);
+    if (m.tiebreak) card.appendChild(tiebreakBlock(m));
 
     if (m.stats) {
       var cats = el("div", "cats");
@@ -317,7 +340,7 @@
   function renderScoreboard(root) {
     var sec = el("section"); sec.id = "scoreboard";
     var head = el("div", "sec-head");
-    add(head, el("h2", null, "Scoreboard"), el("p", null, "Five or more of nine categories takes the matchup. Fewer turnovers wins."));
+    add(head, el("h2", null, "Scoreboard"), el("p", null, "Most of the nine categories wins. Equal counts go to the higher AST/TO ratio. Fewer turnovers wins."));
     sec.appendChild(head);
 
     var picker = el("div", "weeks"); picker.setAttribute("role", "group"); picker.setAttribute("aria-label", "Choose a week");
@@ -349,6 +372,7 @@
       var wa = m.winner === "a";
       add(g, el(wa ? "strong" : "span", null, a), el("em", null, " " + (wa ? m.score.a : m.score.b) + "–" + (wa ? m.score.b : m.score.a) + " "),
              el(wa ? "span" : "strong", null, b));
+      if (m.tiebreak) g.appendChild(el("em", null, " (tiebreaker)"));
     } else if (m.score) {
       add(g, el("span", null, a + " vs " + b), el("em", null, "  " + m.score.a + "–" + m.score.b));
     } else {
@@ -409,7 +433,7 @@
     var live = data.periods.filter(function (p) { return p.status === "live"; })[0];
     var line1 = el("div");
     var last = data.periods[data.periods.length - 1];
-    line1.appendChild(el("b", null, live ? live.label + " is live" : last.status === "final" ? "Cup complete" : "Between rounds"));
+    line1.appendChild(el("b", null, live ? live.label + (live.kind === "semifinal" ? " are live" : " is live") : last.status === "final" ? "Cup complete" : "Between rounds"));
     line1.appendChild(document.createTextNode(" · " + (data.season || "") + " in-season tournament"));
     m.appendChild(line1);
     var when = new Date(data.updated);
@@ -419,21 +443,48 @@
     }
   }
 
-  function render() {
+  function render(first) {
+    var y = window.scrollY;
     var app = document.getElementById("app"); app.textContent = "";
     renderMeta();
-    var hash = (location.hash.match(/^#week-(\d+)$/) || [])[1];
-    selected = hash && data.periods.some(function (p) { return p.period === +hash; }) ? +hash : defaultPeriod();
+    if (first) {
+      var hash = (location.hash.match(/^#week-(\d+)$/) || [])[1];
+      selected = hash && data.periods.some(function (p) { return p.period === +hash; }) ? +hash : defaultPeriod();
+    } else if (!data.periods.some(function (p) { return p.period === selected; })) {
+      selected = defaultPeriod();
+    }
     renderScoreboard(app);
     renderStandings(app);
     renderSchedule(app);
+    if (!first) window.scrollTo(0, y);   // keep your place when numbers refresh
   }
 
-  var url = "data.json?ts=" + Date.now();
-  fetch(url, { cache: "no-store" }).then(function (r) {
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    return r.json();
-  }).then(function (d) { data = d; render(); }).catch(function () {
+  /* ------------------------------------------------------------------ loading */
+  // The freshest copy is read straight from the repository. The copy published with the page is the fallback.
+  var RAW_URL = "https://raw.githubusercontent.com/zhyde1/toddy-cup/main/docs/data.json";
+  var REFRESH_MS = window.__REFRESH_MS || 180000;   // while the page is open, look for new numbers every 3 minutes
+
+  function getJson(u) {
+    return fetch(u + "?ts=" + Date.now(), { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    });
+  }
+  function loadData() {
+    return getJson(RAW_URL).catch(function () { return getJson("data.json"); });
+  }
+  function checkForUpdate() {
+    if (document.hidden) return;
+    loadData().then(function (d) {
+      if (d.updated !== data.updated) { data = d; render(false); }
+    }).catch(function () { /* keep showing what we have */ });
+  }
+
+  loadData().then(function (d) {
+    data = d; render(true);
+    setInterval(checkForUpdate, REFRESH_MS);
+    document.addEventListener("visibilitychange", checkForUpdate);
+  }).catch(function () {
     var app = document.getElementById("app"); app.textContent = "";
     app.appendChild(el("p", "empty", "The numbers aren’t published yet. The first update runs a few minutes after setup. Reload then."));
   });
