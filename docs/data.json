@@ -1,8 +1,8 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-15T23:24:00-05:00",
- "current_period": 4,
+ "updated": "2026-11-16T06:16:31-05:00",
+ "current_period": 5,
  "cats": [
   {
    "key": "PTS",
@@ -61,36 +61,10 @@
      "conference": "Teaquila",
      "team": "Kess my Balls",
      "rank": 1,
-     "w": 0,
+     "w": 1,
      "l": 0,
      "t": 0,
-     "cats": 0,
-     "clinched": false,
-     "eliminated": false
-    },
-    {
-     "manager": "Drew",
-     "team_id": 2,
-     "conference": "Teaquila",
-     "team": "14GlassCannons",
-     "rank": 2,
-     "w": 0,
-     "l": 0,
-     "t": 0,
-     "cats": 0,
-     "clinched": false,
-     "eliminated": false
-    },
-    {
-     "manager": "Luke",
-     "team_id": 6,
-     "conference": "Teaquila",
-     "team": "Cunin' Too Quickley",
-     "rank": 3,
-     "w": 0,
-     "l": 0,
-     "t": 0,
-     "cats": 0,
+     "cats": 6,
      "clinched": false,
      "eliminated": false
     },
@@ -99,11 +73,24 @@
      "team_id": 1,
      "conference": "Teaquila",
      "team": "Ant's in my pants",
-     "rank": 4,
-     "w": 0,
+     "rank": 2,
+     "w": 1,
      "l": 0,
      "t": 0,
-     "cats": 0,
+     "cats": 6,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Drew",
+     "team_id": 2,
+     "conference": "Teaquila",
+     "team": "14GlassCannons",
+     "rank": 3,
+     "w": 0,
+     "l": 1,
+     "t": 0,
+     "cats": 3,
      "clinched": false,
      "eliminated": false
     },
@@ -112,6 +99,19 @@
      "team_id": 4,
      "conference": "Teaquila",
      "team": "Alpee anD uren",
+     "rank": 4,
+     "w": 0,
+     "l": 1,
+     "t": 0,
+     "cats": 3,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Luke",
+     "team_id": 6,
+     "conference": "Teaquila",
+     "team": "Cunin' Too Quickley",
      "rank": 5,
      "w": 0,
      "l": 0,
@@ -127,15 +127,15 @@
    "complete": false,
    "standings": [
     {
-     "manager": "Daniel",
-     "team_id": 8,
+     "manager": "Omar",
+     "team_id": 9,
      "conference": "Ginseng",
-     "team": "The InCoopator",
+     "team": "Nets and Yahoo",
      "rank": 1,
-     "w": 0,
+     "w": 1,
      "l": 0,
      "t": 0,
-     "cats": 0,
+     "cats": 7,
      "clinched": false,
      "eliminated": false
     },
@@ -145,10 +145,10 @@
      "conference": "Ginseng",
      "team": "Big Vic Energy",
      "rank": 2,
-     "w": 0,
+     "w": 1,
      "l": 0,
      "t": 0,
-     "cats": 0,
+     "cats": 6,
      "clinched": false,
      "eliminated": false
     },
@@ -159,22 +159,22 @@
      "team": "Porter? I hardly know her",
      "rank": 3,
      "w": 0,
-     "l": 0,
+     "l": 1,
      "t": 0,
-     "cats": 0,
+     "cats": 3,
      "clinched": false,
      "eliminated": false
     },
     {
-     "manager": "Omar",
-     "team_id": 9,
+     "manager": "Daniel",
+     "team_id": 8,
      "conference": "Ginseng",
-     "team": "Nets and Yahoo",
+     "team": "The InCoopator",
      "rank": 4,
      "w": 0,
-     "l": 0,
+     "l": 1,
      "t": 0,
-     "cats": 0,
+     "cats": 2,
      "clinched": false,
      "eliminated": false
     },
@@ -199,7 +199,7 @@
    "period": 4,
    "kind": "group",
    "label": "Week 4",
-   "status": "live",
+   "status": "final",
    "frozen": false,
    "start": "2026-11-09",
    "end": "2026-11-15",
@@ -229,7 +229,7 @@
        "BLK": 10.0,
        "FG%": 0.5075593952483801,
        "FT%": 0.7591240875912408,
-       "TO": 63.0,
+       "TO": 64.0,
        "FGM": 235.0,
        "FGA": 463.0,
        "FTM": 104.0,
@@ -238,15 +238,15 @@
       "b": {
        "PTS": 715.0,
        "AST": 190.0,
-       "REB": 285.0,
+       "REB": 284.0,
        "3PM": 70.0,
        "STL": 43.0,
        "BLK": 39.0,
-       "FG%": 0.4789762340036563,
+       "FG%": 0.47985347985347987,
        "FT%": 0.7908496732026143,
        "TO": 107.0,
        "FGM": 262.0,
-       "FGA": 547.0,
+       "FGA": 546.0,
        "FTM": 121.0,
        "FTA": 153.0
       }
@@ -267,7 +267,7 @@
       "b": 6,
       "ties": 0
      },
-     "winner": null,
+     "winner": "b",
      "tiebreak": null,
      "leader": "b"
     },
@@ -290,13 +290,13 @@
       "a": {
        "PTS": 752.0,
        "AST": 146.0,
-       "REB": 233.0,
+       "REB": 232.0,
        "3PM": 88.0,
        "STL": 57.0,
        "BLK": 33.0,
        "FG%": 0.48484848484848486,
        "FT%": 0.7794871794871795,
-       "TO": 97.0,
+       "TO": 96.0,
        "FGM": 256.0,
        "FGA": 528.0,
        "FTM": 152.0,
@@ -334,7 +334,7 @@
       "b": 6,
       "ties": 0
      },
-     "winner": null,
+     "winner": "b",
      "tiebreak": null,
      "leader": "b"
     },
@@ -360,7 +360,7 @@
        "REB": 181.0,
        "3PM": 100.0,
        "STL": 40.0,
-       "BLK": 36.0,
+       "BLK": 35.0,
        "FG%": 0.46733668341708545,
        "FT%": 0.8288770053475936,
        "TO": 84.0,
@@ -401,7 +401,7 @@
       "b": 3,
       "ties": 0
      },
-     "winner": null,
+     "winner": "a",
      "tiebreak": null,
      "leader": "a"
     },
@@ -468,7 +468,7 @@
       "b": 2,
       "ties": 0
      },
-     "winner": null,
+     "winner": "a",
      "tiebreak": null,
      "leader": "a"
     }
@@ -494,11 +494,11 @@
      "BLK": 39.0,
      "STL": 43.0,
      "AST": 190.0,
-     "OREB": 65.0,
+     "OREB": 64.0,
      "DREB": 220.0,
      "TO": 107.0,
      "FGM": 262.0,
-     "FGA": 547.0,
+     "FGA": 546.0,
      "FTM": 121.0,
      "FTA": 153.0,
      "3PM": 70.0
@@ -509,8 +509,8 @@
      "STL": 57.0,
      "AST": 146.0,
      "OREB": 50.0,
-     "DREB": 183.0,
-     "TO": 97.0,
+     "DREB": 182.0,
+     "TO": 96.0,
      "FGM": 256.0,
      "FGA": 528.0,
      "FTM": 152.0,
@@ -566,7 +566,7 @@
      "AST": 154.0,
      "OREB": 67.0,
      "DREB": 177.0,
-     "TO": 63.0,
+     "TO": 64.0,
      "FGM": 235.0,
      "FGA": 463.0,
      "FTM": 104.0,
@@ -575,7 +575,7 @@
     },
     "7": {
      "PTS": 813.0,
-     "BLK": 36.0,
+     "BLK": 35.0,
      "STL": 40.0,
      "AST": 190.0,
      "OREB": 34.0,
@@ -635,7 +635,7 @@
    "period": 5,
    "kind": "group",
    "label": "Week 5",
-   "status": "upcoming",
+   "status": "live",
    "frozen": false,
    "start": "2026-11-16",
    "end": "2026-11-22",
@@ -655,11 +655,57 @@
       "conference": "Teaquila",
       "team": "Ant's in my pants"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Teaquila",
@@ -676,11 +722,57 @@
       "conference": "Teaquila",
       "team": "Cunin' Too Quickley"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -697,11 +789,57 @@
       "conference": "Ginseng",
       "team": "The InCoopator"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -718,11 +856,57 @@
       "conference": "Ginseng",
       "team": "Vagiannis"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     }
    ],
    "byes": [
@@ -740,7 +924,148 @@
     }
    ],
    "note": null,
-   "raw": {}
+   "raw": {
+    "3": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "10": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "1": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "7": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "2": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "6": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "9": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "5": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "4": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "8": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    }
+   }
   },
   {
    "period": 6,
@@ -1083,9 +1408,52 @@
    "frozen": false,
    "start": "2026-12-14",
    "end": "2026-12-20",
-   "matchups": [],
+   "matchups": [
+    {
+     "conference": "Teaquila",
+     "projected": true,
+     "a": {
+      "manager": "Dakota",
+      "team_id": 5,
+      "conference": "Teaquila",
+      "team": "Kess my Balls"
+     },
+     "b": {
+      "manager": "Will",
+      "team_id": 1,
+      "conference": "Teaquila",
+      "team": "Ant's in my pants"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null,
+     "tiebreak": null
+    },
+    {
+     "conference": "Ginseng",
+     "projected": true,
+     "a": {
+      "manager": "Omar",
+      "team_id": 9,
+      "conference": "Ginseng",
+      "team": "Nets and Yahoo"
+     },
+     "b": {
+      "manager": "David",
+      "team_id": 7,
+      "conference": "Ginseng",
+      "team": "Big Vic Energy"
+     },
+     "stats": null,
+     "cat_results": null,
+     "score": null,
+     "winner": null,
+     "tiebreak": null
+    }
+   ],
    "byes": [],
-   "note": "1st plays 2nd in each conference. Matchups are set after Week 8.",
+   "note": "Projected from current standings. Matchups lock after Week 8.",
    "raw": {}
   },
   {
