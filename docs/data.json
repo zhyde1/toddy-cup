@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-16T22:52:16-05:00",
+ "updated": "2026-11-16T22:57:20-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -792,7 +792,7 @@
      "stats": {
       "a": {
        "PTS": 94.0,
-       "AST": 22.0,
+       "AST": 24.0,
        "REB": 31.0,
        "3PM": 10.0,
        "STL": 5.0,
@@ -929,7 +929,7 @@
      "PTS": 94.0,
      "BLK": 5.0,
      "STL": 5.0,
-     "AST": 22.0,
+     "AST": 24.0,
      "OREB": 9.0,
      "DREB": 22.0,
      "TO": 7.0,
@@ -1015,22 +1015,22 @@
      "STL": 6.0,
      "AST": 46.0,
      "OREB": 15.0,
-     "DREB": 40.0,
+     "DREB": 41.0,
      "TO": 21.0,
      "FGM": 46.0,
-     "FGA": 92.0,
+     "FGA": 93.0,
      "FTM": 32.0,
      "FTA": 43.0,
      "3PM": 12.0
     },
     "5": {
      "PTS": 128.0,
-     "BLK": 4.0,
+     "BLK": 5.0,
      "STL": 13.0,
      "AST": 19.0,
      "OREB": 19.0,
      "DREB": 42.0,
-     "TO": 21.0,
+     "TO": 20.0,
      "FGM": 47.0,
      "FGA": 104.0,
      "FTM": 21.0,
@@ -1613,6 +1613,12 @@
       "value": 180
      },
      {
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
+      "value": 178
+     },
+     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
@@ -1621,12 +1627,6 @@
      {
       "manager": "Daniel",
       "team": "The InCoopator",
-      "conference": "Ginseng",
-      "value": 176
-     },
-     {
-      "manager": "Evan",
-      "team": "Porter? I hardly know her",
       "conference": "Ginseng",
       "value": 176
      },
@@ -1675,7 +1675,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 332
+      "value": 333
      },
      {
       "manager": "Will",
@@ -1930,7 +1930,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 44
+      "value": 45
      },
      {
       "manager": "David",
@@ -1994,8 +1994,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.4568081991215227,
-      "detail": "312/683"
+      "value": 0.45614035087719296,
+      "detail": "312/684"
      }
     ],
     "all": [
@@ -2066,8 +2066,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.4568081991215227,
-      "detail": "312/683"
+      "value": 0.45614035087719296,
+      "detail": "312/684"
      }
     ]
    },
@@ -2221,7 +2221,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 99
+      "value": 98
      },
      {
       "manager": "David",
