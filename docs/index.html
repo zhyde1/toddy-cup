@@ -370,7 +370,7 @@
     var a = m.a.manager, b = m.b.manager;
     if (m.score && m.winner && m.winner !== "tie") {
       var wa = m.winner === "a";
-      add(g, el(wa ? "strong" : "span", null, a), el("em", null, " " + (wa ? m.score.a : m.score.b) + "–" + (wa ? m.score.b : m.score.a) + " "),
+      add(g, el(wa ? "strong" : "span", null, a), el("em", null, " " + m.score.a + "–" + m.score.b + " "),
              el(wa ? "span" : "strong", null, b));
       if (m.tiebreak) g.appendChild(el("em", null, " (tiebreaker)"));
     } else if (m.score) {
