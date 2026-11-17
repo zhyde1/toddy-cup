@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-16T22:32:03-05:00",
+ "updated": "2026-11-16T22:37:06-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -1015,8 +1015,8 @@
      "STL": 6.0,
      "AST": 45.0,
      "OREB": 13.0,
-     "DREB": 38.0,
-     "TO": 17.0,
+     "DREB": 39.0,
+     "TO": 18.0,
      "FGM": 39.0,
      "FGA": 84.0,
      "FTM": 30.0,
@@ -1032,7 +1032,7 @@
      "DREB": 42.0,
      "TO": 21.0,
      "FGM": 46.0,
-     "FGA": 101.0,
+     "FGA": 102.0,
      "FTM": 21.0,
      "FTA": 28.0,
      "3PM": 12.0
@@ -1675,7 +1675,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 328
+      "value": 329
      },
      {
       "manager": "Will",
@@ -2042,18 +2042,18 @@
       "detail": "333/715"
      },
      {
-      "manager": "Dakota",
-      "team": "Kess my Balls",
-      "conference": "Teaquila",
-      "value": 0.4640804597701149,
-      "detail": "323/696"
-     },
-     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
       "value": 0.463768115942029,
       "detail": "256/552"
+     },
+     {
+      "manager": "Dakota",
+      "team": "Kess my Balls",
+      "conference": "Teaquila",
+      "value": 0.4634146341463415,
+      "detail": "323/697"
      },
      {
       "manager": "Will",
@@ -2175,7 +2175,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 132
+      "value": 133
      }
     ],
     "least": [
@@ -2191,7 +2191,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 132
+      "value": 133
      },
      {
       "manager": "Will",
