@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-16T22:16:53-05:00",
+ "updated": "2026-11-16T22:21:57-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -878,7 +878,7 @@
        "REB": 41.0,
        "3PM": 10.0,
        "STL": 10.0,
-       "BLK": 5.0,
+       "BLK": 6.0,
        "FG%": 0.5,
        "FT%": 0.7741935483870968,
        "TO": 11.0,
@@ -941,7 +941,7 @@
     },
     "10": {
      "PTS": 108.0,
-     "BLK": 5.0,
+     "BLK": 6.0,
      "STL": 10.0,
      "AST": 31.0,
      "OREB": 11.0,
@@ -1010,7 +1010,7 @@
      "3PM": 7.0
     },
     "9": {
-     "PTS": 113.0,
+     "PTS": 115.0,
      "BLK": 4.0,
      "STL": 6.0,
      "AST": 44.0,
@@ -1019,8 +1019,8 @@
      "TO": 16.0,
      "FGM": 38.0,
      "FGA": 82.0,
-     "FTM": 28.0,
-     "FTA": 37.0,
+     "FTM": 30.0,
+     "FTA": 41.0,
      "3PM": 9.0
     },
     "5": {
@@ -1521,7 +1521,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 862
+      "value": 864
      },
      {
       "manager": "Evan",
@@ -1945,15 +1945,15 @@
       "value": 38
      },
      {
-      "manager": "Drew",
-      "team": "14GlassCannons",
-      "conference": "Teaquila",
-      "value": 36
-     },
-     {
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
+      "value": 37
+     },
+     {
+      "manager": "Drew",
+      "team": "14GlassCannons",
+      "conference": "Teaquila",
       "value": 36
      },
      {
@@ -2119,8 +2119,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.8142857142857143,
-      "detail": "171/210"
+      "value": 0.8084112149532711,
+      "detail": "173/214"
      },
      {
       "manager": "Daniel",
