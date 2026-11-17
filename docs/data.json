@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-16T23:02:24-05:00",
+ "updated": "2026-11-16T23:07:28-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -739,17 +739,17 @@
        "FTA": 21.0
       },
       "b": {
-       "PTS": 111.0,
+       "PTS": 113.0,
        "AST": 32.0,
        "REB": 50.0,
        "3PM": 11.0,
        "STL": 7.0,
        "BLK": 8.0,
-       "FG%": 0.5180722891566265,
+       "FG%": 0.5,
        "FT%": 0.6086956521739131,
        "TO": 24.0,
-       "FGM": 43.0,
-       "FGA": 83.0,
+       "FGM": 44.0,
+       "FGA": 88.0,
        "FTM": 14.0,
        "FTA": 23.0
       }
@@ -791,19 +791,19 @@
      },
      "stats": {
       "a": {
-       "PTS": 94.0,
+       "PTS": 100.0,
        "AST": 24.0,
        "REB": 31.0,
        "3PM": 10.0,
        "STL": 5.0,
        "BLK": 5.0,
-       "FG%": 0.47058823529411764,
-       "FT%": 0.9090909090909091,
+       "FG%": 0.4857142857142857,
+       "FT%": 0.9166666666666666,
        "TO": 8.0,
-       "FGM": 32.0,
-       "FGA": 68.0,
-       "FTM": 20.0,
-       "FTA": 22.0
+       "FGM": 34.0,
+       "FGA": 70.0,
+       "FTM": 22.0,
+       "FTA": 24.0
       },
       "b": {
        "PTS": 96.0,
@@ -822,7 +822,7 @@
       }
      },
      "cat_results": {
-      "PTS": "b",
+      "PTS": "a",
       "AST": "a",
       "REB": "a",
       "3PM": "a",
@@ -833,8 +833,8 @@
       "TO": "a"
      },
      "score": {
-      "a": 5,
-      "b": 3,
+      "a": 6,
+      "b": 2,
       "ties": 1
      },
      "winner": null,
@@ -926,17 +926,17 @@
    "note": null,
    "raw": {
     "3": {
-     "PTS": 94.0,
+     "PTS": 100.0,
      "BLK": 5.0,
      "STL": 5.0,
      "AST": 24.0,
      "OREB": 9.0,
      "DREB": 22.0,
      "TO": 8.0,
-     "FGM": 32.0,
-     "FGA": 68.0,
-     "FTM": 20.0,
-     "FTA": 22.0,
+     "FGM": 34.0,
+     "FGA": 70.0,
+     "FTM": 22.0,
+     "FTA": 24.0,
      "3PM": 10.0
     },
     "10": {
@@ -996,15 +996,15 @@
      "3PM": 11.0
     },
     "6": {
-     "PTS": 111.0,
+     "PTS": 113.0,
      "BLK": 8.0,
      "STL": 7.0,
      "AST": 32.0,
      "OREB": 17.0,
      "DREB": 33.0,
      "TO": 24.0,
-     "FGM": 43.0,
-     "FGA": 83.0,
+     "FGM": 44.0,
+     "FGA": 88.0,
      "FTM": 14.0,
      "FTA": 23.0,
      "3PM": 11.0
@@ -1527,7 +1527,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 847
+      "value": 853
      },
      {
       "manager": "Parsa",
@@ -1551,7 +1551,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 716
+      "value": 718
      },
      {
       "manager": "Zak",
@@ -2028,6 +2028,13 @@
       "detail": "286/612"
      },
      {
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
+      "value": 0.4672,
+      "detail": "292/625"
+     },
+     {
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
@@ -2035,25 +2042,18 @@
       "detail": "333/715"
      },
      {
-      "manager": "Evan",
-      "team": "Porter? I hardly know her",
-      "conference": "Ginseng",
-      "value": 0.4654895666131621,
-      "detail": "290/623"
-     },
-     {
-      "manager": "Luke",
-      "team": "Cunin' Too Quickley",
-      "conference": "Teaquila",
-      "value": 0.4648648648648649,
-      "detail": "258/555"
-     },
-     {
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
       "value": 0.463519313304721,
       "detail": "324/699"
+     },
+     {
+      "manager": "Luke",
+      "team": "Cunin' Too Quickley",
+      "conference": "Teaquila",
+      "value": 0.4625,
+      "detail": "259/560"
      },
      {
       "manager": "Will",
@@ -2080,8 +2080,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.8736263736263736,
-      "detail": "159/182"
+      "value": 0.875,
+      "detail": "161/184"
      }
     ],
     "least": [
@@ -2098,8 +2098,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.8736263736263736,
-      "detail": "159/182"
+      "value": 0.875,
+      "detail": "161/184"
      },
      {
       "manager": "David",
