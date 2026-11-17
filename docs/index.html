@@ -129,6 +129,33 @@
   .group-label { margin: 22px 0 0; font-size: 14px; font-weight: 700; color: var(--muted); }
   .group-label:first-of-type { margin-top: 6px; }
 
+  /* category leaders */
+  .leaders { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+  .lcard { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 14px 10px; }
+  .lcard h3 { font-size: 20px; font-stretch: 80%; display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .lcard h3 small { font-size: 12px; font-weight: 500; font-stretch: 100%; color: var(--muted); letter-spacing: 0; }
+  .lrow { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
+  .lside.least { text-align: right; }
+  .lk { display: block; color: var(--muted); font-size: 12.5px; }
+  .lv { display: block; font-size: 30px; font-weight: 900; font-stretch: 70%; line-height: 1.05; }
+  .lv small { font-size: 12px; font-weight: 400; font-stretch: 100%; color: var(--muted); margin-left: 5px; }
+  .ln { display: block; font-weight: 700; margin-top: 2px; line-height: 1.2; }
+  .lt { display: block; color: var(--muted); font-size: 12px; line-height: 1.25; overflow-wrap: anywhere; }
+  .strip { position: relative; height: 24px; margin: 12px 6px 4px; }
+  .strip::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2px; margin-top: -1px; background: var(--line); border-radius: 1px; }
+  .sd { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; border: 2px solid var(--card); background: var(--accent); }
+  .sd.end { width: 16px; height: 16px; margin: -8px 0 0 -8px; outline: 2px solid var(--ink); }
+  .sd.cd-teaquila { --accent: var(--teaquila); }
+  .sd.cd-ginseng { --accent: var(--ginseng); }
+  .lcard details { margin-top: 6px; border-top: 1px solid var(--line); padding-top: 6px; }
+  .lcard summary { cursor: pointer; color: var(--muted); font-size: 13px; padding: 2px 0; }
+  .lcard ol { list-style: none; margin: 6px 0 2px; padding: 0; }
+  .lcard li { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; font-size: 14px; }
+  .lcard li.end { font-weight: 800; }
+  .lcard li span:last-child { text-align: right; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 12px 2px 0; color: var(--muted); font-size: 12.5px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+
   /* schedule */
   .sched td, .sched th { vertical-align: top; }
   .sched th:not(:first-child) { text-align: left; }
@@ -426,6 +453,90 @@
     root.appendChild(sec);
   }
 
+  /* ------------------------------------------------------------------ category leaders */
+  function fmtNum(key, v) {
+    if (key === "FG%" || key === "FT%") return v.toFixed(3).replace(/^0/, "");
+    return Math.round(v).toLocaleString("en-US");
+  }
+  function names(entries) { return entries.map(function (e) { return e.manager; }).join(" & "); }
+  function teamsLine(entries) { return entries.map(function (e) { return e.team; }).join(" & "); }
+
+  function leadersSide(cls, label, entries, key) {
+    var side = el("div", "lside " + cls);
+    var val = el("b", "lv", fmtNum(key, entries[0].value));
+    if (entries[0].detail) val.appendChild(el("small", null, entries[0].detail));
+    add(side, el("span", "lk", label), val, el("span", "ln", names(entries)), el("span", "lt", teamsLine(entries)));
+    return side;
+  }
+
+  function leaderCard(c) {
+    var card = el("article", "lcard");
+    var h = el("h3", null, c.label);
+    if (c.lower_better) h.appendChild(el("small", null, "fewer is better"));
+    card.appendChild(h);
+    var row = el("div", "lrow");
+    add(row, leadersSide("most", "Most", c.most, c.key), leadersSide("least", "Least", c.least, c.key));
+    card.appendChild(row);
+
+    // every team on one line: the most at the left edge, the least at the right edge
+    var hi = c.all[0].value, lo = c.all[c.all.length - 1].value, span = hi - lo;
+    var strip = el("div", "strip");
+    strip.setAttribute("role", "img");
+    strip.setAttribute("aria-label", "Where all " + c.all.length + " teams sit, from the most on the left to the least on the right");
+    c.all.forEach(function (e) {
+      var pos = span === 0 ? 50 : 2 + ((hi - e.value) / span) * 96;   // most at the left, like the text above
+      var d = el("span", "sd cd-" + e.conference.toLowerCase() + (e.value === hi || e.value === lo ? " end" : ""));
+      d.style.left = pos + "%";
+      d.title = e.manager + ": " + fmtNum(c.key, e.value) + (e.detail ? " (" + e.detail + ")" : "");
+      strip.appendChild(d);
+    });
+    card.appendChild(strip);
+
+    var det = el("details");
+    det.dataset.key = c.key;
+    det.appendChild(el("summary", null, "All teams"));
+    var ol = el("ol");
+    c.all.forEach(function (e) {
+      var li = el("li", (e.value === hi || e.value === lo) ? "end" : "");
+      add(li, el("span", null, e.manager), el("span", null, fmtNum(c.key, e.value) + (e.detail ? "  (" + e.detail + ")" : "")));
+      ol.appendChild(li);
+    });
+    det.appendChild(ol);
+    card.appendChild(det);
+    return card;
+  }
+
+  function renderLeaders(root) {
+    var sec = el("section"); sec.id = "leaders";
+    var L = data.leaders;
+    var head = el("div", "sec-head");
+    var sub;
+    if (!L) sub = "Group stage totals, Weeks 4\u20138.";
+    else {
+      var first = L.weeks[0], last = L.weeks[L.weeks.length - 1];
+      var range = first === last ? "Week " + first : "Weeks " + first + "\u2013" + last;
+      sub = L.complete ? "Final group stage totals, " + range + "."
+                       : "Group stage totals, " + range + (L.live ? ". Includes " + L.live + " so far." : ".");
+    }
+    add(head, el("h2", null, "Category leaders"), el("p", null, sub));
+    sec.appendChild(head);
+    if (!L) {
+      sec.appendChild(el("p", "empty", "Category leaders appear once Week 4 starts."));
+    } else {
+      var grid = el("div", "leaders");
+      L.categories.forEach(function (c) { grid.appendChild(leaderCard(c)); });
+      sec.appendChild(grid);
+      var lg = el("p", "legend");
+      lg.innerHTML = "";
+      [["Teaquila", "var(--teaquila)"], ["Ginseng", "var(--ginseng)"]].forEach(function (x) {
+        var item = el("span"); var dot = el("i"); dot.style.background = x[1]; add(item, dot, document.createTextNode(x[0])); lg.appendChild(item);
+      });
+      lg.appendChild(el("span", null, "Each dot is a team. The ringed dots are the most and the least. FG% and FT% use total makes and attempts."));
+      sec.appendChild(lg);
+    }
+    root.appendChild(sec);
+  }
+
   /* ------------------------------------------------------------------ boot */
   function renderMeta() {
     var m = document.getElementById("meta"); m.textContent = "";
@@ -445,6 +556,7 @@
 
   function render(first) {
     var y = window.scrollY;
+    var openKeys = [].map.call(document.querySelectorAll("#leaders details[open]"), function (d) { return d.dataset.key; });
     var app = document.getElementById("app"); app.textContent = "";
     renderMeta();
     if (first) {
@@ -456,6 +568,11 @@
     renderScoreboard(app);
     renderStandings(app);
     renderSchedule(app);
+    renderLeaders(app);
+    openKeys.forEach(function (k) {
+      var d = document.querySelector('#leaders details[data-key="' + k + '"]');
+      if (d) d.open = true;
+    });
     if (!first) window.scrollTo(0, y);   // keep your place when numbers refresh
   }
 
