@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-16T22:57:20-05:00",
+ "updated": "2026-11-16T23:02:24-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -739,17 +739,17 @@
        "FTA": 21.0
       },
       "b": {
-       "PTS": 108.0,
-       "AST": 31.0,
-       "REB": 49.0,
-       "3PM": 10.0,
+       "PTS": 111.0,
+       "AST": 32.0,
+       "REB": 50.0,
+       "3PM": 11.0,
        "STL": 7.0,
        "BLK": 8.0,
-       "FG%": 0.5121951219512195,
+       "FG%": 0.5180722891566265,
        "FT%": 0.6086956521739131,
        "TO": 24.0,
-       "FGM": 42.0,
-       "FGA": 82.0,
+       "FGM": 43.0,
+       "FGA": 83.0,
        "FTM": 14.0,
        "FTA": 23.0
       }
@@ -758,7 +758,7 @@
       "PTS": "b",
       "AST": "b",
       "REB": "b",
-      "3PM": "tie",
+      "3PM": "b",
       "STL": "b",
       "BLK": "b",
       "FG%": "b",
@@ -767,8 +767,8 @@
      },
      "score": {
       "a": 2,
-      "b": 6,
-      "ties": 1
+      "b": 7,
+      "ties": 0
      },
      "winner": null,
      "tiebreak": null,
@@ -799,7 +799,7 @@
        "BLK": 5.0,
        "FG%": 0.47058823529411764,
        "FT%": 0.9090909090909091,
-       "TO": 7.0,
+       "TO": 8.0,
        "FGM": 32.0,
        "FGA": 68.0,
        "FTM": 20.0,
@@ -932,7 +932,7 @@
      "AST": 24.0,
      "OREB": 9.0,
      "DREB": 22.0,
-     "TO": 7.0,
+     "TO": 8.0,
      "FGM": 32.0,
      "FGA": 68.0,
      "FTM": 20.0,
@@ -996,18 +996,18 @@
      "3PM": 11.0
     },
     "6": {
-     "PTS": 108.0,
+     "PTS": 111.0,
      "BLK": 8.0,
      "STL": 7.0,
-     "AST": 31.0,
-     "OREB": 16.0,
+     "AST": 32.0,
+     "OREB": 17.0,
      "DREB": 33.0,
      "TO": 24.0,
-     "FGM": 42.0,
-     "FGA": 82.0,
+     "FGM": 43.0,
+     "FGA": 83.0,
      "FTM": 14.0,
      "FTA": 23.0,
-     "3PM": 10.0
+     "3PM": 11.0
     },
     "9": {
      "PTS": 136.0,
@@ -1551,7 +1551,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 713
+      "value": 716
      },
      {
       "manager": "Zak",
@@ -1613,15 +1613,15 @@
       "value": 180
      },
      {
-      "manager": "Evan",
-      "team": "Porter? I hardly know her",
-      "conference": "Ginseng",
-      "value": 178
-     },
-     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
+      "value": 179
+     },
+     {
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
       "value": 178
      },
      {
@@ -1687,7 +1687,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 297
+      "value": 298
      },
      {
       "manager": "Daniel",
@@ -1794,7 +1794,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 78
+      "value": 79
      },
      {
       "manager": "Daniel",
@@ -2045,8 +2045,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.463898916967509,
-      "detail": "257/554"
+      "value": 0.4648648648648649,
+      "detail": "258/555"
      },
      {
       "manager": "Dakota",
@@ -2239,7 +2239,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 82
+      "value": 83
      },
      {
       "manager": "Zak",
