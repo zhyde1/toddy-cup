@@ -304,6 +304,58 @@ def clinch_flags(mgrs, rec, remaining, advance):
     return clinched, eliminated
 
 
+COUNT_KEYS = ("PTS", "AST", "REB", "3PM", "STL", "BLK", "TO")
+
+
+def category_leaders(group_periods, team_by_id, total_weeks):
+    """Season-to-date group-stage totals (every started group week, the live one included) for all
+    teams, plus who has the most and the least in each category. None until a group week starts.
+    FG% and FT% come from summed makes and attempts, not from averaging weekly percentages."""
+    sums = defaultdict(lambda: defaultdict(float))
+    weeks, live_label = [], None
+    for p in group_periods:
+        if not p["raw"]:
+            continue
+        weeks.append(p["period"])
+        if p["status"] == "live":
+            live_label = p["label"]
+        for tid, t in p["raw"].items():
+            for k, v in t.items():
+                sums[int(tid)][k] += v
+    if not weeks:
+        return None
+
+    teams = {}
+    for tid, t in sums.items():
+        if tid not in team_by_id:
+            continue
+        stats = nine_cat(t)
+        for k in COUNT_KEYS:
+            stats[k] = int(round(stats[k]))
+        detail = {"FG%": f"{int(t['FGM'])}/{int(t['FGA'])}", "FT%": f"{int(t['FTM'])}/{int(t['FTA'])}"}
+        teams[tid] = {**team_by_id[tid], "stats": stats, "detail": detail}
+
+    cats = []
+    for key, label, lower in CATS:
+        ranked = sorted(teams.values(), key=lambda t: (-t["stats"][key], t["manager"]))
+        hi, lo = ranked[0]["stats"][key], ranked[-1]["stats"][key]
+
+        def entry(t):
+            e = {"manager": t["manager"], "team": t["team"], "conference": t["conference"], "value": t["stats"][key]}
+            if key in t["detail"]:
+                e["detail"] = t["detail"][key]
+            return e
+
+        cats.append({
+            "key": key, "label": label, "lower_better": lower,
+            "most": [entry(t) for t in ranked if t["stats"][key] == hi],
+            "least": [entry(t) for t in ranked if t["stats"][key] == lo],
+            "all": [entry(t) for t in ranked],
+        })
+    return {"weeks": weeks, "live": live_label, "complete": len(weeks) == total_weeks and live_label is None,
+            "categories": cats}
+
+
 # --------------------------------------------------------------------------- build
 
 def build(cfg, src, prev):
@@ -449,6 +501,9 @@ def build(cfg, src, prev):
     fin["raw"] = {str(k): v for k, v in fin_raw.items()}
     periods_out.append(fin)
 
+    leaders = category_leaders([x for x in periods_out if x["kind"] == "group"],
+                               {m["team_id"]: ident(mgr) for mgr, m in members.items()}, len(cfg["group_periods"]))
+
     now = datetime.now(tz)
     cur_period = next((s["period"] for s in periods_out if s["status"] == "live"), None)
     return {
@@ -458,6 +513,7 @@ def build(cfg, src, prev):
         "cats": [{"key": k, "label": l, "lower_better": lo} for k, l, lo in CATS],
         "conferences": conferences_out,
         "periods": periods_out,
+        "leaders": leaders,
     }
 
 
