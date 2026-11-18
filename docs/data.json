@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-17T22:51:52-05:00",
+ "updated": "2026-11-17T22:52:20-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -791,19 +791,19 @@
      },
      "stats": {
       "a": {
-       "PTS": 151.0,
+       "PTS": 152.0,
        "AST": 29.0,
        "REB": 40.0,
        "3PM": 15.0,
        "STL": 7.0,
        "BLK": 6.0,
        "FG%": 0.5,
-       "FT%": 0.9090909090909091,
+       "FT%": 0.9117647058823529,
        "TO": 9.0,
        "FGM": 53.0,
        "FGA": 106.0,
-       "FTM": 30.0,
-       "FTA": 33.0
+       "FTM": 31.0,
+       "FTA": 34.0
       },
       "b": {
        "PTS": 120.0,
@@ -926,7 +926,7 @@
    "note": null,
    "raw": {
     "3": {
-     "PTS": 151.0,
+     "PTS": 152.0,
      "BLK": 6.0,
      "STL": 7.0,
      "AST": 29.0,
@@ -935,8 +935,8 @@
      "TO": 9.0,
      "FGM": 53.0,
      "FGA": 106.0,
-     "FTM": 30.0,
-     "FTA": 33.0,
+     "FTM": 31.0,
+     "FTA": 34.0,
      "3PM": 15.0
     },
     "10": {
@@ -1521,7 +1521,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 904
+      "value": 905
      },
      {
       "manager": "Omar",
@@ -2086,8 +2086,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.8756476683937824,
-      "detail": "169/193"
+      "value": 0.8762886597938144,
+      "detail": "170/194"
      }
     ],
     "least": [
@@ -2104,8 +2104,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.8756476683937824,
-      "detail": "169/193"
+      "value": 0.8762886597938144,
+      "detail": "170/194"
      },
      {
       "manager": "David",
