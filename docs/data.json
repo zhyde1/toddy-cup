@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T01:48:56-05:00",
+ "updated": "2026-11-18T01:53:58-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -659,7 +659,7 @@
       "a": {
        "PTS": 245.0,
        "AST": 58.0,
-       "REB": 84.0,
+       "REB": 85.0,
        "3PM": 27.0,
        "STL": 14.0,
        "BLK": 6.0,
@@ -674,7 +674,7 @@
       "b": {
        "PTS": 209.0,
        "AST": 38.0,
-       "REB": 63.0,
+       "REB": 64.0,
        "3PM": 30.0,
        "STL": 4.0,
        "BLK": 11.0,
@@ -958,7 +958,7 @@
      "BLK": 11.0,
      "STL": 4.0,
      "AST": 38.0,
-     "OREB": 16.0,
+     "OREB": 17.0,
      "DREB": 47.0,
      "TO": 24.0,
      "FGM": 78.0,
@@ -987,7 +987,7 @@
      "STL": 14.0,
      "AST": 58.0,
      "OREB": 20.0,
-     "DREB": 64.0,
+     "DREB": 65.0,
      "TO": 26.0,
      "FGM": 92.0,
      "FGA": 175.0,
@@ -1018,7 +1018,7 @@
      "DREB": 71.0,
      "TO": 27.0,
      "FGM": 79.0,
-     "FGA": 151.0,
+     "FGA": 154.0,
      "FTM": 42.0,
      "FTA": 57.0,
      "3PM": 28.0
@@ -1028,7 +1028,7 @@
      "BLK": 6.0,
      "STL": 15.0,
      "AST": 24.0,
-     "OREB": 24.0,
+     "OREB": 25.0,
      "DREB": 70.0,
      "TO": 27.0,
      "FGM": 60.0,
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 385
+      "value": 386
      }
     ],
     "least": [
@@ -1669,7 +1669,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 385
+      "value": 386
      },
      {
       "manager": "Omar",
@@ -1681,7 +1681,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 347
+      "value": 348
      },
      {
       "manager": "Luke",
@@ -1693,7 +1693,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 316
+      "value": 317
      },
      {
       "manager": "Daniel",
@@ -2042,13 +2042,6 @@
       "detail": "377/810"
      },
      {
-      "manager": "Omar",
-      "team": "Nets and Yahoo",
-      "conference": "Ginseng",
-      "value": 0.46495956873315364,
-      "detail": "345/742"
-     },
-     {
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
@@ -2061,6 +2054,13 @@
       "conference": "Ginseng",
       "value": 0.46417445482866043,
       "detail": "298/642"
+     },
+     {
+      "manager": "Omar",
+      "team": "Nets and Yahoo",
+      "conference": "Ginseng",
+      "value": 0.46308724832214765,
+      "detail": "345/745"
      },
      {
       "manager": "Luke",
