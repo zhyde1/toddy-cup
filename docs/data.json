@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T01:53:58-05:00",
+ "updated": "2026-11-18T01:59:01-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -672,19 +672,19 @@
        "FTA": 44.0
       },
       "b": {
-       "PTS": 209.0,
+       "PTS": 210.0,
        "AST": 38.0,
-       "REB": 64.0,
+       "REB": 62.0,
        "3PM": 30.0,
        "STL": 4.0,
        "BLK": 11.0,
        "FG%": 0.43575418994413406,
-       "FT%": 0.6571428571428571,
+       "FT%": 0.6666666666666666,
        "TO": 24.0,
        "FGM": 78.0,
        "FGA": 179.0,
-       "FTM": 23.0,
-       "FTA": 35.0
+       "FTM": 24.0,
+       "FTA": 36.0
       }
      },
      "cat_results": {
@@ -954,17 +954,17 @@
      "3PM": 16.0
     },
     "1": {
-     "PTS": 209.0,
+     "PTS": 210.0,
      "BLK": 11.0,
      "STL": 4.0,
      "AST": 38.0,
-     "OREB": 17.0,
-     "DREB": 47.0,
+     "OREB": 16.0,
+     "DREB": 46.0,
      "TO": 24.0,
      "FGM": 78.0,
      "FGA": 179.0,
-     "FTM": 23.0,
-     "FTA": 35.0,
+     "FTM": 24.0,
+     "FTA": 36.0,
      "3PM": 30.0
     },
     "7": {
@@ -1533,7 +1533,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 924
+      "value": 925
      },
      {
       "manager": "Parsa",
@@ -1681,7 +1681,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 348
+      "value": 346
      },
      {
       "manager": "Luke",
@@ -2154,8 +2154,8 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 0.7659574468085106,
-      "detail": "144/188"
+      "value": 0.7671957671957672,
+      "detail": "145/189"
      },
      {
       "manager": "Zak",
