@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T00:48:23-05:00",
+ "updated": "2026-11-18T00:53:25-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -663,11 +663,11 @@
        "3PM": 26.0,
        "STL": 13.0,
        "BLK": 5.0,
-       "FG%": 0.5393939393939394,
+       "FG%": 0.5329341317365269,
        "FT%": 0.7619047619047619,
        "TO": 25.0,
        "FGM": 89.0,
-       "FGA": 165.0,
+       "FGA": 167.0,
        "FTM": 32.0,
        "FTA": 42.0
       },
@@ -990,7 +990,7 @@
      "DREB": 61.0,
      "TO": 25.0,
      "FGM": 89.0,
-     "FGA": 165.0,
+     "FGA": 167.0,
      "FTM": 32.0,
      "FTA": 42.0,
      "3PM": 26.0
@@ -1015,10 +1015,10 @@
      "STL": 8.0,
      "AST": 60.0,
      "OREB": 20.0,
-     "DREB": 66.0,
+     "DREB": 67.0,
      "TO": 27.0,
      "FGM": 78.0,
-     "FGA": 144.0,
+     "FGA": 145.0,
      "FTM": 41.0,
      "FTA": 55.0,
      "3PM": 27.0
@@ -1028,8 +1028,8 @@
      "BLK": 6.0,
      "STL": 15.0,
      "AST": 22.0,
-     "OREB": 22.0,
-     "DREB": 67.0,
+     "OREB": 23.0,
+     "DREB": 68.0,
      "TO": 27.0,
      "FGM": 59.0,
      "FGA": 130.0,
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 380
+      "value": 382
      }
     ],
     "least": [
@@ -1669,13 +1669,13 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 380
+      "value": 382
      },
      {
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 363
+      "value": 364
      },
      {
       "manager": "Will",
@@ -2016,8 +2016,8 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.49783549783549785,
-      "detail": "345/693"
+      "value": 0.49640287769784175,
+      "detail": "345/695"
      },
      {
       "manager": "Parsa",
@@ -2030,8 +2030,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.46802721088435373,
-      "detail": "344/735"
+      "value": 0.4673913043478261,
+      "detail": "344/736"
      },
      {
       "manager": "Will",
