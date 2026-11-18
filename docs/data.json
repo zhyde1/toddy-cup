@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-17T23:37:45-05:00",
+ "updated": "2026-11-17T23:42:48-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -657,17 +657,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 205.0,
+       "PTS": 207.0,
        "AST": 52.0,
-       "REB": 76.0,
+       "REB": 77.0,
        "3PM": 22.0,
        "STL": 13.0,
        "BLK": 5.0,
-       "FG%": 0.5342465753424658,
+       "FG%": 0.5337837837837838,
        "FT%": 0.7714285714285715,
-       "TO": 20.0,
-       "FGM": 78.0,
-       "FGA": 146.0,
+       "TO": 22.0,
+       "FGM": 79.0,
+       "FGA": 148.0,
        "FTM": 27.0,
        "FTA": 35.0
       },
@@ -696,12 +696,12 @@
       "BLK": "b",
       "FG%": "a",
       "FT%": "a",
-      "TO": "a"
+      "TO": "tie"
      },
      "score": {
-      "a": 7,
+      "a": 6,
       "b": 1,
-      "ties": 1
+      "ties": 2
      },
      "winner": null,
      "tiebreak": null,
@@ -982,15 +982,15 @@
      "3PM": 29.0
     },
     "2": {
-     "PTS": 205.0,
+     "PTS": 207.0,
      "BLK": 5.0,
      "STL": 13.0,
      "AST": 52.0,
      "OREB": 19.0,
-     "DREB": 57.0,
-     "TO": 20.0,
-     "FGM": 78.0,
-     "FGA": 146.0,
+     "DREB": 58.0,
+     "TO": 22.0,
+     "FGM": 79.0,
+     "FGA": 148.0,
      "FTM": 27.0,
      "FTA": 35.0,
      "3PM": 22.0
@@ -1010,7 +1010,7 @@
      "3PM": 23.0
     },
     "9": {
-     "PTS": 175.0,
+     "PTS": 176.0,
      "BLK": 5.0,
      "STL": 6.0,
      "AST": 56.0,
@@ -1018,9 +1018,9 @@
      "DREB": 55.0,
      "TO": 26.0,
      "FGM": 60.0,
-     "FGA": 119.0,
-     "FTM": 38.0,
-     "FTA": 51.0,
+     "FGA": 120.0,
+     "FTM": 39.0,
+     "FTA": 52.0,
      "3PM": 17.0
     },
     "5": {
@@ -1509,7 +1509,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 957
+      "value": 959
      },
      {
       "manager": "Dakota",
@@ -1521,7 +1521,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 924
+      "value": 925
      },
      {
       "manager": "Evan",
@@ -1693,7 +1693,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 308
+      "value": 309
      },
      {
       "manager": "Daniel",
@@ -1982,11 +1982,11 @@
     "lower_better": false,
     "most": [
      {
-      "manager": "Zak",
-      "team": "Alpee anD uren",
+      "manager": "Drew",
+      "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.4955595026642984,
-      "detail": "279/563"
+      "value": 0.49556213017751477,
+      "detail": "335/676"
      }
     ],
     "least": [
@@ -2000,18 +2000,18 @@
     ],
     "all": [
      {
+      "manager": "Drew",
+      "team": "14GlassCannons",
+      "conference": "Teaquila",
+      "value": 0.49556213017751477,
+      "detail": "335/676"
+     },
+     {
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
       "value": 0.4955595026642984,
       "detail": "279/563"
-     },
-     {
-      "manager": "Drew",
-      "team": "14GlassCannons",
-      "conference": "Teaquila",
-      "value": 0.49554896142433236,
-      "detail": "334/674"
      },
      {
       "manager": "Parsa",
@@ -2059,8 +2059,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.4591549295774648,
-      "detail": "326/710"
+      "value": 0.45850914205344584,
+      "detail": "326/711"
      },
      {
       "manager": "Luke",
@@ -2119,8 +2119,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.8080357142857143,
-      "detail": "181/224"
+      "value": 0.8088888888888889,
+      "detail": "182/225"
      },
      {
       "manager": "Daniel",
@@ -2209,7 +2209,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 116
+      "value": 118
      },
      {
       "manager": "Daniel",
