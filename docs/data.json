@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T01:18:39-05:00",
+ "updated": "2026-11-18T01:23:42-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -659,7 +659,7 @@
       "a": {
        "PTS": 238.0,
        "AST": 56.0,
-       "REB": 81.0,
+       "REB": 82.0,
        "3PM": 26.0,
        "STL": 13.0,
        "BLK": 5.0,
@@ -678,11 +678,11 @@
        "3PM": 28.0,
        "STL": 4.0,
        "BLK": 11.0,
-       "FG%": 0.436046511627907,
+       "FG%": 0.43352601156069365,
        "FT%": 0.6571428571428571,
        "TO": 24.0,
        "FGM": 75.0,
-       "FGA": 172.0,
+       "FGA": 173.0,
        "FTM": 23.0,
        "FTA": 35.0
       }
@@ -732,7 +732,7 @@
        "BLK": 5.0,
        "FG%": 0.46551724137931033,
        "FT%": 0.7575757575757576,
-       "TO": 24.0,
+       "TO": 26.0,
        "FGM": 54.0,
        "FGA": 116.0,
        "FTM": 25.0,
@@ -962,7 +962,7 @@
      "DREB": 46.0,
      "TO": 24.0,
      "FGM": 75.0,
-     "FGA": 172.0,
+     "FGA": 173.0,
      "FTM": 23.0,
      "FTA": 35.0,
      "3PM": 28.0
@@ -987,7 +987,7 @@
      "STL": 13.0,
      "AST": 56.0,
      "OREB": 20.0,
-     "DREB": 61.0,
+     "DREB": 62.0,
      "TO": 25.0,
      "FGM": 90.0,
      "FGA": 170.0,
@@ -1015,10 +1015,10 @@
      "STL": 8.0,
      "AST": 60.0,
      "OREB": 20.0,
-     "DREB": 69.0,
+     "DREB": 70.0,
      "TO": 27.0,
      "FGM": 78.0,
-     "FGA": 146.0,
+     "FGA": 147.0,
      "FTM": 42.0,
      "FTA": 57.0,
      "3PM": 27.0
@@ -1029,7 +1029,7 @@
      "STL": 15.0,
      "AST": 23.0,
      "OREB": 24.0,
-     "DREB": 69.0,
+     "DREB": 70.0,
      "TO": 27.0,
      "FGM": 60.0,
      "FGA": 131.0,
@@ -1044,7 +1044,7 @@
      "AST": 28.0,
      "OREB": 13.0,
      "DREB": 32.0,
-     "TO": 24.0,
+     "TO": 26.0,
      "FGM": 54.0,
      "FGA": 116.0,
      "FTM": 25.0,
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 384
+      "value": 385
      }
     ],
     "least": [
@@ -1669,13 +1669,13 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 384
+      "value": 385
      },
      {
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 366
+      "value": 367
      },
      {
       "manager": "Will",
@@ -1693,7 +1693,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 313
+      "value": 314
      },
      {
       "manager": "Daniel",
@@ -2024,15 +2024,8 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 0.46935933147632314,
-      "detail": "337/718"
-     },
-     {
-      "manager": "Omar",
-      "team": "Nets and Yahoo",
-      "conference": "Ginseng",
-      "value": 0.46675712347354137,
-      "detail": "344/737"
+      "value": 0.46870653685674546,
+      "detail": "337/719"
      },
      {
       "manager": "Evan",
@@ -2040,6 +2033,13 @@
       "conference": "Ginseng",
       "value": 0.4662756598240469,
       "detail": "318/682"
+     },
+     {
+      "manager": "Omar",
+      "team": "Nets and Yahoo",
+      "conference": "Ginseng",
+      "value": 0.46612466124661245,
+      "detail": "344/738"
      },
      {
       "manager": "Dakota",
@@ -2180,10 +2180,10 @@
     ],
     "least": [
      {
-      "manager": "Zak",
-      "team": "Alpee anD uren",
-      "conference": "Teaquila",
-      "value": 88
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
+      "value": 89
      }
     ],
     "all": [
@@ -2236,16 +2236,16 @@
       "value": 100
      },
      {
+      "manager": "Zak",
+      "team": "Alpee anD uren",
+      "conference": "Teaquila",
+      "value": 90
+     },
+     {
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
       "value": 89
-     },
-     {
-      "manager": "Zak",
-      "team": "Alpee anD uren",
-      "conference": "Teaquila",
-      "value": 88
      }
     ]
    }
