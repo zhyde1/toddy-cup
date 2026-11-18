@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T01:03:31-05:00",
+ "updated": "2026-11-18T01:08:33-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -673,8 +673,8 @@
       },
       "b": {
        "PTS": 188.0,
-       "AST": 36.0,
-       "REB": 60.0,
+       "AST": 37.0,
+       "REB": 61.0,
        "3PM": 25.0,
        "STL": 3.0,
        "BLK": 11.0,
@@ -726,13 +726,13 @@
       "a": {
        "PTS": 152.0,
        "AST": 28.0,
-       "REB": 44.0,
+       "REB": 45.0,
        "3PM": 21.0,
        "STL": 7.0,
        "BLK": 4.0,
        "FG%": 0.4649122807017544,
        "FT%": 0.7575757575757576,
-       "TO": 22.0,
+       "TO": 23.0,
        "FGM": 53.0,
        "FGA": 114.0,
        "FTM": 25.0,
@@ -791,17 +791,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 170.0,
+       "PTS": 172.0,
        "AST": 32.0,
        "REB": 52.0,
        "3PM": 17.0,
        "STL": 9.0,
        "BLK": 8.0,
-       "FG%": 0.46825396825396826,
+       "FG%": 0.47244094488188976,
        "FT%": 0.875,
-       "TO": 13.0,
-       "FGM": 59.0,
-       "FGA": 126.0,
+       "TO": 14.0,
+       "FGM": 60.0,
+       "FGA": 127.0,
        "FTM": 35.0,
        "FTA": 40.0
       },
@@ -859,7 +859,7 @@
      "stats": {
       "a": {
        "PTS": 272.0,
-       "AST": 49.0,
+       "AST": 50.0,
        "REB": 78.0,
        "3PM": 31.0,
        "STL": 14.0,
@@ -926,15 +926,15 @@
    "note": null,
    "raw": {
     "3": {
-     "PTS": 170.0,
+     "PTS": 172.0,
      "BLK": 8.0,
      "STL": 9.0,
      "AST": 32.0,
      "OREB": 17.0,
      "DREB": 35.0,
-     "TO": 13.0,
-     "FGM": 59.0,
-     "FGA": 126.0,
+     "TO": 14.0,
+     "FGM": 60.0,
+     "FGA": 127.0,
      "FTM": 35.0,
      "FTA": 40.0,
      "3PM": 17.0
@@ -957,8 +957,8 @@
      "PTS": 188.0,
      "BLK": 11.0,
      "STL": 3.0,
-     "AST": 36.0,
-     "OREB": 15.0,
+     "AST": 37.0,
+     "OREB": 16.0,
      "DREB": 45.0,
      "TO": 24.0,
      "FGM": 71.0,
@@ -971,7 +971,7 @@
      "PTS": 272.0,
      "BLK": 8.0,
      "STL": 14.0,
-     "AST": 49.0,
+     "AST": 50.0,
      "OREB": 18.0,
      "DREB": 60.0,
      "TO": 20.0,
@@ -1043,8 +1043,8 @@
      "STL": 7.0,
      "AST": 28.0,
      "OREB": 13.0,
-     "DREB": 31.0,
-     "TO": 22.0,
+     "DREB": 32.0,
+     "TO": 23.0,
      "FGM": 53.0,
      "FGA": 114.0,
      "FTM": 25.0,
@@ -1527,7 +1527,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 923
+      "value": 925
      },
      {
       "manager": "Will",
@@ -1592,13 +1592,13 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 239
+      "value": 240
      },
      {
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 226
+      "value": 227
      },
      {
       "manager": "Luke",
@@ -1681,7 +1681,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 344
+      "value": 345
      },
      {
       "manager": "Luke",
@@ -1711,7 +1711,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 288
+      "value": 289
      },
      {
       "manager": "Evan",
@@ -2044,8 +2044,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.4654919236417034,
-      "detail": "317/681"
+      "value": 0.4662756598240469,
+      "detail": "318/682"
      },
      {
       "manager": "Dakota",
@@ -2189,7 +2189,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 86
+      "value": 87
      }
     ],
     "all": [
@@ -2245,13 +2245,13 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 88
+      "value": 89
      },
      {
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 86
+      "value": 87
      }
     ]
    }
