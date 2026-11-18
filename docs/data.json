@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T01:59:01-05:00",
+ "updated": "2026-11-18T02:04:04-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -672,19 +672,19 @@
        "FTA": 44.0
       },
       "b": {
-       "PTS": 210.0,
+       "PTS": 211.0,
        "AST": 38.0,
        "REB": 62.0,
        "3PM": 30.0,
        "STL": 4.0,
        "BLK": 11.0,
        "FG%": 0.43575418994413406,
-       "FT%": 0.6666666666666666,
+       "FT%": 0.6756756756756757,
        "TO": 24.0,
        "FGM": 78.0,
        "FGA": 179.0,
-       "FTM": 24.0,
-       "FTA": 36.0
+       "FTM": 25.0,
+       "FTA": 37.0
       }
      },
      "cat_results": {
@@ -954,7 +954,7 @@
      "3PM": 16.0
     },
     "1": {
-     "PTS": 210.0,
+     "PTS": 211.0,
      "BLK": 11.0,
      "STL": 4.0,
      "AST": 38.0,
@@ -963,8 +963,8 @@
      "TO": 24.0,
      "FGM": 78.0,
      "FGA": 179.0,
-     "FTM": 24.0,
-     "FTA": 36.0,
+     "FTM": 25.0,
+     "FTA": 37.0,
      "3PM": 30.0
     },
     "7": {
@@ -1524,15 +1524,15 @@
       "value": 932
      },
      {
-      "manager": "Evan",
-      "team": "Porter? I hardly know her",
-      "conference": "Ginseng",
-      "value": 925
-     },
-     {
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
+      "value": 926
+     },
+     {
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
       "value": 925
      },
      {
@@ -2154,8 +2154,8 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 0.7671957671957672,
-      "detail": "145/189"
+      "value": 0.7684210526315789,
+      "detail": "146/190"
      },
      {
       "manager": "Zak",
