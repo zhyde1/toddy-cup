@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-18T22:47:24-05:00",
+ "updated": "2026-11-18T22:52:27-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -657,24 +657,24 @@
      },
      "stats": {
       "a": {
-       "PTS": 369.0,
+       "PTS": 371.0,
        "AST": 89.0,
-       "REB": 121.0,
+       "REB": 123.0,
        "3PM": 40.0,
        "STL": 20.0,
        "BLK": 12.0,
-       "FG%": 0.5134099616858238,
+       "FG%": 0.5152671755725191,
        "FT%": 0.8026315789473685,
        "TO": 43.0,
-       "FGM": 134.0,
-       "FGA": 261.0,
+       "FGM": 135.0,
+       "FGA": 262.0,
        "FTM": 61.0,
        "FTA": 76.0
       },
       "b": {
        "PTS": 345.0,
        "AST": 81.0,
-       "REB": 107.0,
+       "REB": 108.0,
        "3PM": 40.0,
        "STL": 11.0,
        "BLK": 22.0,
@@ -745,11 +745,11 @@
        "3PM": 36.0,
        "STL": 23.0,
        "BLK": 17.0,
-       "FG%": 0.4554794520547945,
+       "FG%": 0.4539249146757679,
        "FT%": 0.6190476190476191,
        "TO": 51.0,
        "FGM": 133.0,
-       "FGA": 292.0,
+       "FGA": 293.0,
        "FTM": 39.0,
        "FTA": 63.0
       }
@@ -791,17 +791,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 315.0,
-       "AST": 71.0,
-       "REB": 85.0,
+       "PTS": 317.0,
+       "AST": 73.0,
+       "REB": 87.0,
        "3PM": 39.0,
        "STL": 17.0,
        "BLK": 11.0,
-       "FG%": 0.5088495575221239,
+       "FG%": 0.5065502183406113,
        "FT%": 0.8518518518518519,
        "TO": 30.0,
-       "FGM": 115.0,
-       "FGA": 226.0,
+       "FGM": 116.0,
+       "FGA": 229.0,
        "FTM": 46.0,
        "FTA": 54.0
       },
@@ -859,8 +859,8 @@
      "stats": {
       "a": {
        "PTS": 393.0,
-       "AST": 78.0,
-       "REB": 110.0,
+       "AST": 79.0,
+       "REB": 111.0,
        "3PM": 51.0,
        "STL": 23.0,
        "BLK": 10.0,
@@ -873,17 +873,17 @@
        "FTA": 77.0
       },
       "b": {
-       "PTS": 289.0,
-       "AST": 72.0,
-       "REB": 97.0,
+       "PTS": 291.0,
+       "AST": 73.0,
+       "REB": 98.0,
        "3PM": 29.0,
        "STL": 18.0,
        "BLK": 13.0,
-       "FG%": 0.5228426395939086,
+       "FG%": 0.5226130653266332,
        "FT%": 0.7941176470588235,
        "TO": 28.0,
-       "FGM": 103.0,
-       "FGA": 197.0,
+       "FGM": 104.0,
+       "FGA": 199.0,
        "FTM": 54.0,
        "FTA": 68.0
       }
@@ -926,29 +926,29 @@
    "note": null,
    "raw": {
     "3": {
-     "PTS": 315.0,
+     "PTS": 317.0,
      "BLK": 11.0,
      "STL": 17.0,
-     "AST": 71.0,
-     "OREB": 26.0,
-     "DREB": 59.0,
+     "AST": 73.0,
+     "OREB": 27.0,
+     "DREB": 60.0,
      "TO": 30.0,
-     "FGM": 115.0,
-     "FGA": 226.0,
+     "FGM": 116.0,
+     "FGA": 229.0,
      "FTM": 46.0,
      "FTA": 54.0,
      "3PM": 39.0
     },
     "10": {
-     "PTS": 289.0,
+     "PTS": 291.0,
      "BLK": 13.0,
      "STL": 18.0,
-     "AST": 72.0,
+     "AST": 73.0,
      "OREB": 26.0,
-     "DREB": 71.0,
+     "DREB": 72.0,
      "TO": 28.0,
-     "FGM": 103.0,
-     "FGA": 197.0,
+     "FGM": 104.0,
+     "FGA": 199.0,
      "FTM": 54.0,
      "FTA": 68.0,
      "3PM": 29.0
@@ -959,7 +959,7 @@
      "STL": 11.0,
      "AST": 81.0,
      "OREB": 31.0,
-     "DREB": 76.0,
+     "DREB": 77.0,
      "TO": 33.0,
      "FGM": 130.0,
      "FGA": 274.0,
@@ -971,9 +971,9 @@
      "PTS": 393.0,
      "BLK": 10.0,
      "STL": 23.0,
-     "AST": 78.0,
+     "AST": 79.0,
      "OREB": 24.0,
-     "DREB": 86.0,
+     "DREB": 87.0,
      "TO": 35.0,
      "FGM": 138.0,
      "FGA": 289.0,
@@ -982,15 +982,15 @@
      "3PM": 51.0
     },
     "2": {
-     "PTS": 369.0,
+     "PTS": 371.0,
      "BLK": 12.0,
      "STL": 20.0,
      "AST": 89.0,
      "OREB": 28.0,
-     "DREB": 93.0,
+     "DREB": 95.0,
      "TO": 43.0,
-     "FGM": 134.0,
-     "FGA": 261.0,
+     "FGM": 135.0,
+     "FGA": 262.0,
      "FTM": 61.0,
      "FTA": 76.0,
      "3PM": 40.0
@@ -1004,37 +1004,37 @@
      "DREB": 93.0,
      "TO": 51.0,
      "FGM": 133.0,
-     "FGA": 292.0,
+     "FGA": 293.0,
      "FTM": 39.0,
      "FTA": 63.0,
      "3PM": 36.0
     },
     "9": {
-     "PTS": 363.0,
+     "PTS": 368.0,
      "BLK": 14.0,
      "STL": 16.0,
      "AST": 101.0,
      "OREB": 24.0,
      "DREB": 105.0,
      "TO": 45.0,
-     "FGM": 126.0,
-     "FGA": 243.0,
+     "FGM": 128.0,
+     "FGA": 246.0,
      "FTM": 66.0,
      "FTA": 88.0,
-     "3PM": 45.0
+     "3PM": 46.0
     },
     "5": {
-     "PTS": 315.0,
+     "PTS": 317.0,
      "BLK": 9.0,
      "STL": 23.0,
      "AST": 55.0,
      "OREB": 39.0,
-     "DREB": 101.0,
+     "DREB": 103.0,
      "TO": 42.0,
-     "FGM": 122.0,
-     "FGA": 250.0,
+     "FGM": 123.0,
+     "FGA": 251.0,
      "FTM": 42.0,
-     "FTA": 60.0,
+     "FTA": 61.0,
      "3PM": 29.0
     },
     "4": {
@@ -1509,25 +1509,25 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 1121
+      "value": 1123
      },
      {
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 1112
+      "value": 1117
      },
      {
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 1086
+      "value": 1088
      },
      {
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 1068
+      "value": 1070
      },
      {
       "manager": "Will",
@@ -1545,7 +1545,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 1019
+      "value": 1021
      },
      {
       "manager": "Luke",
@@ -1598,7 +1598,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 268
+      "value": 269
      },
      {
       "manager": "Luke",
@@ -1619,22 +1619,22 @@
       "value": 235
      },
      {
+      "manager": "Evan",
+      "team": "Porter? I hardly know her",
+      "conference": "Ginseng",
+      "value": 227
+     },
+     {
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
       "value": 226
      },
      {
-      "manager": "Evan",
-      "team": "Porter? I hardly know her",
-      "conference": "Ginseng",
-      "value": 225
-     },
-     {
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 221
+      "value": 222
      },
      {
       "manager": "Zak",
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 431
+      "value": 433
      }
     ],
     "least": [
@@ -1661,7 +1661,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 291
+      "value": 292
      }
     ],
     "all": [
@@ -1669,7 +1669,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 431
+      "value": 433
      },
      {
       "manager": "Omar",
@@ -1681,7 +1681,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 391
+      "value": 392
      },
      {
       "manager": "Luke",
@@ -1699,13 +1699,13 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 353
+      "value": 355
      },
      {
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 348
+      "value": 349
      },
      {
       "manager": "Zak",
@@ -1717,13 +1717,13 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 298
+      "value": 300
      },
      {
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 291
+      "value": 292
      }
     ]
    },
@@ -1770,7 +1770,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 119
+      "value": 120
      },
      {
       "manager": "Dakota",
@@ -1991,8 +1991,8 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.49429657794676807,
-      "detail": "390/789"
+      "value": 0.49493670886075947,
+      "detail": "391/790"
      }
     ],
     "least": [
@@ -2000,8 +2000,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.45549738219895286,
-      "detail": "348/764"
+      "value": 0.4549019607843137,
+      "detail": "348/765"
      }
     ],
     "all": [
@@ -2009,15 +2009,15 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.49429657794676807,
-      "detail": "390/789"
+      "value": 0.49493670886075947,
+      "detail": "391/790"
      },
      {
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.49324324324324326,
-      "detail": "365/740"
+      "value": 0.49326145552560646,
+      "detail": "366/742"
      },
      {
       "manager": "Zak",
@@ -2037,8 +2037,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.47759282970550576,
-      "detail": "373/781"
+      "value": 0.4770408163265306,
+      "detail": "374/784"
      },
      {
       "manager": "Daniel",
@@ -2051,8 +2051,15 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.47218934911242605,
-      "detail": "399/845"
+      "value": 0.4728132387706856,
+      "detail": "400/846"
+     },
+     {
+      "manager": "Omar",
+      "team": "Nets and Yahoo",
+      "conference": "Ginseng",
+      "value": 0.47072879330943845,
+      "detail": "394/837"
      },
      {
       "manager": "David",
@@ -2062,18 +2069,11 @@
       "detail": "417/886"
      },
      {
-      "manager": "Omar",
-      "team": "Nets and Yahoo",
-      "conference": "Ginseng",
-      "value": 0.47002398081534774,
-      "detail": "392/834"
-     },
-     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.45549738219895286,
-      "detail": "348/764"
+      "value": 0.4549019607843137,
+      "detail": "348/765"
      }
     ]
    },
@@ -2115,18 +2115,18 @@
       "detail": "221/264"
      },
      {
-      "manager": "Dakota",
-      "team": "Kess my Balls",
-      "conference": "Teaquila",
-      "value": 0.8036529680365296,
-      "detail": "176/219"
-     },
-     {
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
       "value": 0.8007662835249042,
       "detail": "209/261"
+     },
+     {
+      "manager": "Dakota",
+      "team": "Kess my Balls",
+      "conference": "Teaquila",
+      "value": 0.8,
+      "detail": "176/220"
      },
      {
       "manager": "Daniel",
