@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-19T22:01:12-05:00",
+ "updated": "2026-11-19T22:01:28-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -662,7 +662,7 @@
        "REB": 157.0,
        "3PM": 45.0,
        "STL": 27.0,
-       "BLK": 15.0,
+       "BLK": 16.0,
        "FG%": 0.49038461538461536,
        "FT%": 0.8192771084337349,
        "TO": 60.0,
@@ -983,7 +983,7 @@
     },
     "2": {
      "PTS": 419.0,
-     "BLK": 15.0,
+     "BLK": 16.0,
      "STL": 27.0,
      "AST": 104.0,
      "OREB": 33.0,
@@ -1032,7 +1032,7 @@
      "DREB": 123.0,
      "TO": 49.0,
      "FGM": 141.0,
-     "FGA": 300.0,
+     "FGA": 301.0,
      "FTM": 52.0,
      "FTA": 77.0,
      "3PM": 33.0
@@ -1954,7 +1954,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 48
+      "value": 49
      },
      {
       "manager": "Parsa",
@@ -2065,8 +2065,8 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.4670391061452514,
-      "detail": "418/895"
+      "value": 0.46651785714285715,
+      "detail": "418/896"
      },
      {
       "manager": "Luke",
