@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-19T22:26:42-05:00",
+ "updated": "2026-11-19T22:31:45-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -858,19 +858,19 @@
      },
      "stats": {
       "a": {
-       "PTS": 512.0,
+       "PTS": 514.0,
        "AST": 94.0,
-       "REB": 137.0,
+       "REB": 138.0,
        "3PM": 64.0,
-       "STL": 25.0,
+       "STL": 26.0,
        "BLK": 14.0,
-       "FG%": 0.48404255319148937,
-       "FT%": 0.875,
+       "FG%": 0.4827586206896552,
+       "FT%": 0.8775510204081632,
        "TO": 50.0,
        "FGM": 182.0,
-       "FGA": 376.0,
-       "FTM": 84.0,
-       "FTA": 96.0
+       "FGA": 377.0,
+       "FTM": 86.0,
+       "FTA": 98.0
       },
       "b": {
        "PTS": 361.0,
@@ -881,7 +881,7 @@
        "BLK": 15.0,
        "FG%": 0.5352697095435685,
        "FT%": 0.7721518987341772,
-       "TO": 39.0,
+       "TO": 40.0,
        "FGM": 129.0,
        "FGA": 241.0,
        "FTM": 61.0,
@@ -946,7 +946,7 @@
      "AST": 83.0,
      "OREB": 26.0,
      "DREB": 83.0,
-     "TO": 39.0,
+     "TO": 40.0,
      "FGM": 129.0,
      "FGA": 241.0,
      "FTM": 61.0,
@@ -968,17 +968,17 @@
      "3PM": 46.0
     },
     "7": {
-     "PTS": 512.0,
+     "PTS": 514.0,
      "BLK": 14.0,
-     "STL": 25.0,
+     "STL": 26.0,
      "AST": 94.0,
      "OREB": 30.0,
-     "DREB": 107.0,
+     "DREB": 108.0,
      "TO": 50.0,
      "FGM": 182.0,
-     "FGA": 376.0,
-     "FTM": 84.0,
-     "FTA": 96.0,
+     "FGA": 377.0,
+     "FTM": 86.0,
+     "FTA": 98.0,
      "3PM": 64.0
     },
     "2": {
@@ -1016,7 +1016,7 @@
      "AST": 125.0,
      "OREB": 27.0,
      "DREB": 129.0,
-     "TO": 61.0,
+     "TO": 62.0,
      "FGM": 168.0,
      "FGA": 324.0,
      "FTM": 82.0,
@@ -1487,7 +1487,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 1325
+      "value": 1327
      }
     ],
     "least": [
@@ -1503,7 +1503,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 1325
+      "value": 1327
      },
      {
       "manager": "Omar",
@@ -1717,7 +1717,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 318
+      "value": 319
      },
      {
       "manager": "Evan",
@@ -1868,14 +1868,14 @@
       "value": 67
      },
      {
-      "manager": "Daniel",
-      "team": "The InCoopator",
-      "conference": "Ginseng",
-      "value": 65
-     },
-     {
       "manager": "David",
       "team": "Big Vic Energy",
+      "conference": "Ginseng",
+      "value": 66
+     },
+     {
+      "manager": "Daniel",
+      "team": "The InCoopator",
       "conference": "Ginseng",
       "value": 65
      },
@@ -2048,18 +2048,18 @@
       "detail": "434/915"
      },
      {
-      "manager": "David",
-      "team": "Big Vic Energy",
-      "conference": "Ginseng",
-      "value": 0.473792394655704,
-      "detail": "461/973"
-     },
-     {
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
       "value": 0.4734848484848485,
       "detail": "375/792"
+     },
+     {
+      "manager": "David",
+      "team": "Big Vic Energy",
+      "conference": "Ginseng",
+      "value": 0.473305954825462,
+      "detail": "461/974"
      },
      {
       "manager": "Dakota",
@@ -2111,8 +2111,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.8445229681978799,
-      "detail": "239/283"
+      "value": 0.8456140350877193,
+      "detail": "241/285"
      },
      {
       "manager": "Omar",
@@ -2181,7 +2181,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 176
+      "value": 177
      }
     ],
     "least": [
@@ -2197,7 +2197,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 176
+      "value": 177
      },
      {
       "manager": "Drew",
@@ -2233,7 +2233,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 130
+      "value": 131
      },
      {
       "manager": "Dakota",
