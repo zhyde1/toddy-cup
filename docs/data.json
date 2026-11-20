@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-19T22:31:45-05:00",
+ "updated": "2026-11-19T22:41:50-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -744,7 +744,7 @@
        "REB": 174.0,
        "3PM": 44.0,
        "STL": 35.0,
-       "BLK": 23.0,
+       "BLK": 22.0,
        "FG%": 0.453804347826087,
        "FT%": 0.6625,
        "TO": 69.0,
@@ -997,7 +997,7 @@
     },
     "6": {
      "PTS": 431.0,
-     "BLK": 23.0,
+     "BLK": 22.0,
      "STL": 35.0,
      "AST": 120.0,
      "OREB": 52.0,
@@ -1908,7 +1908,13 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 64
+      "value": 63
+     },
+     {
+      "manager": "Will",
+      "team": "Ant's in my pants",
+      "conference": "Teaquila",
+      "value": 63
      }
     ],
     "least": [
@@ -1924,7 +1930,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 64
+      "value": 63
      },
      {
       "manager": "Will",
