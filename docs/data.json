@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-19T22:41:50-05:00",
+ "updated": "2026-11-20T06:44:46-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -659,7 +659,7 @@
       "a": {
        "PTS": 433.0,
        "AST": 105.0,
-       "REB": 158.0,
+       "REB": 159.0,
        "3PM": 47.0,
        "STL": 28.0,
        "BLK": 17.0,
@@ -862,7 +862,7 @@
        "AST": 94.0,
        "REB": 138.0,
        "3PM": 64.0,
-       "STL": 26.0,
+       "STL": 25.0,
        "BLK": 14.0,
        "FG%": 0.4827586206896552,
        "FT%": 0.8775510204081632,
@@ -970,7 +970,7 @@
     "7": {
      "PTS": 514.0,
      "BLK": 14.0,
-     "STL": 26.0,
+     "STL": 25.0,
      "AST": 94.0,
      "OREB": 30.0,
      "DREB": 108.0,
@@ -987,7 +987,7 @@
      "STL": 28.0,
      "AST": 105.0,
      "OREB": 33.0,
-     "DREB": 125.0,
+     "DREB": 126.0,
      "TO": 62.0,
      "FGM": 157.0,
      "FGA": 320.0,
@@ -1693,7 +1693,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 390
+      "value": 391
      },
      {
       "manager": "Daniel",
@@ -1868,14 +1868,14 @@
       "value": 67
      },
      {
-      "manager": "David",
-      "team": "Big Vic Energy",
-      "conference": "Ginseng",
-      "value": 66
-     },
-     {
       "manager": "Daniel",
       "team": "The InCoopator",
+      "conference": "Ginseng",
+      "value": 65
+     },
+     {
+      "manager": "David",
+      "team": "Big Vic Energy",
       "conference": "Ginseng",
       "value": 65
      },
