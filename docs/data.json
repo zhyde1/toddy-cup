@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T00:39:16-05:00",
+ "updated": "2026-11-21T04:52:14-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -875,7 +875,7 @@
       "b": {
        "PTS": 473.0,
        "AST": 107.0,
-       "REB": 151.0,
+       "REB": 152.0,
        "3PM": 54.0,
        "STL": 30.0,
        "BLK": 18.0,
@@ -945,7 +945,7 @@
      "STL": 30.0,
      "AST": 107.0,
      "OREB": 38.0,
-     "DREB": 113.0,
+     "DREB": 114.0,
      "TO": 53.0,
      "FGM": 171.0,
      "FGA": 333.0,
@@ -1016,7 +1016,7 @@
      "AST": 169.0,
      "OREB": 42.0,
      "DREB": 173.0,
-     "TO": 91.0,
+     "TO": 90.0,
      "FGM": 238.0,
      "FGA": 479.0,
      "FTM": 103.0,
@@ -1025,12 +1025,12 @@
     },
     "5": {
      "PTS": 551.0,
-     "BLK": 17.0,
+     "BLK": 16.0,
      "STL": 34.0,
      "AST": 109.0,
      "OREB": 63.0,
      "DREB": 176.0,
-     "TO": 68.0,
+     "TO": 69.0,
      "FGM": 213.0,
      "FGA": 427.0,
      "FTM": 77.0,
@@ -1699,7 +1699,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 402
+      "value": 403
      },
      {
       "manager": "Zak",
@@ -1930,7 +1930,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 57
+      "value": 56
      },
      {
       "manager": "Drew",
@@ -2175,7 +2175,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 206
+      "value": 205
      }
     ],
     "least": [
@@ -2191,7 +2191,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 206
+      "value": 205
      },
      {
       "manager": "Drew",
@@ -2221,7 +2221,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 146
+      "value": 147
      },
      {
       "manager": "Luke",
