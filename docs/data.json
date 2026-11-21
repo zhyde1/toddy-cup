@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T13:45:33-05:00",
+ "updated": "2026-11-21T13:50:36-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -873,19 +873,19 @@
        "FTA": 118.0
       },
       "b": {
-       "PTS": 494.0,
+       "PTS": 498.0,
        "AST": 110.0,
        "REB": 157.0,
        "3PM": 56.0,
        "STL": 30.0,
        "BLK": 18.0,
-       "FG%": 0.5101449275362319,
-       "FT%": 0.8037383177570093,
+       "FG%": 0.5115606936416185,
+       "FT%": 0.8073394495412844,
        "TO": 53.0,
-       "FGM": 176.0,
-       "FGA": 345.0,
-       "FTM": 86.0,
-       "FTA": 107.0
+       "FGM": 177.0,
+       "FGA": 346.0,
+       "FTM": 88.0,
+       "FTA": 109.0
       }
      },
      "cat_results": {
@@ -940,17 +940,17 @@
      "3PM": 56.0
     },
     "10": {
-     "PTS": 494.0,
+     "PTS": 498.0,
      "BLK": 18.0,
      "STL": 30.0,
      "AST": 110.0,
      "OREB": 39.0,
      "DREB": 118.0,
      "TO": 53.0,
-     "FGM": 176.0,
-     "FGA": 345.0,
-     "FTM": 86.0,
-     "FTA": 107.0,
+     "FGM": 177.0,
+     "FGA": 346.0,
+     "FTM": 88.0,
+     "FTA": 109.0,
      "3PM": 56.0
     },
     "1": {
@@ -1027,7 +1027,7 @@
      "PTS": 564.0,
      "BLK": 16.0,
      "STL": 34.0,
-     "AST": 112.0,
+     "AST": 113.0,
      "OREB": 65.0,
      "DREB": 178.0,
      "TO": 69.0,
@@ -1533,7 +1533,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 1224
+      "value": 1228
      },
      {
       "manager": "Will",
@@ -1616,7 +1616,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 283
+      "value": 284
      },
      {
       "manager": "Evan",
@@ -1985,8 +1985,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.49324324324324326,
-      "detail": "438/888"
+      "value": 0.4938132733408324,
+      "detail": "439/889"
      }
     ],
     "least": [
@@ -2003,8 +2003,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.49324324324324326,
-      "detail": "438/888"
+      "value": 0.4938132733408324,
+      "detail": "439/889"
      },
      {
       "manager": "Drew",
@@ -2133,8 +2133,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.7849462365591398,
-      "detail": "219/279"
+      "value": 0.7864768683274022,
+      "detail": "221/281"
      },
      {
       "manager": "Daniel",
