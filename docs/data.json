@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-20T19:30:22-05:00",
+ "updated": "2026-11-20T19:35:25-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -806,19 +806,19 @@
        "FTA": 65.0
       },
       "b": {
-       "PTS": 353.0,
+       "PTS": 354.0,
        "AST": 89.0,
        "REB": 93.0,
        "3PM": 31.0,
        "STL": 27.0,
        "BLK": 14.0,
        "FG%": 0.5120967741935484,
-       "FT%": 0.7906976744186046,
+       "FT%": 0.7840909090909091,
        "TO": 46.0,
        "FGM": 127.0,
        "FGA": 248.0,
-       "FTM": 68.0,
-       "FTA": 86.0
+       "FTM": 69.0,
+       "FTA": 88.0
       }
      },
      "cat_results": {
@@ -1013,7 +1013,7 @@
      "PTS": 485.0,
      "BLK": 18.0,
      "STL": 22.0,
-     "AST": 126.0,
+     "AST": 127.0,
      "OREB": 27.0,
      "DREB": 130.0,
      "TO": 62.0,
@@ -1052,7 +1052,7 @@
      "3PM": 37.0
     },
     "8": {
-     "PTS": 353.0,
+     "PTS": 354.0,
      "BLK": 14.0,
      "STL": 27.0,
      "AST": 89.0,
@@ -1061,8 +1061,8 @@
      "TO": 46.0,
      "FGM": 127.0,
      "FGA": 248.0,
-     "FTM": 68.0,
-     "FTA": 86.0,
+     "FTM": 69.0,
+     "FTA": 88.0,
      "3PM": 31.0
     }
    }
@@ -1545,7 +1545,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 1078
+      "value": 1079
      },
      {
       "manager": "Luke",
@@ -1570,7 +1570,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 340
+      "value": 341
      }
     ],
     "least": [
@@ -1586,7 +1586,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 340
+      "value": 341
      },
      {
       "manager": "David",
@@ -2131,8 +2131,8 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 0.8013937282229965,
-      "detail": "230/287"
+      "value": 0.7993079584775087,
+      "detail": "231/289"
      },
      {
       "manager": "Drew",
