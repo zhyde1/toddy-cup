@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T14:36:02-05:00",
+ "updated": "2026-11-21T14:41:06-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -658,8 +658,8 @@
      "stats": {
       "a": {
        "PTS": 612.0,
-       "AST": 143.0,
-       "REB": 210.0,
+       "AST": 144.0,
+       "REB": 212.0,
        "3PM": 67.0,
        "STL": 43.0,
        "BLK": 23.0,
@@ -985,9 +985,9 @@
      "PTS": 612.0,
      "BLK": 23.0,
      "STL": 43.0,
-     "AST": 143.0,
+     "AST": 144.0,
      "OREB": 49.0,
-     "DREB": 161.0,
+     "DREB": 163.0,
      "TO": 77.0,
      "FGM": 219.0,
      "FGA": 453.0,
@@ -1026,13 +1026,13 @@
     "5": {
      "PTS": 566.0,
      "BLK": 17.0,
-     "STL": 35.0,
+     "STL": 36.0,
      "AST": 115.0,
-     "OREB": 65.0,
-     "DREB": 179.0,
+     "OREB": 66.0,
+     "DREB": 180.0,
      "TO": 69.0,
      "FGM": 220.0,
-     "FGA": 440.0,
+     "FGA": 441.0,
      "FTM": 78.0,
      "FTA": 114.0,
      "3PM": 48.0
@@ -1610,7 +1610,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 289
+      "value": 290
      },
      {
       "manager": "Dakota",
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 535
+      "value": 537
      }
     ],
     "least": [
@@ -1669,7 +1669,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 535
+      "value": 537
      },
      {
       "manager": "Omar",
@@ -1693,7 +1693,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 442
+      "value": 444
      },
      {
       "manager": "Parsa",
@@ -1841,7 +1841,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 84
+      "value": 85
      },
      {
       "manager": "Daniel",
@@ -2024,8 +2024,8 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.4801932367149758,
-      "detail": "497/1035"
+      "value": 0.4797297297297297,
+      "detail": "497/1036"
      },
      {
       "manager": "Daniel",
