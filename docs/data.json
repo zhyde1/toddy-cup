@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-20T20:46:08-05:00",
+ "updated": "2026-11-20T20:46:35-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -739,17 +739,17 @@
        "FTA": 69.0
       },
       "b": {
-       "PTS": 468.0,
+       "PTS": 470.0,
        "AST": 140.0,
        "REB": 186.0,
        "3PM": 48.0,
        "STL": 37.0,
        "BLK": 23.0,
-       "FG%": 0.45864661654135336,
+       "FG%": 0.46,
        "FT%": 0.6585365853658537,
        "TO": 74.0,
-       "FGM": 183.0,
-       "FGA": 399.0,
+       "FGM": 184.0,
+       "FGA": 400.0,
        "FTM": 54.0,
        "FTA": 82.0
       }
@@ -812,11 +812,11 @@
        "3PM": 36.0,
        "STL": 32.0,
        "BLK": 16.0,
-       "FG%": 0.5259259259259259,
+       "FG%": 0.5239852398523985,
        "FT%": 0.7553191489361702,
        "TO": 53.0,
        "FGM": 142.0,
-       "FGA": 270.0,
+       "FGA": 271.0,
        "FTM": 71.0,
        "FTA": 94.0
       }
@@ -996,15 +996,15 @@
      "3PM": 54.0
     },
     "6": {
-     "PTS": 468.0,
+     "PTS": 470.0,
      "BLK": 23.0,
      "STL": 37.0,
      "AST": 140.0,
      "OREB": 53.0,
      "DREB": 133.0,
      "TO": 74.0,
-     "FGM": 183.0,
-     "FGA": 399.0,
+     "FGM": 184.0,
+     "FGA": 400.0,
      "FTM": 54.0,
      "FTA": 82.0,
      "3PM": 48.0
@@ -1060,7 +1060,7 @@
      "DREB": 72.0,
      "TO": 53.0,
      "FGM": 142.0,
-     "FGA": 270.0,
+     "FGA": 271.0,
      "FTM": 71.0,
      "FTA": 94.0,
      "3PM": 36.0
@@ -1551,7 +1551,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 1073
+      "value": 1075
      },
      {
       "manager": "Zak",
@@ -2000,8 +2000,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.4569460390355913,
-      "detail": "398/871"
+      "value": 0.45756880733944955,
+      "detail": "399/872"
      }
     ],
     "all": [
@@ -2030,8 +2030,8 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 0.47980416156670747,
-      "detail": "392/817"
+      "value": 0.4792176039119804,
+      "detail": "392/818"
      },
      {
       "manager": "Will",
@@ -2072,8 +2072,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.4569460390355913,
-      "detail": "398/871"
+      "value": 0.45756880733944955,
+      "detail": "399/872"
      }
     ]
    },
