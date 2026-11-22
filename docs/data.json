@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T18:52:39-05:00",
+ "updated": "2026-11-22T18:57:43-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -724,17 +724,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 482.0,
+       "PTS": 487.0,
        "AST": 154.0,
        "REB": 183.0,
-       "3PM": 58.0,
+       "3PM": 59.0,
        "STL": 31.0,
        "BLK": 21.0,
-       "FG%": 0.43434343434343436,
+       "FG%": 0.4371859296482412,
        "FT%": 0.7843137254901961,
        "TO": 81.0,
-       "FGM": 172.0,
-       "FGA": 396.0,
+       "FGM": 174.0,
+       "FGA": 398.0,
        "FTM": 80.0,
        "FTA": 102.0
       },
@@ -874,8 +874,8 @@
       },
       "b": {
        "PTS": 599.0,
-       "AST": 129.0,
-       "REB": 192.0,
+       "AST": 130.0,
+       "REB": 193.0,
        "3PM": 68.0,
        "STL": 37.0,
        "BLK": 21.0,
@@ -943,9 +943,9 @@
      "PTS": 599.0,
      "BLK": 21.0,
      "STL": 37.0,
-     "AST": 129.0,
+     "AST": 130.0,
      "OREB": 48.0,
-     "DREB": 144.0,
+     "DREB": 145.0,
      "TO": 66.0,
      "FGM": 211.0,
      "FGA": 422.0,
@@ -1038,18 +1038,18 @@
      "3PM": 52.0
     },
     "4": {
-     "PTS": 482.0,
+     "PTS": 487.0,
      "BLK": 21.0,
      "STL": 31.0,
      "AST": 154.0,
      "OREB": 50.0,
      "DREB": 133.0,
      "TO": 81.0,
-     "FGM": 172.0,
-     "FGA": 396.0,
+     "FGM": 174.0,
+     "FGA": 398.0,
      "FTM": 80.0,
      "FTA": 102.0,
-     "3PM": 58.0
+     "3PM": 59.0
     },
     "8": {
      "PTS": 571.0,
@@ -1495,7 +1495,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1113
+      "value": 1118
      }
     ],
     "all": [
@@ -1557,7 +1557,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1113
+      "value": 1118
      }
     ]
    },
@@ -1578,7 +1578,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 278
+      "value": 279
      }
     ],
     "all": [
@@ -1640,7 +1640,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 278
+      "value": 279
      }
     ]
    },
@@ -1699,7 +1699,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 443
+      "value": 444
      },
      {
       "manager": "Daniel",
@@ -1800,7 +1800,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 115
+      "value": 116
      },
      {
       "manager": "Daniel",
@@ -2031,8 +2031,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.47380675203725264,
-      "detail": "407/859"
+      "value": 0.47502903600464574,
+      "detail": "409/861"
      },
      {
       "manager": "Evan",
