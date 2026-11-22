@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T21:21:24-05:00",
+ "updated": "2026-11-21T21:21:39-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -739,19 +739,19 @@
        "FTA": 95.0
       },
       "b": {
-       "PTS": 577.0,
-       "AST": 166.0,
+       "PTS": 578.0,
+       "AST": 167.0,
        "REB": 251.0,
        "3PM": 59.0,
        "STL": 43.0,
        "BLK": 29.0,
        "FG%": 0.4621676891615542,
-       "FT%": 0.6346153846153846,
+       "FT%": 0.638095238095238,
        "TO": 87.0,
        "FGM": 226.0,
        "FGA": 489.0,
-       "FTM": 66.0,
-       "FTA": 104.0
+       "FTM": 67.0,
+       "FTA": 105.0
       }
      },
      "cat_results": {
@@ -996,17 +996,17 @@
      "3PM": 68.0
     },
     "6": {
-     "PTS": 577.0,
+     "PTS": 578.0,
      "BLK": 29.0,
      "STL": 43.0,
-     "AST": 166.0,
+     "AST": 167.0,
      "OREB": 70.0,
      "DREB": 181.0,
      "TO": 87.0,
      "FGM": 226.0,
      "FGA": 489.0,
-     "FTM": 66.0,
-     "FTA": 104.0,
+     "FTM": 67.0,
+     "FTA": 105.0,
      "3PM": 59.0
     },
     "9": {
@@ -1551,7 +1551,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 1182
+      "value": 1183
      },
      {
       "manager": "Zak",
@@ -1604,7 +1604,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 313
+      "value": 314
      },
      {
       "manager": "Dakota",
@@ -2089,8 +2089,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7424892703862661,
-      "detail": "173/233"
+      "value": 0.7435897435897436,
+      "detail": "174/234"
      }
     ],
     "all": [
@@ -2161,8 +2161,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7424892703862661,
-      "detail": "173/233"
+      "value": 0.7435897435897436,
+      "detail": "174/234"
      }
     ]
    },
