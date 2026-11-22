@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T16:15:41-05:00",
+ "updated": "2026-11-22T16:20:45-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -745,11 +745,11 @@
        "3PM": 59.0,
        "STL": 46.0,
        "BLK": 30.0,
-       "FG%": 0.46586345381526106,
+       "FG%": 0.464,
        "FT%": 0.6545454545454545,
        "TO": 90.0,
        "FGM": 232.0,
-       "FGA": 498.0,
+       "FGA": 500.0,
        "FTM": 72.0,
        "FTA": 110.0
       }
@@ -793,15 +793,15 @@
       "a": {
        "PTS": 551.0,
        "AST": 138.0,
-       "REB": 183.0,
+       "REB": 184.0,
        "3PM": 59.0,
        "STL": 35.0,
        "BLK": 17.0,
-       "FG%": 0.4843373493975904,
+       "FG%": 0.4831730769230769,
        "FT%": 0.8333333333333334,
-       "TO": 62.0,
+       "TO": 63.0,
        "FGM": 201.0,
-       "FGA": 415.0,
+       "FGA": 416.0,
        "FTM": 90.0,
        "FTA": 108.0
       },
@@ -931,10 +931,10 @@
      "STL": 35.0,
      "AST": 138.0,
      "OREB": 53.0,
-     "DREB": 130.0,
-     "TO": 62.0,
+     "DREB": 131.0,
+     "TO": 63.0,
      "FGM": 201.0,
-     "FGA": 415.0,
+     "FGA": 416.0,
      "FTM": 90.0,
      "FTA": 108.0,
      "3PM": 59.0
@@ -1004,7 +1004,7 @@
      "DREB": 189.0,
      "TO": 90.0,
      "FGM": 232.0,
-     "FGA": 498.0,
+     "FGA": 500.0,
      "FTM": 72.0,
      "FTA": 110.0,
      "3PM": 59.0
@@ -1027,12 +1027,12 @@
      "PTS": 614.0,
      "BLK": 23.0,
      "STL": 42.0,
-     "AST": 134.0,
+     "AST": 136.0,
      "OREB": 73.0,
-     "DREB": 210.0,
+     "DREB": 212.0,
      "TO": 75.0,
      "FGM": 236.0,
-     "FGA": 479.0,
+     "FGA": 478.0,
      "FTM": 90.0,
      "FTA": 133.0,
      "3PM": 52.0
@@ -1610,7 +1610,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 305
+      "value": 307
      },
      {
       "manager": "Zak",
@@ -1653,7 +1653,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 574
+      "value": 576
      }
     ],
     "least": [
@@ -1661,7 +1661,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 396
+      "value": 397
      }
     ],
     "all": [
@@ -1669,7 +1669,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 574
+      "value": 576
      },
      {
       "manager": "Omar",
@@ -1723,7 +1723,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 396
+      "value": 397
      }
     ]
    },
@@ -1994,8 +1994,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.4608247422680412,
-      "detail": "447/970"
+      "value": 0.45987654320987653,
+      "detail": "447/972"
      }
     ],
     "all": [
@@ -2024,8 +2024,8 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.4776536312849162,
-      "detail": "513/1074"
+      "value": 0.47809878844361603,
+      "detail": "513/1073"
      },
      {
       "manager": "Zak",
@@ -2038,8 +2038,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.4731958762886598,
-      "detail": "459/970"
+      "value": 0.4727085478887745,
+      "detail": "459/971"
      },
      {
       "manager": "Will",
@@ -2066,8 +2066,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.4608247422680412,
-      "detail": "447/970"
+      "value": 0.45987654320987653,
+      "detail": "447/972"
      }
     ]
    },
@@ -2183,7 +2183,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 137
+      "value": 138
      }
     ],
     "all": [
@@ -2245,7 +2245,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 137
+      "value": 138
      }
     ]
    }
