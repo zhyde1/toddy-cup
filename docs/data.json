@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T22:57:42-05:00",
+ "updated": "2026-11-21T23:02:45-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -724,19 +724,19 @@
      },
      "stats": {
       "a": {
-       "PTS": 463.0,
+       "PTS": 465.0,
        "AST": 149.0,
        "REB": 174.0,
        "3PM": 58.0,
        "STL": 27.0,
-       "BLK": 21.0,
+       "BLK": 20.0,
        "FG%": 0.44,
-       "FT%": 0.78125,
+       "FT%": 0.7857142857142857,
        "TO": 76.0,
        "FGM": 165.0,
        "FGA": 375.0,
-       "FTM": 75.0,
-       "FTA": 96.0
+       "FTM": 77.0,
+       "FTA": 98.0
       },
       "b": {
        "PTS": 595.0,
@@ -860,15 +860,15 @@
       "a": {
        "PTS": 782.0,
        "AST": 146.0,
-       "REB": 234.0,
+       "REB": 235.0,
        "3PM": 90.0,
        "STL": 36.0,
        "BLK": 25.0,
-       "FG%": 0.47029702970297027,
+       "FG%": 0.4695222405271829,
        "FT%": 0.8472222222222222,
        "TO": 80.0,
        "FGM": 285.0,
-       "FGA": 606.0,
+       "FGA": 607.0,
        "FTM": 122.0,
        "FTA": 144.0
       },
@@ -973,10 +973,10 @@
      "STL": 36.0,
      "AST": 146.0,
      "OREB": 57.0,
-     "DREB": 177.0,
+     "DREB": 178.0,
      "TO": 80.0,
      "FGM": 285.0,
-     "FGA": 606.0,
+     "FGA": 607.0,
      "FTM": 122.0,
      "FTA": 144.0,
      "3PM": 90.0
@@ -1010,15 +1010,15 @@
      "3PM": 59.0
     },
     "9": {
-     "PTS": 742.0,
+     "PTS": 744.0,
      "BLK": 24.0,
      "STL": 35.0,
      "AST": 184.0,
      "OREB": 51.0,
      "DREB": 199.0,
      "TO": 109.0,
-     "FGM": 268.0,
-     "FGA": 543.0,
+     "FGM": 269.0,
+     "FGA": 544.0,
      "FTM": 122.0,
      "FTA": 160.0,
      "3PM": 84.0
@@ -1038,8 +1038,8 @@
      "3PM": 52.0
     },
     "4": {
-     "PTS": 463.0,
-     "BLK": 21.0,
+     "PTS": 465.0,
+     "BLK": 20.0,
      "STL": 27.0,
      "AST": 149.0,
      "OREB": 48.0,
@@ -1047,8 +1047,8 @@
      "TO": 76.0,
      "FGM": 165.0,
      "FGA": 375.0,
-     "FTM": 75.0,
-     "FTA": 96.0,
+     "FTM": 77.0,
+     "FTA": 98.0,
      "3PM": 58.0
     },
     "8": {
@@ -1495,7 +1495,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1094
+      "value": 1096
      }
     ],
     "all": [
@@ -1509,7 +1509,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 1491
+      "value": 1493
      },
      {
       "manager": "Drew",
@@ -1557,7 +1557,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1094
+      "value": 1096
      }
     ]
    },
@@ -1711,7 +1711,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 415
+      "value": 416
      },
      {
       "manager": "Daniel",
@@ -1910,7 +1910,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 31
+      "value": 30
      }
     ],
     "all": [
@@ -1972,7 +1972,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 31
+      "value": 30
      }
     ]
    },
@@ -2045,8 +2045,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.4708994708994709,
-      "detail": "534/1134"
+      "value": 0.4713656387665198,
+      "detail": "535/1135"
      },
      {
       "manager": "Will",
@@ -2059,8 +2059,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.4688279301745636,
-      "detail": "564/1203"
+      "value": 0.4684385382059801,
+      "detail": "564/1204"
      },
      {
       "manager": "Luke",
@@ -2140,8 +2140,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.7682403433476395,
-      "detail": "179/233"
+      "value": 0.7702127659574468,
+      "detail": "181/235"
      },
      {
       "manager": "Daniel",
