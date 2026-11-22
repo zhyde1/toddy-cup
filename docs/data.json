@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T18:32:24-05:00",
+ "updated": "2026-11-22T18:37:28-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -807,8 +807,8 @@
       },
       "b": {
        "PTS": 569.0,
-       "AST": 132.0,
-       "REB": 164.0,
+       "AST": 134.0,
+       "REB": 165.0,
        "3PM": 51.0,
        "STL": 42.0,
        "BLK": 24.0,
@@ -860,7 +860,7 @@
       "a": {
        "PTS": 798.0,
        "AST": 149.0,
-       "REB": 244.0,
+       "REB": 245.0,
        "3PM": 90.0,
        "STL": 37.0,
        "BLK": 25.0,
@@ -973,7 +973,7 @@
      "STL": 37.0,
      "AST": 149.0,
      "OREB": 59.0,
-     "DREB": 185.0,
+     "DREB": 186.0,
      "TO": 83.0,
      "FGM": 293.0,
      "FGA": 626.0,
@@ -1010,15 +1010,15 @@
      "3PM": 60.0
     },
     "9": {
-     "PTS": 765.0,
+     "PTS": 767.0,
      "BLK": 23.0,
      "STL": 35.0,
      "AST": 189.0,
      "OREB": 51.0,
-     "DREB": 201.0,
+     "DREB": 202.0,
      "TO": 111.0,
-     "FGM": 275.0,
-     "FGA": 561.0,
+     "FGM": 276.0,
+     "FGA": 565.0,
      "FTM": 127.0,
      "FTA": 166.0,
      "3PM": 88.0
@@ -1055,9 +1055,9 @@
      "PTS": 569.0,
      "BLK": 24.0,
      "STL": 42.0,
-     "AST": 132.0,
+     "AST": 134.0,
      "OREB": 57.0,
-     "DREB": 107.0,
+     "DREB": 108.0,
      "TO": 78.0,
      "FGM": 207.0,
      "FGA": 403.0,
@@ -1509,7 +1509,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 1514
+      "value": 1516
      },
      {
       "manager": "Drew",
@@ -1628,7 +1628,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 296
+      "value": 298
      },
      {
       "manager": "Evan",
@@ -1675,7 +1675,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 529
+      "value": 530
      },
      {
       "manager": "Luke",
@@ -1705,13 +1705,13 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 436
+      "value": 437
      },
      {
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 425
+      "value": 426
      },
      {
       "manager": "Zak",
@@ -2052,8 +2052,8 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 0.4696180555555556,
-      "detail": "541/1152"
+      "value": 0.4688581314878893,
+      "detail": "542/1156"
      },
      {
       "manager": "David",
