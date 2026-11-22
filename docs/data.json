@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-21T22:47:36-05:00",
+ "updated": "2026-11-21T22:52:39-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -726,7 +726,7 @@
       "a": {
        "PTS": 460.0,
        "AST": 149.0,
-       "REB": 172.0,
+       "REB": 173.0,
        "3PM": 57.0,
        "STL": 27.0,
        "BLK": 20.0,
@@ -858,17 +858,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 777.0,
+       "PTS": 779.0,
        "AST": 145.0,
        "REB": 231.0,
        "3PM": 90.0,
        "STL": 36.0,
        "BLK": 25.0,
-       "FG%": 0.4693200663349917,
+       "FG%": 0.47019867549668876,
        "FT%": 0.852112676056338,
        "TO": 80.0,
-       "FGM": 283.0,
-       "FGA": 603.0,
+       "FGM": 284.0,
+       "FGA": 604.0,
        "FTM": 121.0,
        "FTA": 142.0
       },
@@ -968,15 +968,15 @@
      "3PM": 56.0
     },
     "7": {
-     "PTS": 777.0,
+     "PTS": 779.0,
      "BLK": 25.0,
      "STL": 36.0,
      "AST": 145.0,
      "OREB": 56.0,
      "DREB": 175.0,
      "TO": 80.0,
-     "FGM": 283.0,
-     "FGA": 603.0,
+     "FGM": 284.0,
+     "FGA": 604.0,
      "FTM": 121.0,
      "FTA": 142.0,
      "3PM": 90.0
@@ -1042,7 +1042,7 @@
      "BLK": 20.0,
      "STL": 27.0,
      "AST": 149.0,
-     "OREB": 47.0,
+     "OREB": 48.0,
      "DREB": 125.0,
      "TO": 76.0,
      "FGM": 164.0,
@@ -1487,7 +1487,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 1590
+      "value": 1592
      }
     ],
     "least": [
@@ -1503,7 +1503,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 1590
+      "value": 1592
      },
      {
       "manager": "Omar",
@@ -1705,7 +1705,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 416
+      "value": 417
      },
      {
       "manager": "Daniel",
@@ -2059,8 +2059,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.4683333333333333,
-      "detail": "562/1200"
+      "value": 0.4687760199833472,
+      "detail": "563/1201"
      },
      {
       "manager": "Luke",
