@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T18:22:16-05:00",
+ "updated": "2026-11-22T18:27:20-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -724,17 +724,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 480.0,
+       "PTS": 482.0,
        "AST": 153.0,
        "REB": 181.0,
        "3PM": 58.0,
-       "STL": 29.0,
-       "BLK": 22.0,
-       "FG%": 0.434010152284264,
+       "STL": 30.0,
+       "BLK": 21.0,
+       "FG%": 0.43544303797468353,
        "FT%": 0.7843137254901961,
        "TO": 80.0,
-       "FGM": 171.0,
-       "FGA": 394.0,
+       "FGM": 172.0,
+       "FGA": 395.0,
        "FTM": 80.0,
        "FTA": 102.0
       },
@@ -874,16 +874,16 @@
       },
       "b": {
        "PTS": 599.0,
-       "AST": 127.0,
-       "REB": 191.0,
+       "AST": 128.0,
+       "REB": 192.0,
        "3PM": 68.0,
        "STL": 37.0,
        "BLK": 21.0,
-       "FG%": 0.501187648456057,
+       "FG%": 0.5,
        "FT%": 0.8074074074074075,
        "TO": 66.0,
        "FGM": 211.0,
-       "FGA": 421.0,
+       "FGA": 422.0,
        "FTM": 109.0,
        "FTA": 135.0
       }
@@ -943,12 +943,12 @@
      "PTS": 599.0,
      "BLK": 21.0,
      "STL": 37.0,
-     "AST": 127.0,
-     "OREB": 47.0,
+     "AST": 128.0,
+     "OREB": 48.0,
      "DREB": 144.0,
      "TO": 66.0,
      "FGM": 211.0,
-     "FGA": 421.0,
+     "FGA": 422.0,
      "FTM": 109.0,
      "FTA": 135.0,
      "3PM": 68.0
@@ -1038,15 +1038,15 @@
      "3PM": 52.0
     },
     "4": {
-     "PTS": 480.0,
-     "BLK": 22.0,
-     "STL": 29.0,
+     "PTS": 482.0,
+     "BLK": 21.0,
+     "STL": 30.0,
      "AST": 153.0,
      "OREB": 50.0,
      "DREB": 131.0,
      "TO": 80.0,
-     "FGM": 171.0,
-     "FGA": 394.0,
+     "FGM": 172.0,
+     "FGA": 395.0,
      "FTM": 80.0,
      "FTA": 102.0,
      "3PM": 58.0
@@ -1495,7 +1495,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1111
+      "value": 1113
      }
     ],
     "all": [
@@ -1557,7 +1557,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1111
+      "value": 1113
      }
     ]
    },
@@ -1578,7 +1578,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 276
+      "value": 277
      }
     ],
     "all": [
@@ -1640,7 +1640,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 276
+      "value": 277
      }
     ]
    },
@@ -1699,7 +1699,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 442
+      "value": 443
      },
      {
       "manager": "Daniel",
@@ -1877,7 +1877,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 75
+      "value": 76
      },
      {
       "manager": "Evan",
@@ -1910,7 +1910,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 32
+      "value": 31
      }
     ],
     "all": [
@@ -1972,7 +1972,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 32
+      "value": 31
      }
     ]
    },
@@ -1985,8 +1985,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.49066390041493774,
-      "detail": "473/964"
+      "value": 0.49015544041450776,
+      "detail": "473/965"
      }
     ],
     "least": [
@@ -2003,8 +2003,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.49066390041493774,
-      "detail": "473/964"
+      "value": 0.49015544041450776,
+      "detail": "473/965"
      },
      {
       "manager": "Drew",
@@ -2031,8 +2031,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.47374562427071176,
-      "detail": "406/857"
+      "value": 0.47435897435897434,
+      "detail": "407/858"
      },
      {
       "manager": "Evan",
