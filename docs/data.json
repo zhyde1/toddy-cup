@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T22:55:53-05:00",
+ "updated": "2026-11-22T23:00:56-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -745,11 +745,11 @@
        "3PM": 72.0,
        "STL": 56.0,
        "BLK": 32.0,
-       "FG%": 0.4704861111111111,
+       "FG%": 0.4696707105719237,
        "FT%": 0.6746031746031746,
        "TO": 107.0,
        "FGM": 271.0,
-       "FGA": 576.0,
+       "FGA": 577.0,
        "FTM": 85.0,
        "FTA": 126.0
       }
@@ -799,7 +799,7 @@
        "BLK": 22.0,
        "FG%": 0.4860335195530726,
        "FT%": 0.8467153284671532,
-       "TO": 79.0,
+       "TO": 80.0,
        "FGM": 261.0,
        "FGA": 537.0,
        "FTM": 116.0,
@@ -932,7 +932,7 @@
      "AST": 159.0,
      "OREB": 62.0,
      "DREB": 167.0,
-     "TO": 79.0,
+     "TO": 80.0,
      "FGM": 261.0,
      "FGA": 537.0,
      "FTM": 116.0,
@@ -1004,7 +1004,7 @@
      "DREB": 227.0,
      "TO": 107.0,
      "FGM": 271.0,
-     "FGA": 576.0,
+     "FGA": 577.0,
      "FTM": 85.0,
      "FTA": 126.0,
      "3PM": 72.0
@@ -1991,11 +1991,11 @@
     ],
     "least": [
      {
-      "manager": "David",
-      "team": "Big Vic Energy",
-      "conference": "Ginseng",
-      "value": 0.4637002341920375,
-      "detail": "594/1281"
+      "manager": "Luke",
+      "team": "Cunin' Too Quickley",
+      "conference": "Teaquila",
+      "value": 0.4632983794089609,
+      "detail": "486/1049"
      }
     ],
     "all": [
@@ -2056,18 +2056,18 @@
       "detail": "495/1062"
      },
      {
-      "manager": "Luke",
-      "team": "Cunin' Too Quickley",
-      "conference": "Teaquila",
-      "value": 0.4637404580152672,
-      "detail": "486/1048"
-     },
-     {
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
       "value": 0.4637002341920375,
       "detail": "594/1281"
+     },
+     {
+      "manager": "Luke",
+      "team": "Cunin' Too Quickley",
+      "conference": "Teaquila",
+      "value": 0.4632983794089609,
+      "detail": "486/1049"
      }
     ]
    },
@@ -2239,7 +2239,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 154
+      "value": 155
      },
      {
       "manager": "Zak",
