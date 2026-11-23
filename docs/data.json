@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T22:50:49-05:00",
+ "updated": "2026-11-22T22:55:53-05:00",
  "current_period": 5,
  "cats": [
   {
@@ -739,19 +739,19 @@
        "FTA": 119.0
       },
       "b": {
-       "PTS": 698.0,
+       "PTS": 699.0,
        "AST": 227.0,
        "REB": 306.0,
        "3PM": 72.0,
        "STL": 56.0,
        "BLK": 32.0,
-       "FG%": 0.47130434782608693,
-       "FT%": 0.6774193548387096,
+       "FG%": 0.4704861111111111,
+       "FT%": 0.6746031746031746,
        "TO": 107.0,
        "FGM": 271.0,
-       "FGA": 575.0,
-       "FTM": 84.0,
-       "FTA": 124.0
+       "FGA": 576.0,
+       "FTM": 85.0,
+       "FTA": 126.0
       }
      },
      "cat_results": {
@@ -793,7 +793,7 @@
       "a": {
        "PTS": 724.0,
        "AST": 159.0,
-       "REB": 227.0,
+       "REB": 229.0,
        "3PM": 86.0,
        "STL": 43.0,
        "BLK": 22.0,
@@ -808,15 +808,15 @@
       "b": {
        "PTS": 674.0,
        "AST": 156.0,
-       "REB": 202.0,
+       "REB": 203.0,
        "3PM": 61.0,
        "STL": 50.0,
        "BLK": 27.0,
-       "FG%": 0.5170212765957447,
+       "FG%": 0.5159235668789809,
        "FT%": 0.7470588235294118,
        "TO": 89.0,
        "FGM": 243.0,
-       "FGA": 470.0,
+       "FGA": 471.0,
        "FTM": 127.0,
        "FTA": 170.0
       }
@@ -931,7 +931,7 @@
      "STL": 43.0,
      "AST": 159.0,
      "OREB": 62.0,
-     "DREB": 165.0,
+     "DREB": 167.0,
      "TO": 79.0,
      "FGM": 261.0,
      "FGA": 537.0,
@@ -996,7 +996,7 @@
      "3PM": 86.0
     },
     "6": {
-     "PTS": 698.0,
+     "PTS": 699.0,
      "BLK": 32.0,
      "STL": 56.0,
      "AST": 227.0,
@@ -1004,9 +1004,9 @@
      "DREB": 227.0,
      "TO": 107.0,
      "FGM": 271.0,
-     "FGA": 575.0,
-     "FTM": 84.0,
-     "FTA": 124.0,
+     "FGA": 576.0,
+     "FTM": 85.0,
+     "FTA": 126.0,
      "3PM": 72.0
     },
     "9": {
@@ -1056,11 +1056,11 @@
      "BLK": 27.0,
      "STL": 50.0,
      "AST": 156.0,
-     "OREB": 69.0,
+     "OREB": 70.0,
      "DREB": 133.0,
      "TO": 89.0,
      "FGM": 243.0,
-     "FGA": 470.0,
+     "FGA": 471.0,
      "FTM": 127.0,
      "FTA": 170.0,
      "3PM": 61.0
@@ -1551,7 +1551,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 1303
+      "value": 1304
      },
      {
       "manager": "Zak",
@@ -1699,7 +1699,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 474
+      "value": 475
      },
      {
       "manager": "Parsa",
@@ -1717,7 +1717,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 440
+      "value": 442
      },
      {
       "manager": "David",
@@ -2017,8 +2017,8 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 0.48475909537856443,
-      "detail": "493/1017"
+      "value": 0.48428290766208254,
+      "detail": "493/1018"
      },
      {
       "manager": "Dakota",
@@ -2059,8 +2059,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.46418338108882523,
-      "detail": "486/1047"
+      "value": 0.4637404580152672,
+      "detail": "486/1048"
      },
      {
       "manager": "David",
@@ -2089,8 +2089,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7549407114624506,
-      "detail": "191/253"
+      "value": 0.7529411764705882,
+      "detail": "192/255"
      }
     ],
     "all": [
@@ -2161,8 +2161,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7549407114624506,
-      "detail": "191/253"
+      "value": 0.7529411764705882,
+      "detail": "192/255"
      }
     ]
    },
