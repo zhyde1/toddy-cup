@@ -1,8 +1,8 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-22T23:00:56-05:00",
- "current_period": 5,
+ "updated": "2026-11-23T04:04:06-05:00",
+ "current_period": 6,
  "cats": [
   {
    "key": "PTS",
@@ -56,11 +56,24 @@
    "complete": false,
    "standings": [
     {
+     "manager": "Drew",
+     "team_id": 2,
+     "conference": "Teaquila",
+     "team": "14GlassCannons",
+     "rank": 1,
+     "w": 1,
+     "l": 1,
+     "t": 0,
+     "cats": 9,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
      "manager": "Dakota",
      "team_id": 5,
      "conference": "Teaquila",
      "team": "Kess my Balls",
-     "rank": 1,
+     "rank": 2,
      "w": 1,
      "l": 0,
      "t": 0,
@@ -73,37 +86,11 @@
      "team_id": 1,
      "conference": "Teaquila",
      "team": "Ant's in my pants",
-     "rank": 2,
-     "w": 1,
-     "l": 0,
-     "t": 0,
-     "cats": 6,
-     "clinched": false,
-     "eliminated": false
-    },
-    {
-     "manager": "Drew",
-     "team_id": 2,
-     "conference": "Teaquila",
-     "team": "14GlassCannons",
      "rank": 3,
-     "w": 0,
+     "w": 1,
      "l": 1,
      "t": 0,
-     "cats": 3,
-     "clinched": false,
-     "eliminated": false
-    },
-    {
-     "manager": "Zak",
-     "team_id": 4,
-     "conference": "Teaquila",
-     "team": "Alpee anD uren",
-     "rank": 4,
-     "w": 0,
-     "l": 1,
-     "t": 0,
-     "cats": 3,
+     "cats": 9,
      "clinched": false,
      "eliminated": false
     },
@@ -112,11 +99,24 @@
      "team_id": 6,
      "conference": "Teaquila",
      "team": "Cunin' Too Quickley",
-     "rank": 5,
-     "w": 0,
+     "rank": 4,
+     "w": 1,
      "l": 0,
      "t": 0,
-     "cats": 0,
+     "cats": 7,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Zak",
+     "team_id": 4,
+     "conference": "Teaquila",
+     "team": "Alpee anD uren",
+     "rank": 5,
+     "w": 0,
+     "l": 2,
+     "t": 0,
+     "cats": 5,
      "clinched": false,
      "eliminated": false
     }
@@ -127,28 +127,15 @@
    "complete": false,
    "standings": [
     {
-     "manager": "Omar",
-     "team_id": 9,
-     "conference": "Ginseng",
-     "team": "Nets and Yahoo",
-     "rank": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0,
-     "cats": 7,
-     "clinched": false,
-     "eliminated": false
-    },
-    {
      "manager": "David",
      "team_id": 7,
      "conference": "Ginseng",
      "team": "Big Vic Energy",
-     "rank": 2,
-     "w": 1,
+     "rank": 1,
+     "w": 2,
      "l": 0,
      "t": 0,
-     "cats": 6,
+     "cats": 12,
      "clinched": false,
      "eliminated": false
     },
@@ -157,11 +144,24 @@
      "team_id": 3,
      "conference": "Ginseng",
      "team": "Porter? I hardly know her",
-     "rank": 3,
-     "w": 0,
+     "rank": 2,
+     "w": 1,
      "l": 1,
      "t": 0,
-     "cats": 3,
+     "cats": 9,
+     "clinched": false,
+     "eliminated": false
+    },
+    {
+     "manager": "Omar",
+     "team_id": 9,
+     "conference": "Ginseng",
+     "team": "Nets and Yahoo",
+     "rank": 3,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "cats": 7,
      "clinched": false,
      "eliminated": false
     },
@@ -172,9 +172,9 @@
      "team": "The InCoopator",
      "rank": 4,
      "w": 0,
-     "l": 1,
+     "l": 2,
      "t": 0,
-     "cats": 2,
+     "cats": 5,
      "clinched": false,
      "eliminated": false
     },
@@ -185,9 +185,9 @@
      "team": "Vagiannis",
      "rank": 5,
      "w": 0,
-     "l": 0,
+     "l": 1,
      "t": 0,
-     "cats": 0,
+     "cats": 3,
      "clinched": false,
      "eliminated": false
     }
@@ -635,7 +635,7 @@
    "period": 5,
    "kind": "group",
    "label": "Week 5",
-   "status": "live",
+   "status": "final",
    "frozen": false,
    "start": "2026-11-16",
    "end": "2026-11-22",
@@ -703,7 +703,7 @@
       "b": 3,
       "ties": 0
      },
-     "winner": null,
+     "winner": "a",
      "tiebreak": null,
      "leader": "a"
     },
@@ -770,7 +770,7 @@
       "b": 7,
       "ties": 0
      },
-     "winner": null,
+     "winner": "b",
      "tiebreak": null,
      "leader": "b"
     },
@@ -837,7 +837,7 @@
       "b": 3,
       "ties": 0
      },
-     "winner": null,
+     "winner": "a",
      "tiebreak": null,
      "leader": "a"
     },
@@ -904,7 +904,7 @@
       "b": 3,
       "ties": 0
      },
-     "winner": null,
+     "winner": "a",
      "tiebreak": null,
      "leader": "a"
     }
@@ -1071,7 +1071,7 @@
    "period": 6,
    "kind": "group",
    "label": "Week 6",
-   "status": "upcoming",
+   "status": "live",
    "frozen": false,
    "start": "2026-11-23",
    "end": "2026-11-29",
@@ -1091,11 +1091,57 @@
       "conference": "Teaquila",
       "team": "Kess my Balls"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Teaquila",
@@ -1112,11 +1158,57 @@
       "conference": "Teaquila",
       "team": "Cunin' Too Quickley"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -1133,11 +1225,57 @@
       "conference": "Ginseng",
       "team": "Porter? I hardly know her"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     },
     {
      "conference": "Ginseng",
@@ -1154,11 +1292,57 @@
       "conference": "Ginseng",
       "team": "Vagiannis"
      },
-     "stats": null,
-     "cat_results": null,
-     "score": null,
+     "stats": {
+      "a": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      },
+      "b": {
+       "PTS": 0.0,
+       "AST": 0.0,
+       "REB": 0.0,
+       "3PM": 0.0,
+       "STL": 0.0,
+       "BLK": 0.0,
+       "FG%": 0.0,
+       "FT%": 0.0,
+       "TO": 0.0,
+       "FGM": 0.0,
+       "FGA": 0.0,
+       "FTM": 0.0,
+       "FTA": 0.0
+      }
+     },
+     "cat_results": {
+      "PTS": "tie",
+      "AST": "tie",
+      "REB": "tie",
+      "3PM": "tie",
+      "STL": "tie",
+      "BLK": "tie",
+      "FG%": "tie",
+      "FT%": "tie",
+      "TO": "tie"
+     },
+     "score": {
+      "a": 0,
+      "b": 0,
+      "ties": 9
+     },
      "winner": null,
-     "tiebreak": null
+     "tiebreak": null,
+     "leader": "tie"
     }
    ],
    "byes": [
@@ -1176,7 +1360,148 @@
     }
    ],
    "note": null,
-   "raw": {}
+   "raw": {
+    "6": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "5": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "8": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "9": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "4": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "1": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "2": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "3": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "10": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    },
+    "7": {
+     "PTS": 0.0,
+     "BLK": 0.0,
+     "STL": 0.0,
+     "AST": 0.0,
+     "OREB": 0.0,
+     "DREB": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "3PM": 0.0
+    }
+   }
   },
   {
    "period": 7,
@@ -1413,16 +1738,16 @@
      "conference": "Teaquila",
      "projected": true,
      "a": {
+      "manager": "Drew",
+      "team_id": 2,
+      "conference": "Teaquila",
+      "team": "14GlassCannons"
+     },
+     "b": {
       "manager": "Dakota",
       "team_id": 5,
       "conference": "Teaquila",
       "team": "Kess my Balls"
-     },
-     "b": {
-      "manager": "Will",
-      "team_id": 1,
-      "conference": "Teaquila",
-      "team": "Ant's in my pants"
      },
      "stats": null,
      "cat_results": null,
@@ -1434,16 +1759,16 @@
      "conference": "Ginseng",
      "projected": true,
      "a": {
-      "manager": "Omar",
-      "team_id": 9,
-      "conference": "Ginseng",
-      "team": "Nets and Yahoo"
-     },
-     "b": {
       "manager": "David",
       "team_id": 7,
       "conference": "Ginseng",
       "team": "Big Vic Energy"
+     },
+     "b": {
+      "manager": "Evan",
+      "team_id": 3,
+      "conference": "Ginseng",
+      "team": "Porter? I hardly know her"
      },
      "stats": null,
      "cat_results": null,
@@ -1473,9 +1798,10 @@
  "leaders": {
   "weeks": [
    4,
-   5
+   5,
+   6
   ],
-  "live": "Week 5",
+  "live": "Week 6",
   "complete": false,
   "categories": [
    {
