@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-23T23:44:40-05:00",
+ "updated": "2026-11-23T23:49:43-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1161,33 +1161,33 @@
      "stats": {
       "a": {
        "PTS": 71.0,
-       "AST": 13.0,
-       "REB": 16.0,
+       "AST": 14.0,
+       "REB": 18.0,
        "3PM": 6.0,
        "STL": 2.0,
        "BLK": 1.0,
-       "FG%": 0.4727272727272727,
+       "FG%": 0.4642857142857143,
        "FT%": 0.9285714285714286,
        "TO": 12.0,
        "FGM": 26.0,
-       "FGA": 55.0,
+       "FGA": 56.0,
        "FTM": 13.0,
        "FTA": 14.0
       },
       "b": {
-       "PTS": 100.0,
+       "PTS": 103.0,
        "AST": 33.0,
        "REB": 44.0,
        "3PM": 9.0,
-       "STL": 4.0,
+       "STL": 5.0,
        "BLK": 5.0,
-       "FG%": 0.43617021276595747,
-       "FT%": 0.6428571428571429,
+       "FG%": 0.4375,
+       "FT%": 0.6666666666666666,
        "TO": 15.0,
-       "FGM": 41.0,
-       "FGA": 94.0,
-       "FTM": 9.0,
-       "FTA": 14.0
+       "FGM": 42.0,
+       "FGA": 96.0,
+       "FTM": 10.0,
+       "FTA": 15.0
       }
      },
      "cat_results": {
@@ -1310,7 +1310,7 @@
       },
       "b": {
        "PTS": 107.0,
-       "AST": 31.0,
+       "AST": 30.0,
        "REB": 30.0,
        "3PM": 12.0,
        "STL": 6.0,
@@ -1362,17 +1362,17 @@
    "note": null,
    "raw": {
     "6": {
-     "PTS": 100.0,
+     "PTS": 103.0,
      "BLK": 5.0,
-     "STL": 4.0,
+     "STL": 5.0,
      "AST": 33.0,
      "OREB": 12.0,
      "DREB": 32.0,
      "TO": 15.0,
-     "FGM": 41.0,
-     "FGA": 94.0,
-     "FTM": 9.0,
-     "FTA": 14.0,
+     "FGM": 42.0,
+     "FGA": 96.0,
+     "FTM": 10.0,
+     "FTA": 15.0,
      "3PM": 9.0
     },
     "5": {
@@ -1418,15 +1418,15 @@
      "3PM": 12.0
     },
     "4": {
-     "PTS": 131.0,
+     "PTS": 133.0,
      "BLK": 9.0,
      "STL": 1.0,
      "AST": 34.0,
      "OREB": 18.0,
      "DREB": 33.0,
-     "TO": 16.0,
-     "FGM": 47.0,
-     "FGA": 104.0,
+     "TO": 17.0,
+     "FGM": 48.0,
+     "FGA": 105.0,
      "FTM": 20.0,
      "FTA": 22.0,
      "3PM": 17.0
@@ -1449,12 +1449,12 @@
      "PTS": 71.0,
      "BLK": 1.0,
      "STL": 2.0,
-     "AST": 13.0,
+     "AST": 14.0,
      "OREB": 2.0,
-     "DREB": 14.0,
+     "DREB": 16.0,
      "TO": 12.0,
      "FGM": 26.0,
-     "FGA": 55.0,
+     "FGA": 56.0,
      "FTM": 13.0,
      "FTA": 14.0,
      "3PM": 6.0
@@ -1477,7 +1477,7 @@
      "PTS": 107.0,
      "BLK": 1.0,
      "STL": 6.0,
-     "AST": 31.0,
+     "AST": 30.0,
      "OREB": 9.0,
      "DREB": 21.0,
      "TO": 12.0,
@@ -1821,7 +1821,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1307
+      "value": 1309
      }
     ],
     "all": [
@@ -1877,13 +1877,13 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 1404
+      "value": 1407
      },
      {
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1307
+      "value": 1309
      }
     ]
    },
@@ -1904,7 +1904,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 332
+      "value": 331
      }
     ],
     "all": [
@@ -1960,13 +1960,13 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 333
+      "value": 334
      },
      {
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 332
+      "value": 331
      }
     ]
    },
@@ -2025,7 +2025,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 513
+      "value": 515
      },
      {
       "manager": "Daniel",
@@ -2176,15 +2176,15 @@
       "value": 99
      },
      {
-      "manager": "David",
-      "team": "Big Vic Energy",
-      "conference": "Ginseng",
-      "value": 93
-     },
-     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
+      "value": 94
+     },
+     {
+      "manager": "David",
+      "team": "Big Vic Energy",
+      "conference": "Ginseng",
       "value": 93
      },
      {
@@ -2320,8 +2320,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.46106736657917763,
-      "detail": "527/1143"
+      "value": 0.4611353711790393,
+      "detail": "528/1145"
      }
     ],
     "all": [
@@ -2336,8 +2336,8 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.48729184925503943,
-      "detail": "556/1141"
+      "value": 0.4868651488616462,
+      "detail": "556/1142"
      },
      {
       "manager": "Daniel",
@@ -2371,8 +2371,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.4671890303623898,
-      "detail": "477/1021"
+      "value": 0.46771037181996084,
+      "detail": "478/1022"
      },
      {
       "manager": "David",
@@ -2392,8 +2392,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.46106736657917763,
-      "detail": "527/1143"
+      "value": 0.4611353711790393,
+      "detail": "528/1145"
      }
     ]
    },
@@ -2415,8 +2415,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7472118959107806,
-      "detail": "201/269"
+      "value": 0.7481481481481481,
+      "detail": "202/270"
      }
     ],
     "all": [
@@ -2487,8 +2487,8 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 0.7472118959107806,
-      "detail": "201/269"
+      "value": 0.7481481481481481,
+      "detail": "202/270"
      }
     ]
    },
@@ -2565,7 +2565,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 169
+      "value": 170
      },
      {
       "manager": "Evan",
