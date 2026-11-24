@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T00:35:16-05:00",
+ "updated": "2026-11-24T12:43:49-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -636,7 +636,7 @@
    "kind": "group",
    "label": "Week 5",
    "status": "final",
-   "frozen": false,
+   "frozen": true,
    "start": "2026-11-16",
    "end": "2026-11-22",
    "matchups": [
