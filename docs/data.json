@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T00:20:05-05:00",
+ "updated": "2026-11-24T00:25:08-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1160,23 +1160,23 @@
      },
      "stats": {
       "a": {
-       "PTS": 78.0,
+       "PTS": 80.0,
        "AST": 14.0,
        "REB": 18.0,
        "3PM": 7.0,
        "STL": 2.0,
        "BLK": 2.0,
        "FG%": 0.47540983606557374,
-       "FT%": 0.9285714285714286,
+       "FT%": 0.9375,
        "TO": 12.0,
        "FGM": 29.0,
        "FGA": 61.0,
-       "FTM": 13.0,
-       "FTA": 14.0
+       "FTM": 15.0,
+       "FTA": 16.0
       },
       "b": {
        "PTS": 103.0,
-       "AST": 33.0,
+       "AST": 34.0,
        "REB": 45.0,
        "3PM": 9.0,
        "STL": 5.0,
@@ -1248,11 +1248,11 @@
        "3PM": 10.0,
        "STL": 2.0,
        "BLK": 1.0,
-       "FG%": 0.5822784810126582,
+       "FG%": 0.575,
        "FT%": 0.8529411764705882,
        "TO": 13.0,
        "FGM": 46.0,
-       "FGA": 79.0,
+       "FGA": 80.0,
        "FTM": 29.0,
        "FTA": 34.0
       }
@@ -1365,7 +1365,7 @@
      "PTS": 103.0,
      "BLK": 5.0,
      "STL": 5.0,
-     "AST": 33.0,
+     "AST": 34.0,
      "OREB": 12.0,
      "DREB": 33.0,
      "TO": 15.0,
@@ -1446,7 +1446,7 @@
      "3PM": 13.0
     },
     "2": {
-     "PTS": 78.0,
+     "PTS": 80.0,
      "BLK": 2.0,
      "STL": 2.0,
      "AST": 14.0,
@@ -1455,8 +1455,8 @@
      "TO": 12.0,
      "FGM": 29.0,
      "FGA": 61.0,
-     "FTM": 13.0,
-     "FTA": 14.0,
+     "FTM": 15.0,
+     "FTA": 16.0,
      "3PM": 7.0
     },
     "3": {
@@ -1468,7 +1468,7 @@
      "DREB": 34.0,
      "TO": 13.0,
      "FGM": 46.0,
-     "FGA": 79.0,
+     "FGA": 80.0,
      "FTM": 29.0,
      "FTA": 34.0,
      "3PM": 10.0
@@ -1847,7 +1847,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 1589
+      "value": 1591
      },
      {
       "manager": "Dakota",
@@ -1918,7 +1918,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 407
+      "value": 408
      },
      {
       "manager": "David",
@@ -2350,8 +2350,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.4824935952177626,
-      "detail": "565/1171"
+      "value": 0.48208191126279865,
+      "detail": "565/1172"
      },
      {
       "manager": "Dakota",
@@ -2452,8 +2452,8 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.7923497267759563,
-      "detail": "290/366"
+      "value": 0.7934782608695652,
+      "detail": "292/368"
      },
      {
       "manager": "Daniel",
