@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-23T19:30:39-05:00",
+ "updated": "2026-11-23T19:35:44-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1116,7 +1116,7 @@
        "BLK": 0.0,
        "FG%": 0.75,
        "FT%": 0.0,
-       "TO": 1.0,
+       "TO": 2.0,
        "FGM": 6.0,
        "FGA": 8.0,
        "FTM": 0.0,
@@ -1302,7 +1302,7 @@
        "BLK": 0.0,
        "FG%": 0.5,
        "FT%": 1.0,
-       "TO": 0.0,
+       "TO": 1.0,
        "FGM": 3.0,
        "FGA": 6.0,
        "FTM": 2.0,
@@ -1333,12 +1333,12 @@
       "BLK": "tie",
       "FG%": "tie",
       "FT%": "tie",
-      "TO": "tie"
+      "TO": "b"
      },
      "score": {
       "a": 3,
-      "b": 1,
-      "ties": 5
+      "b": 2,
+      "ties": 4
      },
      "winner": null,
      "tiebreak": null,
@@ -1382,7 +1382,7 @@
      "AST": 5.0,
      "OREB": 0.0,
      "DREB": 4.0,
-     "TO": 1.0,
+     "TO": 2.0,
      "FGM": 6.0,
      "FGA": 8.0,
      "FTM": 0.0,
@@ -1396,7 +1396,7 @@
      "AST": 2.0,
      "OREB": 2.0,
      "DREB": 3.0,
-     "TO": 0.0,
+     "TO": 1.0,
      "FGM": 3.0,
      "FGA": 6.0,
      "FTM": 2.0,
@@ -1421,12 +1421,12 @@
      "PTS": 0.0,
      "BLK": 1.0,
      "STL": 0.0,
-     "AST": 1.0,
+     "AST": 2.0,
      "OREB": 0.0,
-     "DREB": 0.0,
+     "DREB": 1.0,
      "TO": 0.0,
      "FGM": 0.0,
-     "FGA": 2.0,
+     "FGA": 3.0,
      "FTM": 0.0,
      "FTA": 0.0,
      "3PM": 0.0
@@ -1491,7 +1491,7 @@
      "PTS": 20.0,
      "BLK": 0.0,
      "STL": 0.0,
-     "AST": 2.0,
+     "AST": 3.0,
      "OREB": 1.0,
      "DREB": 1.0,
      "TO": 1.0,
@@ -1930,7 +1930,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 365
+      "value": 366
      },
      {
       "manager": "Daniel",
@@ -1942,7 +1942,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 321
+      "value": 322
      },
      {
       "manager": "Drew",
@@ -2037,7 +2037,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 466
+      "value": 467
      },
      {
       "manager": "Evan",
@@ -2371,8 +2371,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.46789989118607184,
-      "detail": "430/919"
+      "value": 0.4673913043478261,
+      "detail": "430/920"
      },
      {
       "manager": "Will",
@@ -2529,7 +2529,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 188
+      "value": 189
      },
      {
       "manager": "David",
@@ -2553,7 +2553,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 162
+      "value": 163
      },
      {
       "manager": "Parsa",
