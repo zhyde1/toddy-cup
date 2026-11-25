@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-25T17:36:54-05:00",
+ "updated": "2026-11-25T17:41:56-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1114,11 +1114,11 @@
        "3PM": 13.0,
        "STL": 15.0,
        "BLK": 11.0,
-       "FG%": 0.5169491525423728,
+       "FG%": 0.5126050420168067,
        "FT%": 0.75,
        "TO": 20.0,
        "FGM": 61.0,
-       "FGA": 118.0,
+       "FGA": 119.0,
        "FTM": 33.0,
        "FTA": 44.0
       }
@@ -1296,15 +1296,15 @@
       "a": {
        "PTS": 192.0,
        "AST": 43.0,
-       "REB": 64.0,
+       "REB": 66.0,
        "3PM": 18.0,
        "STL": 8.0,
        "BLK": 5.0,
-       "FG%": 0.5140845070422535,
+       "FG%": 0.5104895104895105,
        "FT%": 0.7567567567567568,
        "TO": 24.0,
        "FGM": 73.0,
-       "FGA": 142.0,
+       "FGA": 143.0,
        "FTM": 28.0,
        "FTA": 37.0
       },
@@ -1384,7 +1384,7 @@
      "DREB": 59.0,
      "TO": 20.0,
      "FGM": 61.0,
-     "FGA": 118.0,
+     "FGA": 119.0,
      "FTM": 33.0,
      "FTA": 44.0,
      "3PM": 13.0
@@ -1394,11 +1394,11 @@
      "BLK": 5.0,
      "STL": 8.0,
      "AST": 43.0,
-     "OREB": 19.0,
-     "DREB": 45.0,
+     "OREB": 20.0,
+     "DREB": 46.0,
      "TO": 24.0,
      "FGM": 73.0,
-     "FGA": 142.0,
+     "FGA": 143.0,
      "FTM": 28.0,
      "FTA": 37.0,
      "3PM": 18.0
@@ -1496,7 +1496,7 @@
      "DREB": 35.0,
      "TO": 15.0,
      "FGM": 78.0,
-     "FGA": 184.0,
+     "FGA": 185.0,
      "FTM": 35.0,
      "FTA": 43.0,
      "3PM": 26.0
@@ -2019,7 +2019,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 539
+      "value": 541
      },
      {
       "manager": "Drew",
@@ -2326,8 +2326,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.45870307167235497,
-      "detail": "672/1465"
+      "value": 0.4583901773533424,
+      "detail": "672/1466"
      }
     ],
     "all": [
@@ -2349,8 +2349,8 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 0.4879310344827586,
-      "detail": "566/1160"
+      "value": 0.48751076658053405,
+      "detail": "566/1161"
      },
      {
       "manager": "Evan",
@@ -2363,8 +2363,8 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.4793729372937294,
-      "detail": "581/1212"
+      "value": 0.47897774113767516,
+      "detail": "581/1213"
      },
      {
       "manager": "Zak",
@@ -2398,8 +2398,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.45870307167235497,
-      "detail": "672/1465"
+      "value": 0.4583901773533424,
+      "detail": "672/1466"
      }
     ]
    },
