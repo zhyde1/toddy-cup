@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T23:12:31-05:00",
+ "updated": "2026-11-24T23:17:34-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1113,7 +1113,7 @@
        "REB": 75.0,
        "3PM": 13.0,
        "STL": 13.0,
-       "BLK": 10.0,
+       "BLK": 11.0,
        "FG%": 0.5304347826086957,
        "FT%": 0.75,
        "TO": 20.0,
@@ -1310,7 +1310,7 @@
       },
       "b": {
        "PTS": 167.0,
-       "AST": 42.0,
+       "AST": 43.0,
        "REB": 51.0,
        "3PM": 18.0,
        "STL": 8.0,
@@ -1377,7 +1377,7 @@
     },
     "5": {
      "PTS": 168.0,
-     "BLK": 10.0,
+     "BLK": 11.0,
      "STL": 13.0,
      "AST": 35.0,
      "OREB": 21.0,
@@ -1477,7 +1477,7 @@
      "PTS": 167.0,
      "BLK": 3.0,
      "STL": 8.0,
-     "AST": 42.0,
+     "AST": 43.0,
      "OREB": 12.0,
      "DREB": 39.0,
      "TO": 16.0,
@@ -1904,7 +1904,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 343
+      "value": 344
      }
     ],
     "all": [
@@ -1966,7 +1966,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 343
+      "value": 344
      }
     ]
    },
@@ -2256,7 +2256,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 75
+      "value": 76
      },
      {
       "manager": "Drew",
