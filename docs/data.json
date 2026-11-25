@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T19:50:30-05:00",
+ "updated": "2026-11-24T19:55:33-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1161,16 +1161,16 @@
      "stats": {
       "a": {
        "PTS": 87.0,
-       "AST": 18.0,
+       "AST": 19.0,
        "REB": 20.0,
        "3PM": 8.0,
        "STL": 2.0,
        "BLK": 5.0,
-       "FG%": 0.4696969696969697,
+       "FG%": 0.45588235294117646,
        "FT%": 0.9444444444444444,
        "TO": 15.0,
        "FGM": 31.0,
-       "FGA": 66.0,
+       "FGA": 68.0,
        "FTM": 17.0,
        "FTA": 18.0
       },
@@ -1242,23 +1242,23 @@
        "FTA": 25.0
       },
       "b": {
-       "PTS": 139.0,
+       "PTS": 144.0,
        "AST": 33.0,
        "REB": 51.0,
-       "3PM": 10.0,
+       "3PM": 11.0,
        "STL": 3.0,
        "BLK": 2.0,
-       "FG%": 0.5617977528089888,
+       "FG%": 0.5714285714285714,
        "FT%": 0.8529411764705882,
        "TO": 15.0,
-       "FGM": 50.0,
-       "FGA": 89.0,
+       "FGM": 52.0,
+       "FGA": 91.0,
        "FTM": 29.0,
        "FTA": 34.0
       }
      },
      "cat_results": {
-      "PTS": "tie",
+      "PTS": "b",
       "AST": "a",
       "REB": "a",
       "3PM": "a",
@@ -1270,8 +1270,8 @@
      },
      "score": {
       "a": 5,
-      "b": 3,
-      "ties": 1
+      "b": 4,
+      "ties": 0
      },
      "winner": null,
      "tiebreak": null,
@@ -1302,7 +1302,7 @@
        "BLK": 2.0,
        "FG%": 0.5,
        "FT%": 0.75,
-       "TO": 13.0,
+       "TO": 14.0,
        "FGM": 37.0,
        "FGA": 74.0,
        "FTM": 6.0,
@@ -1333,12 +1333,12 @@
       "BLK": "tie",
       "FG%": "b",
       "FT%": "b",
-      "TO": "tie"
+      "TO": "b"
      },
      "score": {
       "a": 0,
-      "b": 6,
-      "ties": 3
+      "b": 7,
+      "ties": 2
      },
      "winner": null,
      "tiebreak": null,
@@ -1396,7 +1396,7 @@
      "AST": 25.0,
      "OREB": 7.0,
      "DREB": 23.0,
-     "TO": 13.0,
+     "TO": 14.0,
      "FGM": 37.0,
      "FGA": 74.0,
      "FTM": 6.0,
@@ -1449,29 +1449,29 @@
      "PTS": 87.0,
      "BLK": 5.0,
      "STL": 2.0,
-     "AST": 18.0,
+     "AST": 19.0,
      "OREB": 2.0,
      "DREB": 18.0,
      "TO": 15.0,
      "FGM": 31.0,
-     "FGA": 66.0,
+     "FGA": 68.0,
      "FTM": 17.0,
      "FTA": 18.0,
      "3PM": 8.0
     },
     "3": {
-     "PTS": 139.0,
+     "PTS": 144.0,
      "BLK": 2.0,
      "STL": 3.0,
      "AST": 33.0,
      "OREB": 15.0,
      "DREB": 36.0,
      "TO": 15.0,
-     "FGM": 50.0,
-     "FGA": 89.0,
+     "FGM": 52.0,
+     "FGA": 91.0,
      "FTM": 29.0,
      "FTA": 34.0,
-     "3PM": 10.0
+     "3PM": 11.0
     },
     "10": {
      "PTS": 130.0,
@@ -1841,7 +1841,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 1616
+      "value": 1621
      },
      {
       "manager": "Drew",
@@ -1960,7 +1960,7 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 338
+      "value": 339
      },
      {
       "manager": "Parsa",
@@ -2090,7 +2090,7 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 194
+      "value": 195
      },
      {
       "manager": "Drew",
@@ -2342,8 +2342,8 @@
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
-      "value": 0.4869791666666667,
-      "detail": "561/1152"
+      "value": 0.4861351819757366,
+      "detail": "561/1154"
      },
      {
       "manager": "Daniel",
@@ -2356,8 +2356,8 @@
       "manager": "Evan",
       "team": "Porter? I hardly know her",
       "conference": "Ginseng",
-      "value": 0.48179508890770534,
-      "detail": "569/1181"
+      "value": 0.4826711749788673,
+      "detail": "571/1183"
      },
      {
       "manager": "Dakota",
@@ -2541,7 +2541,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 201
+      "value": 202
      },
      {
       "manager": "Will",
