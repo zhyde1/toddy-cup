@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T21:46:38-05:00",
+ "updated": "2026-11-24T21:51:41-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1310,7 +1310,7 @@
       },
       "b": {
        "PTS": 154.0,
-       "AST": 40.0,
+       "AST": 41.0,
        "REB": 46.0,
        "3PM": 16.0,
        "STL": 7.0,
@@ -1418,18 +1418,18 @@
      "3PM": 13.0
     },
     "4": {
-     "PTS": 161.0,
+     "PTS": 164.0,
      "BLK": 9.0,
      "STL": 2.0,
      "AST": 43.0,
      "OREB": 20.0,
      "DREB": 37.0,
      "TO": 17.0,
-     "FGM": 58.0,
-     "FGA": 126.0,
+     "FGM": 59.0,
+     "FGA": 128.0,
      "FTM": 23.0,
      "FTA": 25.0,
-     "3PM": 22.0
+     "3PM": 23.0
     },
     "1": {
      "PTS": 141.0,
@@ -1477,7 +1477,7 @@
      "PTS": 154.0,
      "BLK": 2.0,
      "STL": 7.0,
-     "AST": 40.0,
+     "AST": 41.0,
      "OREB": 11.0,
      "DREB": 35.0,
      "TO": 16.0,
@@ -1496,7 +1496,7 @@
      "DREB": 29.0,
      "TO": 14.0,
      "FGM": 69.0,
-     "FGA": 152.0,
+     "FGA": 153.0,
      "FTM": 32.0,
      "FTA": 39.0,
      "3PM": 22.0
@@ -1821,7 +1821,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1337
+      "value": 1340
      }
     ],
     "all": [
@@ -1883,7 +1883,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1337
+      "value": 1340
      }
     ]
    },
@@ -1904,7 +1904,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 341
+      "value": 342
      }
     ],
     "all": [
@@ -1966,7 +1966,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 341
+      "value": 342
      }
     ]
    },
@@ -2126,7 +2126,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 143
+      "value": 144
      },
      {
       "manager": "Daniel",
@@ -2364,8 +2364,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.4678811121764142,
-      "detail": "488/1043"
+      "value": 0.46794258373205744,
+      "detail": "489/1045"
      },
      {
       "manager": "Will",
@@ -2385,8 +2385,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.46266573621772505,
-      "detail": "663/1433"
+      "value": 0.46234309623430964,
+      "detail": "663/1434"
      },
      {
       "manager": "Luke",
