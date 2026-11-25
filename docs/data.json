@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T22:37:09-05:00",
+ "updated": "2026-11-24T22:42:12-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1177,7 +1177,7 @@
       "b": {
        "PTS": 150.0,
        "AST": 50.0,
-       "REB": 56.0,
+       "REB": 57.0,
        "3PM": 15.0,
        "STL": 8.0,
        "BLK": 7.0,
@@ -1295,8 +1295,8 @@
      "stats": {
       "a": {
        "PTS": 170.0,
-       "AST": 33.0,
-       "REB": 57.0,
+       "AST": 34.0,
+       "REB": 58.0,
        "3PM": 18.0,
        "STL": 8.0,
        "BLK": 5.0,
@@ -1309,17 +1309,17 @@
        "FTA": 30.0
       },
       "b": {
-       "PTS": 163.0,
+       "PTS": 165.0,
        "AST": 42.0,
        "REB": 51.0,
        "3PM": 18.0,
        "STL": 8.0,
        "BLK": 3.0,
-       "FG%": 0.504424778761062,
+       "FG%": 0.5087719298245614,
        "FT%": 0.8378378378378378,
        "TO": 16.0,
-       "FGM": 57.0,
-       "FGA": 113.0,
+       "FGM": 58.0,
+       "FGA": 114.0,
        "FTM": 31.0,
        "FTA": 37.0
       }
@@ -1366,7 +1366,7 @@
      "BLK": 7.0,
      "STL": 8.0,
      "AST": 50.0,
-     "OREB": 12.0,
+     "OREB": 13.0,
      "DREB": 44.0,
      "TO": 24.0,
      "FGM": 58.0,
@@ -1393,9 +1393,9 @@
      "PTS": 170.0,
      "BLK": 5.0,
      "STL": 8.0,
-     "AST": 33.0,
+     "AST": 34.0,
      "OREB": 18.0,
-     "DREB": 39.0,
+     "DREB": 40.0,
      "TO": 23.0,
      "FGM": 65.0,
      "FGA": 126.0,
@@ -1474,15 +1474,15 @@
      "3PM": 13.0
     },
     "10": {
-     "PTS": 163.0,
+     "PTS": 165.0,
      "BLK": 3.0,
      "STL": 8.0,
      "AST": 42.0,
      "OREB": 12.0,
      "DREB": 39.0,
      "TO": 16.0,
-     "FGM": 57.0,
-     "FGA": 113.0,
+     "FGM": 58.0,
+     "FGA": 114.0,
      "FTM": 31.0,
      "FTA": 37.0,
      "3PM": 18.0
@@ -1865,7 +1865,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 1547
+      "value": 1549
      },
      {
       "manager": "Will",
@@ -1948,7 +1948,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 353
+      "value": 354
      },
      {
       "manager": "Drew",
@@ -2007,7 +2007,7 @@
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
-      "value": 610
+      "value": 611
      },
      {
       "manager": "Will",
@@ -2025,7 +2025,7 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 532
+      "value": 533
      },
      {
       "manager": "Zak",
@@ -2343,8 +2343,8 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 0.4871111111111111,
-      "detail": "548/1125"
+      "value": 0.48756660746003555,
+      "detail": "549/1126"
      },
      {
       "manager": "Dakota",
