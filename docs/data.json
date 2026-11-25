@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-24T19:30:18-05:00",
+ "updated": "2026-11-24T19:35:21-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1094,16 +1094,16 @@
      "stats": {
       "a": {
        "PTS": 99.0,
-       "AST": 24.0,
-       "REB": 46.0,
+       "AST": 26.0,
+       "REB": 51.0,
        "3PM": 13.0,
        "STL": 7.0,
        "BLK": 5.0,
-       "FG%": 0.4852941176470588,
+       "FG%": 0.4714285714285714,
        "FT%": 0.7142857142857143,
-       "TO": 17.0,
+       "TO": 18.0,
        "FGM": 33.0,
-       "FGA": 68.0,
+       "FGA": 70.0,
        "FTM": 20.0,
        "FTA": 28.0
       },
@@ -1302,7 +1302,7 @@
        "BLK": 2.0,
        "FG%": 0.5138888888888888,
        "FT%": 0.75,
-       "TO": 10.0,
+       "TO": 11.0,
        "FGM": 37.0,
        "FGA": 72.0,
        "FTM": 6.0,
@@ -1396,7 +1396,7 @@
      "AST": 24.0,
      "OREB": 6.0,
      "DREB": 21.0,
-     "TO": 10.0,
+     "TO": 11.0,
      "FGM": 37.0,
      "FGA": 72.0,
      "FTM": 6.0,
@@ -1435,12 +1435,12 @@
      "PTS": 99.0,
      "BLK": 5.0,
      "STL": 7.0,
-     "AST": 24.0,
-     "OREB": 6.0,
-     "DREB": 40.0,
-     "TO": 17.0,
+     "AST": 26.0,
+     "OREB": 7.0,
+     "DREB": 44.0,
+     "TO": 18.0,
      "FGM": 33.0,
-     "FGA": 68.0,
+     "FGA": 70.0,
      "FTM": 20.0,
      "FTA": 28.0,
      "3PM": 13.0
@@ -1930,7 +1930,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 391
+      "value": 393
      },
      {
       "manager": "Zak",
@@ -2013,7 +2013,7 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 567
+      "value": 572
      },
      {
       "manager": "Zak",
@@ -2370,8 +2370,8 @@
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 0.4672566371681416,
-      "detail": "528/1130"
+      "value": 0.4664310954063604,
+      "detail": "528/1132"
      },
      {
       "manager": "Zak",
@@ -2535,13 +2535,13 @@
       "manager": "Daniel",
       "team": "The InCoopator",
       "conference": "Ginseng",
-      "value": 198
+      "value": 199
      },
      {
       "manager": "Will",
       "team": "Ant's in my pants",
       "conference": "Teaquila",
-      "value": 194
+      "value": 195
      },
      {
       "manager": "David",
