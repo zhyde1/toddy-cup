@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-25T18:47:26-05:00",
+ "updated": "2026-11-25T18:52:28-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1310,16 +1310,16 @@
       },
       "b": {
        "PTS": 224.0,
-       "AST": 54.0,
+       "AST": 57.0,
        "REB": 65.0,
        "3PM": 20.0,
        "STL": 10.0,
        "BLK": 4.0,
-       "FG%": 0.5159235668789809,
+       "FG%": 0.5126582278481012,
        "FT%": 0.8235294117647058,
-       "TO": 23.0,
+       "TO": 24.0,
        "FGM": 81.0,
-       "FGA": 157.0,
+       "FGA": 158.0,
        "FTM": 42.0,
        "FTA": 51.0
       }
@@ -1477,12 +1477,12 @@
      "PTS": 224.0,
      "BLK": 4.0,
      "STL": 10.0,
-     "AST": 54.0,
+     "AST": 57.0,
      "OREB": 14.0,
      "DREB": 51.0,
-     "TO": 23.0,
+     "TO": 24.0,
      "FGM": 81.0,
-     "FGA": 157.0,
+     "FGA": 158.0,
      "FTM": 42.0,
      "FTA": 51.0,
      "3PM": 20.0
@@ -1954,7 +1954,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 355
+      "value": 358
      },
      {
       "manager": "Dakota",
@@ -2314,11 +2314,11 @@
     "lower_better": false,
     "most": [
      {
-      "manager": "Parsa",
-      "team": "Vagiannis",
-      "conference": "Ginseng",
-      "value": 0.4893071000855432,
-      "detail": "572/1169"
+      "manager": "Drew",
+      "team": "14GlassCannons",
+      "conference": "Teaquila",
+      "value": 0.4890202702702703,
+      "detail": "579/1184"
      }
     ],
     "least": [
@@ -2332,18 +2332,18 @@
     ],
     "all": [
      {
-      "manager": "Parsa",
-      "team": "Vagiannis",
-      "conference": "Ginseng",
-      "value": 0.4893071000855432,
-      "detail": "572/1169"
-     },
-     {
       "manager": "Drew",
       "team": "14GlassCannons",
       "conference": "Teaquila",
       "value": 0.4890202702702703,
       "detail": "579/1184"
+     },
+     {
+      "manager": "Parsa",
+      "team": "Vagiannis",
+      "conference": "Ginseng",
+      "value": 0.4888888888888889,
+      "detail": "572/1170"
      },
      {
       "manager": "Daniel",
@@ -2559,7 +2559,7 @@
       "manager": "Parsa",
       "team": "Vagiannis",
       "conference": "Ginseng",
-      "value": 185
+      "value": 186
      },
      {
       "manager": "Dakota",
