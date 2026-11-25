@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-25T00:33:32-05:00",
+ "updated": "2026-11-25T00:38:35-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1112,7 +1112,7 @@
        "AST": 35.0,
        "REB": 78.0,
        "3PM": 13.0,
-       "STL": 13.0,
+       "STL": 14.0,
        "BLK": 11.0,
        "FG%": 0.5258620689655172,
        "FT%": 0.75,
@@ -1229,13 +1229,13 @@
       "a": {
        "PTS": 183.0,
        "AST": 56.0,
-       "REB": 73.0,
+       "REB": 75.0,
        "3PM": 15.0,
        "STL": 20.0,
        "BLK": 3.0,
        "FG%": 0.4121212121212121,
        "FT%": 0.8205128205128205,
-       "TO": 23.0,
+       "TO": 24.0,
        "FGM": 68.0,
        "FGA": 165.0,
        "FTM": 32.0,
@@ -1266,12 +1266,12 @@
       "BLK": "b",
       "FG%": "b",
       "FT%": "b",
-      "TO": "tie"
+      "TO": "b"
      },
      "score": {
       "a": 3,
-      "b": 5,
-      "ties": 1
+      "b": 6,
+      "ties": 0
      },
      "winner": null,
      "tiebreak": null,
@@ -1378,7 +1378,7 @@
     "5": {
      "PTS": 168.0,
      "BLK": 11.0,
-     "STL": 13.0,
+     "STL": 14.0,
      "AST": 35.0,
      "OREB": 21.0,
      "DREB": 57.0,
@@ -1408,9 +1408,9 @@
      "BLK": 3.0,
      "STL": 20.0,
      "AST": 56.0,
-     "OREB": 19.0,
-     "DREB": 54.0,
-     "TO": 23.0,
+     "OREB": 20.0,
+     "DREB": 55.0,
+     "TO": 24.0,
      "FGM": 68.0,
      "FGA": 165.0,
      "FTM": 32.0,
@@ -2001,7 +2001,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 631
+      "value": 633
      },
      {
       "manager": "Luke",
@@ -2167,7 +2167,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 107
+      "value": 108
      },
      {
       "manager": "Omar",
@@ -2507,7 +2507,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 257
+      "value": 258
      }
     ],
     "least": [
@@ -2523,7 +2523,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 257
+      "value": 258
      },
      {
       "manager": "Drew",
