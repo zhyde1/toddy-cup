@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-26T00:35:28-05:00",
+ "updated": "2026-11-26T00:40:31-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1110,7 +1110,7 @@
       "b": {
        "PTS": 354.0,
        "AST": 79.0,
-       "REB": 151.0,
+       "REB": 152.0,
        "3PM": 33.0,
        "STL": 26.0,
        "BLK": 20.0,
@@ -1227,17 +1227,17 @@
      },
      "stats": {
       "a": {
-       "PTS": 330.0,
+       "PTS": 332.0,
        "AST": 80.0,
-       "REB": 125.0,
+       "REB": 126.0,
        "3PM": 25.0,
        "STL": 26.0,
        "BLK": 11.0,
-       "FG%": 0.4146341463414634,
+       "FG%": 0.4166666666666667,
        "FT%": 0.7204301075268817,
        "TO": 37.0,
-       "FGM": 119.0,
-       "FGA": 287.0,
+       "FGM": 120.0,
+       "FGA": 288.0,
        "FTM": 67.0,
        "FTA": 93.0
       },
@@ -1381,7 +1381,7 @@
      "STL": 26.0,
      "AST": 79.0,
      "OREB": 43.0,
-     "DREB": 108.0,
+     "DREB": 109.0,
      "TO": 34.0,
      "FGM": 131.0,
      "FGA": 263.0,
@@ -1404,15 +1404,15 @@
      "3PM": 28.0
     },
     "9": {
-     "PTS": 330.0,
+     "PTS": 332.0,
      "BLK": 11.0,
      "STL": 26.0,
      "AST": 80.0,
-     "OREB": 33.0,
+     "OREB": 34.0,
      "DREB": 92.0,
      "TO": 37.0,
-     "FGM": 119.0,
-     "FGA": 287.0,
+     "FGM": 120.0,
+     "FGA": 288.0,
      "FTM": 67.0,
      "FTA": 93.0,
      "3PM": 25.0
@@ -1426,7 +1426,7 @@
      "DREB": 75.0,
      "TO": 38.0,
      "FGM": 124.0,
-     "FGA": 262.0,
+     "FGA": 263.0,
      "FTM": 43.0,
      "FTA": 53.0,
      "3PM": 44.0
@@ -1493,10 +1493,10 @@
      "STL": 19.0,
      "AST": 81.0,
      "OREB": 21.0,
-     "DREB": 74.0,
+     "DREB": 75.0,
      "TO": 35.0,
      "FGM": 147.0,
-     "FGA": 348.0,
+     "FGA": 349.0,
      "FTM": 73.0,
      "FTA": 90.0,
      "3PM": 42.0
@@ -1835,7 +1835,7 @@
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 1927
+      "value": 1929
      },
      {
       "manager": "Dakota",
@@ -1979,7 +1979,7 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 741
+      "value": 742
      }
     ],
     "least": [
@@ -1987,7 +1987,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 533
+      "value": 534
      }
     ],
     "all": [
@@ -1995,13 +1995,13 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 741
+      "value": 742
      },
      {
       "manager": "Omar",
       "team": "Nets and Yahoo",
       "conference": "Ginseng",
-      "value": 683
+      "value": 684
      },
      {
       "manager": "Luke",
@@ -2049,7 +2049,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 533
+      "value": 534
      }
     ]
    },
@@ -2320,8 +2320,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.4548802946593002,
-      "detail": "741/1629"
+      "value": 0.454601226993865,
+      "detail": "741/1630"
      }
     ],
     "all": [
@@ -2364,8 +2364,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.46988973706530957,
-      "detail": "554/1179"
+      "value": 0.4694915254237288,
+      "detail": "554/1180"
      },
      {
       "manager": "Will",
@@ -2375,6 +2375,13 @@
       "detail": "567/1225"
      },
      {
+      "manager": "Omar",
+      "team": "Nets and Yahoo",
+      "conference": "Ginseng",
+      "value": 0.459387483355526,
+      "detail": "690/1502"
+     },
+     {
       "manager": "Luke",
       "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
@@ -2382,18 +2389,11 @@
       "detail": "582/1267"
      },
      {
-      "manager": "Omar",
-      "team": "Nets and Yahoo",
-      "conference": "Ginseng",
-      "value": 0.4590273151232512,
-      "detail": "689/1501"
-     },
-     {
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.4548802946593002,
-      "detail": "741/1629"
+      "value": 0.454601226993865,
+      "detail": "741/1630"
      }
     ]
    },
