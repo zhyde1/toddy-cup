@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-25T22:59:27-05:00",
+ "updated": "2026-11-25T22:59:41-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1114,11 +1114,11 @@
        "3PM": 28.0,
        "STL": 24.0,
        "BLK": 19.0,
-       "FG%": 0.5062240663900415,
+       "FG%": 0.5041322314049587,
        "FT%": 0.7397260273972602,
        "TO": 33.0,
        "FGM": 122.0,
-       "FGA": 241.0,
+       "FGA": 242.0,
        "FTM": 54.0,
        "FTA": 73.0
       }
@@ -1388,7 +1388,7 @@
      "DREB": 97.0,
      "TO": 33.0,
      "FGM": 122.0,
-     "FGA": 241.0,
+     "FGA": 242.0,
      "FTM": 54.0,
      "FTA": 73.0,
      "3PM": 28.0
@@ -1422,18 +1422,18 @@
      "3PM": 21.0
     },
     "4": {
-     "PTS": 308.0,
+     "PTS": 311.0,
      "BLK": 12.0,
      "STL": 17.0,
-     "AST": 83.0,
+     "AST": 84.0,
      "OREB": 39.0,
      "DREB": 67.0,
      "TO": 33.0,
-     "FGM": 113.0,
-     "FGA": 239.0,
+     "FGM": 114.0,
+     "FGA": 240.0,
      "FTM": 41.0,
      "FTA": 51.0,
-     "3PM": 41.0
+     "3PM": 42.0
     },
     "1": {
      "PTS": 201.0,
@@ -1825,7 +1825,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1484
+      "value": 1487
      }
     ],
     "all": [
@@ -1887,7 +1887,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1484
+      "value": 1487
      }
     ]
    },
@@ -1940,7 +1940,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 403
+      "value": 404
      },
      {
       "manager": "Dakota",
@@ -2115,14 +2115,14 @@
       "value": 167
      },
      {
-      "manager": "Luke",
-      "team": "Cunin' Too Quickley",
-      "conference": "Teaquila",
-      "value": 162
-     },
-     {
       "manager": "Zak",
       "team": "Alpee anD uren",
+      "conference": "Teaquila",
+      "value": 163
+     },
+     {
+      "manager": "Luke",
+      "team": "Cunin' Too Quickley",
       "conference": "Teaquila",
       "value": 162
      },
@@ -2354,8 +2354,8 @@
       "manager": "Dakota",
       "team": "Kess my Balls",
       "conference": "Teaquila",
-      "value": 0.48089887640449436,
-      "detail": "642/1335"
+      "value": 0.4805389221556886,
+      "detail": "642/1336"
      },
      {
       "manager": "Evan",
@@ -2368,8 +2368,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.46972318339100344,
-      "detail": "543/1156"
+      "value": 0.4701815038893691,
+      "detail": "544/1157"
      },
      {
       "manager": "Will",
