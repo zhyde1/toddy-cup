@@ -1,7 +1,7 @@
 {
  "title": "Hot Toddy Cup",
  "season": "2026-27",
- "updated": "2026-11-28T00:08:32-05:00",
+ "updated": "2026-11-28T00:13:35-05:00",
  "current_period": 6,
  "cats": [
   {
@@ -1418,7 +1418,7 @@
      "3PM": 35.0
     },
     "4": {
-     "PTS": 442.0,
+     "PTS": 444.0,
      "BLK": 16.0,
      "STL": 26.0,
      "AST": 114.0,
@@ -1427,8 +1427,8 @@
      "TO": 68.0,
      "FGM": 165.0,
      "FGA": 350.0,
-     "FTM": 53.0,
-     "FTA": 70.0,
+     "FTM": 55.0,
+     "FTA": 72.0,
      "3PM": 59.0
     },
     "1": {
@@ -1488,17 +1488,17 @@
      "3PM": 42.0
     },
     "7": {
-     "PTS": 569.0,
+     "PTS": 570.0,
      "BLK": 18.0,
      "STL": 29.0,
      "AST": 119.0,
      "OREB": 36.0,
-     "DREB": 101.0,
+     "DREB": 102.0,
      "TO": 57.0,
      "FGM": 204.0,
      "FGA": 482.0,
-     "FTM": 108.0,
-     "FTA": 133.0,
+     "FTM": 109.0,
+     "FTA": 135.0,
      "3PM": 53.0
     }
    }
@@ -1813,7 +1813,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 2244
+      "value": 2245
      }
     ],
     "least": [
@@ -1821,7 +1821,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1618
+      "value": 1620
      }
     ],
     "all": [
@@ -1829,7 +1829,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 2244
+      "value": 2245
      },
      {
       "manager": "Omar",
@@ -1883,7 +1883,7 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 1618
+      "value": 1620
      }
     ]
    },
@@ -1987,7 +1987,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 575
+      "value": 576
      }
     ],
     "all": [
@@ -2049,7 +2049,7 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 575
+      "value": 576
      }
     ]
    },
@@ -2431,8 +2431,8 @@
       "manager": "David",
       "team": "Big Vic Energy",
       "conference": "Ginseng",
-      "value": 0.8274428274428275,
-      "detail": "398/481"
+      "value": 0.8260869565217391,
+      "detail": "399/483"
      },
      {
       "manager": "Parsa",
@@ -2473,8 +2473,8 @@
       "manager": "Zak",
       "team": "Alpee anD uren",
       "conference": "Teaquila",
-      "value": 0.7607361963190185,
-      "detail": "248/326"
+      "value": 0.7621951219512195,
+      "detail": "250/328"
      },
      {
       "manager": "Dakota",
